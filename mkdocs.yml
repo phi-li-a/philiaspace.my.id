@@ -1,0 +1,118 @@
+site_name: Philia Space
+site_description: pi pi pi philia
+site_url: https://philiaspace.my.id
+site_author: ryusuke  
+nav:
+  - Home: 'index.md'
+    #  - 'Guides':
+    #    - 'Japanese Guide': 'guide.md'
+    #    - '30 Day Japanese': 'routine.md'
+    #    - 'speaking.md'
+    #    - 'animejp.md'
+    #    - 'kanji.md'
+    #    - 'readingtips.md'
+    #    - 'monolingual.md'
+    #    - 'faq.md'
+    #    - 'Fixing your font': 'font.md'
+    #    - 'How to use 5ch': '2ch.md'
+    #  - 'Visual Novels':
+    #    - 'Learning Japanese with VNs': 'vn.md'
+    #    - 'Visual Novel Setup': 'vn-setup.md'
+    #  - 'Yomitan':
+    #    - 'Yomichan Setup Tutorial': 'yomichan.md'      
+    #  - 'Resources':
+    #    - 'Resources': 'resources.md' 
+    #  - 'Other':
+    #    - 'Donate': 'donate.md'
+theme:
+  palette:
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: purple
+      accent: cyan 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: cyan 
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlighting
+    - search.share
+  name: material
+  custom_dir: overrides
+  favicon: img/favicon.png
+  logo: img/moe.svg
+  icon:
+    repo: fontawesome/brands/github
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - meta
+  - admonition
+  - attr_list
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
+  - javascripts/lang.js
+plugins:
+  - search:
+      lang:
+        - en
+        - ja
+  - open-in-new-tab
+# extra:
+#   alternate:
+#     - name: English
+#       link: /
+#       lang: en
+#     - name: Français
+#       link: /fr/
+#       lang: fr
+#     - name: Deutsch
+#       link: /de/
+#       lang: de
+#     - name: Español
+#       link: /es/
+#       lang: es
+#     - name: Italiano
+#       link: /it/
+#       lang: it
+#     - name: Português (Brasil)
+#       link: /pt-BR/
+#       lang: pt-br
+#     - name: Русский
+#       link: /ru/
+#       lang: ru
+#     - name: Bahasa Indonesia
+#       link: /id/
+#       lang: id
+#     - name: tiếng Việt
+#       link: /viet/
+#       lang: viet
