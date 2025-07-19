@@ -51,11 +51,104 @@ Opsional tergantung kebutuhan:
 Pengaturan ini bisa digunakan untuk Anki versi PC (Windows, MacOS, Linux). 
 Gunakan qBittorrent untuk download.
 Tekan icon rantai (di bawah tulisan file di pojok kiri atas) lalu masukkan tautan ini:
-```magnet:?xt=urn:btih:5bd0aa89667860e68b31a585dc6e7a2bfc811702&dn=local-yomichan-audio-collection-2023-06-11-mp3.tar.xz&tr=http%3a%2f%2fanidex.moe%3a6969%2fannounce&tr=http%3a%2f%2fnyaa.tracker.wf%3a7777%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce```
 
- ![image](./img/Awal1.jpg)
- ![image](./img/Awal2.jpg)
- ![image](./img/Awal3.jpg)
- ![image](./img/Awal4.jpg)
- 
+	magnet:?xt=urn:btih:5bd0aa89667860e68b31a585dc6e7a2bfc811702&dn=local-yomichan-audio-collection-2023-06-11-mp3.tar.xz&tr=http%3a%2f%2fanidex.moe%3a6969%2fannounce&tr=http%3a%2f%2fnyaa.tracker.wf%3a7777%2fannounce&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce&tr=udp%3a%2f%2fopen.stealth.si%3a80%2fannounce&tr=udp%3a%2f%2ftracker.tiny-vps.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.moeking.me%3a6969%2fannounce&tr=udp%3a%2f%2fopentracker.i2p.rocks%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.zerobytes.xyz%3a1337%2fannounce
+</br>
+
+<p float="left">
+  <img alt="Awal 1" src="./img/Awal1.jpg" width="40%" />
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img src="./img/Awal2.jpg" width="40%" /> 
+ &nbsp; &nbsp; &nbsp; &nbsp;
+  <img src="./img/Awal3.jpg" width="40%" />
+ &nbsp; &nbsp; &nbsp; &nbsp;
+  <img src="./img/Awal4.jpg" width="40%" />
+</p>
+
+</br>
 Setelah Download selesai, ekstrak filenya. Kalau udah, sementara biarin aja buat nanti sesi pengaturan Add-ons
+
+
+# 🔖 Kamus
+__
+
+Untuk pemula, silakan download [JMdict versi JP-EN-ID](https://github.com/yaaacha/Immerse-Archive/blob/main/%5BBETA%20VERSION%5D%20JMDict%20JP-EN-ID%20V.0.1.zip) dan [JIdict](https://discord.com/channels/1370274344571240552/1384364698400723056/1384364733452386416). Kamus ini hanya dimaksudkan untuk membantu di awal. Sebisa mungkin menggunakan kamus monolingual saat sudah mulai bisa membaca bahasa Jepang dengan lebih baik.
+
+Tambahkan kamus berikut di koleksi kalian juga, yg disarankan, monolingual, pitch, nama, dan kanji, yang lain opsional.
+
+## Daftar Ringkas (Kamusnya ada di link di bawah)
+- JMdict (or Jitendex)
+- JMnedict
+- 三省堂 8th Ed (or 明鏡 2nd Ed)
+- Kanji Jitenon
+- NHK2016
+- JPDB Frequency v2.2
+
+## Daftar Rekomendasi [shoui dari TMW (TheMoeWay)](https://drive.google.com/drive/folders/1tTdLppnqMfVC5otPlX_cs4ixlIgjv_lH)
+### Bilingual
+- [Bilingual] JMdict Extra (Recommended).zip
+- [Bilingual] 新和英.zip
+
+### Frekuensi
+- [Freq] CC100.zip
+- [Freq] JPDB (Recommended).zip
+
+### Kanji
+- [Kanji] KANJIDIC (English) (Recommended).zip
+
+### Monolingual
+- [Monolingual] 実用日本語表現辞典 (Recommended).zip
+- [Monolingual, Encyclopedia] PixivLight.zip
+
+### Grammar
+- [Grammar] Dictionary of Japanese Grammar 日本語文法辞典 (Recommended).zip
+- [Grammar] どんなとき使う日本語表現文型辞典.zip
+- [Grammar] 毎日のんびり日本語教師 (nihongosensei).zip
+- [Grammar] JLPT文法解説まとめ(nihongo_kyoushi).zip
+- [Grammar] 絵でわかる日本語.zip
+
+### Nama
+- [Names] JMnedict.zip
+
+### Pitch
+- [Pitch] アクセント辞典v2 (Recommended).zip
+
+## Daftar Rekomendasi [marv dari yomitan](https://drive.google.com/drive/u/0/folders/1LXMIOoaWASIntlx1w08njNU005lS5lez).
+
+### Bilingual
+- [JA-EN] jitendex-yomichan
+- [JA-EN] NEW 斎藤和英大辞典
+- [JA-EN] 新和英
+
+### Grammar
+- [JA Grammar] dojg-consolidated-v1_01
+
+### Frekuensi
+- [JA Freq] JPDB_2022-05-10T03_27_02.930Z
+- [JA Freq] Freq_CC100
+- [JA Freq] BCCWJ-LUW
+
+### Monolingual
+- [JA-JA] 実用日本語表現辞典
+- [JA-JA] デジタル大辞泉
+- [JA-JA Encyclopedia] Pixiv
+
+### Kanji
+- [Kanji] KANJIDIC_english
+- [Kanji] JPDB Kanji
+
+### Pitch Accent
+- [Pitch] 大辞泉
+
+# Cara Import Kamus
+
+1. Buka pengaturan ekstensi yomitan
+2. Di pengaturan Dictionary, pilih ```Configure installed and enabled dictionaries…```
+    <img src="./img/Import-Kamus-1.png" width="40%" />
+3. Pilih import (masukkan zip kamusnya dengan drag and drop atau pilih kamusnya dari folder download)
+  <img src="./img/Import-Kamus-2.png" width="40%" />
+  <img src="./img/Import-Kamus-3.png" width="40%" />
+5. Tunggu sampai semua kamus sudah selesai didownload (ada bar progress di bawah). Memang agak lama, jadi, ditunggu saja.
+6. Kamu bisa mengaktifkan dan menonaktifkan kamus yang mau kamu pakai sesuka hati, juga mengurutkan kamusmu tergantung prioritas pribadi.
+  <img src="./img/Import-Kamus-4.png" width="40%" />
+
