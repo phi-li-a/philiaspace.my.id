@@ -4,7 +4,7 @@ site_url: https://philiaspace.my.id
 site_author: ryusuke  
 nav:
   - Home: 'index.md'
-    #  - 'Guides':
+      - 'Guides':
     #    - 'Japanese Guide': 'guide.md'
     #    - '30 Day Japanese': 'routine.md'
     #    - 'speaking.md'
@@ -18,8 +18,8 @@ nav:
     #  - 'Visual Novels':
     #    - 'Learning Japanese with VNs': 'vn.md'
     #    - 'Visual Novel Setup': 'vn-setup.md'
-    #  - 'Yomitan':
-    #    - 'Yomichan Setup Tutorial': 'yomichan.md'      
+      - 'Pengaturan':
+        - 'Tutorial Pengaturan Yomitan': 'setup.md'      
     #  - 'Resources':
     #    - 'Resources': 'resources.md' 
     #  - 'Other':
