@@ -4,7 +4,7 @@ site_url: https://philiaspace.my.id
 site_author: ryusuke  
 nav:
   - Home: 'index.md'
-      - 'Guides':
+    #    - 'Guides':
     #    - 'Japanese Guide': 'guide.md'
     #    - '30 Day Japanese': 'routine.md'
     #    - 'speaking.md'
@@ -19,7 +19,7 @@ nav:
     #    - 'Learning Japanese with VNs': 'vn.md'
     #    - 'Visual Novel Setup': 'vn-setup.md'
       - 'Pengaturan':
-        - 'Tutorial Pengaturan Yomitan': 'setup.md'      
+        - 'Tutorial Pengaturan Yomitan': 'pengaturan-yomitan.md'      
     #  - 'Resources':
     #    - 'Resources': 'resources.md' 
     #  - 'Other':
@@ -30,7 +30,7 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: purple
+      primary: fff7c4
       accent: cyan 
       toggle:
         icon: material/brightness-7
@@ -39,7 +39,7 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: deep purple
+      primary: c9c189
       accent: cyan 
       toggle:
         icon: material/brightness-4
@@ -84,7 +84,7 @@ extra_javascript:
 plugins:
   - search:
       lang:
-        - en
+        - id
         - ja
   - open-in-new-tab
 # extra:
@@ -110,9 +110,6 @@ plugins:
 #     - name: Русский
 #       link: /ru/
 #       lang: ru
-#     - name: Bahasa Indonesia
-#       link: /id/
-#       lang: id
 #     - name: tiếng Việt
 #       link: /viet/
 #       lang: viet
