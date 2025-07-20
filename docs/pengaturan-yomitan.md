@@ -144,11 +144,11 @@ Tambahkan kamus berikut di koleksi kalian juga, yg disarankan, monolingual, pitc
 
 1. Buka pengaturan ekstensi yomitan
 2. Di pengaturan Dictionary, pilih ```Configure installed and enabled dictionaries…```
-    <img src="/img/Import-Kamus-1.png" width="40%" />
+    <img src="docs/img/Import-Kamus-1.png" width="40%" />
 3. Pilih import (masukkan zip kamusnya dengan drag and drop atau pilih kamusnya dari folder download)
-  <img src="/img/Import-Kamus-2.png" width="40%" />
-  <img src="/img/Import-Kamus-3.png" width="40%" />
+  <img src="docs/img/Import-Kamus-2.png" width="40%" />
+  <img src="docs/img/Import-Kamus-3.png" width="40%" />
 5. Tunggu sampai semua kamus sudah selesai didownload (ada bar progress di bawah). Memang agak lama, jadi, ditunggu saja.
 6. Kamu bisa mengaktifkan dan menonaktifkan kamus yang mau kamu pakai sesuka hati, juga mengurutkan kamusmu tergantung prioritas pribadi.
-  <img src="/img/Import-Kamus-4.png" width="40%" />
+  <img src="docs/img/Import-Kamus-4.png" width="40%" />
 
