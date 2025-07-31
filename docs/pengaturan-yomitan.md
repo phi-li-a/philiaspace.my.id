@@ -9,8 +9,9 @@ Download aplikasi-aplikasi di bawah:
 - [qBittorrent](https://www.qbittorrent.org/download) utamanya buat download audio yg dipake add on local audio for yomichan
 
 Pasang Ekstensi di browser:
-- [Yomitan](https://chromewebstore.google.com/detail/yomitan-popup-dictionary/likgccmbimhjbgkjambclfkhldnlhbnn) (Kamus pop-up)
-
+- [Yomitan](https://chromewebstore.google.com/detail/yomitan-popup-dictionary/likgccmbimhjbgkjambclfkhldnlhbnn) (Chrome Webstore)
+- [Yomitan](https://addons.mozilla.org/en-GB/firefox/addon/yomitan/) (Firefox)
+  
 Opsional tergantung kebutuhan:
 - [asbplayer](https://chromewebstore.google.com/detail/asbplayer-language-learni/hkledmpjpaehamkiehglnbelcpdflcab) (Video Player untuk Mining)
 - [Ttsu Reader](https://reader.ttsu.app/) (Baca Epub untuk LN/Novel)
@@ -20,7 +21,7 @@ Opsional tergantung kebutuhan:
 
 </br>
 
-## 🧘‍♂️ Local Audio for Yomichan (Opsional)
+## Local Audio for Yomichan (Opsional)
   Sebelum memulai, sebaiknya kita download terlebih dahulu file di bawah yang berisi audio untuk Add-ons Local Audio for Yomichan. 
 ### - Alasan kamu bisa pakai atau tidak pakai setup ini
 
@@ -56,20 +57,20 @@ Tekan icon rantai (di bawah tulisan file di pojok kiri atas) lalu masukkan tauta
 </br>
 
 <p float="left">
-  <img alt="Awal 1" src="./img/Awal1.jpg" width="40%" />
+  <img alt="Awal 1" src="/img/Awal1.jpg" width="40%" />
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="./img/Awal2.jpg" width="40%" /> 
+  <img src="/img/Awal2.jpg" width="40%" /> 
  &nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="./img/Awal3.jpg" width="40%" />
+  <img src="/img/Awal3.jpg" width="40%" />
  &nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="./img/Awal4.jpg" width="40%" />
+  <img src="/img/Awal4.jpg" width="40%" />
 </p>
 
 </br>
 Setelah Download selesai, ekstrak filenya. Kalau udah, sementara biarin aja buat nanti sesi pengaturan Add-ons
 
 
-# 🔖 Kamus
+# Kamus
 __
 
 Untuk pemula, silakan download [JMdict versi JP-EN-ID](https://github.com/yaaacha/Immerse-Archive/blob/main/%5BBETA%20VERSION%5D%20JMDict%20JP-EN-ID%20V.0.1.zip) dan [JIdict](https://discord.com/channels/1370274344571240552/1384364698400723056/1384364733452386416). Kamus ini hanya dimaksudkan untuk membantu di awal. Sebisa mungkin menggunakan kamus monolingual saat sudah mulai bisa membaca bahasa Jepang dengan lebih baik.
@@ -144,11 +145,91 @@ Tambahkan kamus berikut di koleksi kalian juga, yg disarankan, monolingual, pitc
 
 1. Buka pengaturan ekstensi yomitan
 2. Di pengaturan Dictionary, pilih ```Configure installed and enabled dictionaries…```
-    <img src="docs/img/Import-Kamus-1.png" width="40%" />
+   <img src="/img/Import-Kamus-1.png" width="40%" />
 3. Pilih import (masukkan zip kamusnya dengan drag and drop atau pilih kamusnya dari folder download)
-  <img src="docs/img/Import-Kamus-2.png" width="40%" />
-  <img src="docs/img/Import-Kamus-3.png" width="40%" />
+  <img src="/img/Import-Kamus-2.png" width="40%" />
+  <img src="/img/Import-Kamus-3.png" width="40%" />
 5. Tunggu sampai semua kamus sudah selesai didownload (ada bar progress di bawah). Memang agak lama, jadi, ditunggu saja.
 6. Kamu bisa mengaktifkan dan menonaktifkan kamus yang mau kamu pakai sesuka hati, juga mengurutkan kamusmu tergantung prioritas pribadi.
-  <img src="docs/img/Import-Kamus-4.png" width="40%" />
+  <img src="/img/Import-Kamus-4.png" width="40%" />
 
+# Mengatur Yomitan
+__
+Kamu bisa langsung download pengaturanku [di sini](https://github.com/yaaacha/Immerse-Archive/blob/main/Yomitan%20Setting%20Full%20Lapis.json). Cara Importnya, pergi ke Backup > Import Settings>. Aku ga jamin bakal langsung work semua, karena ada beberapa yang harus disetting manual juga. Terutama untuk mining nanti. Kamu juga bisa hapus atau duplikat profile.
+
+Aku tetap menyarankan kamu baca _startup guide_ supaya kamu bisa paham cara kerja yomitan secara umum. Kamu bisa cek pengaturan-pengaturan di bawah untuk menyesuaikan preferensi pribadi.
+
+<img src="/img/Import-Setting-Yomitan.jpg" width="40%" />
+<img src="/img/Setting-Yomitan-1.jpg" width="40%" />
+<img src="/img/Setting-Yomitan-2.jpg" width="40%" />
+
+## Scanning
+Kamu bisa atur tombol modifier default dari Shift ke tombol lain sesuai preferensimu. Kamu juga bisa pilih `No Key`, tiap kursormu lewat kata berbahasa jepang, yomitan akan langsung memunculkan pop up kamus. Jadi, kamu tidak perlu memencet tombol tambahan lain. Aku pribadi pake shift, tapi kadang juga kuset jadi No Key kalau lagi pengen.
+
+## Popup
+Di bagian ini, kamu bisa memilih untuk membiarkan yomitan memindai (meng-scan) konten di pop up yomitan atau tidak. Kalau opsi ini dinyalakan, kamu bisa _scan_ kamus monolingual jepang yang kamu gunakan. Disarankan mengubah `Maximum number of child popups` di sekitar 3-5 saja.
+
+## Audio
+Kamu bisa mengatur volume audio jika dirasa terlalu keras. Kamu juga bisa menyalakan opsi `Auto-play search result audio` yang akan otomatis mengeluarkan suara kosakata yang dicari tanpa memencet tombol audio. Tapi aku pribadi tidak pakai.
+
+# Pengaturan Local Audio For Yomichan
+__
+## Add-on Wajib Anki Desktop
+> **Cara pasang** (Menu Tools → Add-ons → Get Add-ons... → masukkan 2 kode di bawah → Restart Anki)
+- `2055492159` (AnkiConnect),
+- `1045800357` (Local Audio Server for Yomichan)
+
+# Pengaturan Add-ons
+> Tools → Add-ons → Pilih Add-ons yg mau diatur → Config (kanan bawah)
+
+## Anki Connect
+Pilih Anki Connect. Buka menu Config. Timpa teks yang ada di konfigurasi dengan kode di bawah, tekan OK. Buka ekstensi yomitan, ke menu Anki. Matikan dan nyalakan toggle "Enable Anki integration". Done.
+```
+{
+    "apiKey": null,
+    "apiLogPath": null,
+    "ignoreOriginList": [],
+    "webBindAddress": "127.0.0.1",
+    "webBindPort": 8765,
+    "webCorsOriginList": [
+        "http://localhost",
+        "https://killergerbah.github.io",
+        "https://reader.mokuro.app",
+        "https://reader.ttsu.app"
+    ]
+}
+```
+> NB: link 1 untuk yomitan, link 2 untuk asbplayer (anime dan video based material), link 3 untuk mokuro (baca manga), link 4 untuk ttsu reader (baca novel, LN, dll).
+
+## Local Audio Server for Yomichan
+- Buka Anki. 
+- Pergi ke Tools → Add-ons → Local Audio for Yomichan → view files. Windows baru terbuka di Anki2/addons21/1045800357. 
+- Masuk ke folder `user_files`. 
+- Pindahkan semua audio yang sudah didownload menggunakan qBittorrent di langkah Persiapan Awal ke folder `user_files`.
+- Masuk ke browser dan buka ekstensi yomitan. Off, lalu On.
+- Mulai ulang aplikasi Anki. 
+
+Saat mining, Anki harus tetap terbuka walau di mode minimize agar Add-ons Local Audio bisa berjalan.
+
+# Penyesuaian Akhir
+## Impor Note Type
+Sebelum memulai Mining dengan Yomitan. Kamu perlu menyesuaikan Deck Anki yang kamu gunakan terlebih dahulu. Download file APKG dari sini untuk mengimpor template [Note Type Lapis](https://github.com/donkuri/lapis/releases). Setelah didownload. Langsung buka dan import.
+<img src="/img/Ganti-Deck:Note-Type-0.jpg" width="40%" />
+<img src="/img/Ganti-Deck:Note-Type-0-5.jpg" width="40%" />
+
+## Penyesuaian Deck
+Kita perlu membuat dek baru.
+- Klik tombol Create Deck.
+- Beri nama deck, misal: Anime
+> kita berasumsi mengisi deck ini dengan sumber media anime
+
+## Atur Dek di Yomitan
+- Buka ekstensi Yomitan → Anki → Configure Anki Flashcards...→ Sesuaikan dek seperti di gambar
+- Kamu juga bisa berganti note type dengan mengimpor template note type yang lain. Untuk mengeksplore note type yang kamu suka, bisa cek [di sini](https://arbyste.github.io/jp-mining-note/alternatives/)
+- Yomitan dan dek Anki siap digunakan
+<img src="/img/Ganti-Deck:Note-Type-1.jpg" width="40%" />
+<img src="/img/Ganti-Deck:Note-Type-2.jpg" width="40%" />
+
+# Penutup
+
+Terima kasih sudah menyimak. Panduan ini jauh dari kata sempurna, mungkin akan diperbarui di masa depan. Mari berdiskusi di [Philia Space](https://discord.gg/hp55WMbbG6).
