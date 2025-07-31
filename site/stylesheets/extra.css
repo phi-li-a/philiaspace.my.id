@@ -12,7 +12,6 @@
 
 .md-typeset blockquote {
 	border-left: .2rem solid hsl(262deg 47% 55%);
-
 }
 
 [data-md-color-scheme="default"] {
@@ -22,6 +21,10 @@
     --md-primary-bg-color: #fff;
     --md-typeset-a-color: #00bbff;
     --md-primary-bg-color--light: hsla(0,0%,100%,.7);
+}
+
+:root {
+  --md-primary-fg-color: #FFC7D8;
 }
 
 .md-banner__inner {
