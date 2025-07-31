@@ -15,7 +15,7 @@
 
 }
 
-[data-md-color-primary=blue-grey] {
+[data-md-color-scheme="default"] {
     --md-primary-fg-color: #FFC7D8;
     --md-primary-fg-color--light: #FFC7D8;
     --md-primary-fg-color--dark: #FFC7D8;
@@ -29,3 +29,4 @@
     margin: .1rem auto;
     padding: 0 .8rem;
 }
+
