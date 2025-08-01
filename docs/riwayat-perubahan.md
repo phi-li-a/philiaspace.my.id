@@ -24,9 +24,10 @@ hide:
 
 - Umum
 	- Pembaruan halaman join discord
-- Pengaturan PC
-	- Penambahan tutorial Yomitan (Yaaacha)
+- Pengaturan Utama
+	- Penambahan tutorial Anki PC (LazyGuide)
 	- Penambahan tutorial Yomitan (LazyGuide)
+- Pengaturan PC
 	- Penambahan tutorial mining Anime
 - Lain-lain
 	- Penambahan Riwayat Perubahan
