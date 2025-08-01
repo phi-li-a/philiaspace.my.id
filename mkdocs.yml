@@ -3,8 +3,8 @@ site_description: pi pi pi philia
 site_url: https://philiaspace.my.id
 site_author: ryusuke  
 nav:
-  - Home: 'index.md'
-  - 'Guides':
+  - Beranda: 'index.md'
+  - 'Panduan':
     #    - 'Japanese Guide': 'guide.md'
     #    - '30 Day Japanese': 'routine.md'
     #    - 'speaking.md'
@@ -18,11 +18,23 @@ nav:
     #  - 'Visual Novels':
     #    - 'Learning Japanese with VNs': 'vn.md'
     #    - 'Visual Novel Setup': 'vn-setup.md'
-      - 'Pengaturan':
-        - 'Tutorial Pengaturan Yomitan': 'pengaturan-yomitan.md'      
+      - 'Pengaturan Utama':
+        - 'Anki PC (LazyGuide)': 'pengaturan-anki-pc-lazy-guide.md'
+    #   - 'Anki (Android)': 'pengaturan-anki-android.md'
+    #   - 'Yomitan PC (Yaaacha)': 'pengaturan-yomitan-pc.md'
+        - 'Yomitan PC (LazyGuide)': 'pengaturan-yomitan-pc-lazy-guide.md'
+    #   - 'OCR (Windows)': 'pengaturan-ocr-windows.md'
+    #   - 'OCR (MacOS)': 'pengaturan-ocr-macos.md'
+      - 'Pengaturan PC':
+        - 'Anime': 'pengaturan-anime-pc.md'
+    # - 'Pengaturan Android':
+    #   - 'Anime': 'pengaturan-anime-android.md'
+      - 'Tambahan':
+        - 'Memperbarui Format Lapis': 'pembaruan-format-lapis.md'
     #  - 'Resources':
     #    - 'Resources': 'resources.md' 
-    #  - 'Other':
+  - 'Lain-lain':
+      - 'Riwayat Perubahan': 'riwayat-perubahan.md'
     #    - 'Donate': 'donate.md'
 theme:
   palette:
