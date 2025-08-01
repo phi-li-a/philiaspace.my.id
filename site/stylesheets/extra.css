@@ -12,16 +12,19 @@
 
 .md-typeset blockquote {
 	border-left: .2rem solid hsl(262deg 47% 55%);
-
 }
 
-[data-md-color-primary=blue-grey] {
-    --md-primary-fg-color: #0b5570;
-    --md-primary-fg-color--light: #0F6888;
-    --md-primary-fg-color--dark: #0B516A;
+[data-md-color-scheme="default"] {
+    --md-primary-fg-color: #FFC7D8;
+    --md-primary-fg-color--light: #FFC7D8;
+    --md-primary-fg-color--dark: #FFC7D8;
     --md-primary-bg-color: #fff;
     --md-typeset-a-color: #00bbff;
     --md-primary-bg-color--light: hsla(0,0%,100%,.7);
+}
+
+:root {
+  --md-primary-fg-color: #FFC7D8;
 }
 
 .md-banner__inner {
@@ -29,3 +32,4 @@
     margin: .1rem auto;
     padding: 0 .8rem;
 }
+
