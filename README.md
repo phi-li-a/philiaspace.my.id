@@ -95,7 +95,9 @@ Lalu buka browser ke: [http://127.0.0.1:8000](http://127.0.0.1:8000)
    ```
 
 3. Push ke fork-mu dan buat Pull Request ke branch `main`.
-
+   ```bash
+   git push origin nama-branch-anda
+   ```
 ---
 
 ## 📝 Cara kedua (Full dari web GitHub)
