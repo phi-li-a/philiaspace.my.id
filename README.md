@@ -42,7 +42,7 @@ mkdocs.yml
 3. **Install MkDocs dan theme material**
 
    ```bash
-   pip install mkdocs mkdocs-material
+   pip install mkdocs mkdocs-material mkdocs-open-in-new-tab
    ```
 
 ---
@@ -148,6 +148,19 @@ Kalau kamu tidak ingin meng-clone repo, kamu bisa **langsung kontribusi lewat Gi
 ---
 
 Dengan dua metode ini (lokal dan GitHub Web), semua orang bisa berkontribusi ke dokumentasi **Philia** dengan mudah — baik pengguna teknikal maupun non-teknikal.
+
+
+## 📄 Lisensi
+
+Proyek ini menggunakan dua jenis lisensi:
+
+- **Kode sumber** (`.html`, `.css`, `.js`, `.yml`, `.json`, dll.):  
+  Dilisensikan di bawah **GNU General Public License v3.0**.  
+  [Lihat file LICENSE](./LICENSE)
+
+- **Konten teks dan terjemahan** (`.md`):  
+  Dilisensikan di bawah **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**.  
+  [Lihat file LICENSE.docs.md](./LICENSE.docs.md)
 
 
 ### 💡 Note Kontributor
