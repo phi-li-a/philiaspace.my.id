@@ -2,10 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://philiaspace.my.id/</loc>
-         <lastmod>2025-07-31</lastmod>
+         <lastmod>2025-08-02</lastmod>
     </url>
     <url>
-         <loc>https://philiaspace.my.id/pengaturan-yomitan/</loc>
-         <lastmod>2025-07-31</lastmod>
+         <loc>https://philiaspace.my.id/guide/</loc>
+         <lastmod>2025-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://philiaspace.my.id/join/</loc>
+         <lastmod>2025-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://philiaspace.my.id/pembaruan-format-lapis/</loc>
+         <lastmod>2025-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://philiaspace.my.id/pengaturan-anime-pc/</loc>
+         <lastmod>2025-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://philiaspace.my.id/pengaturan-anki-pc-lazy-guide/</loc>
+         <lastmod>2025-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://philiaspace.my.id/pengaturan-yomitan-pc-lazy-guide/</loc>
+         <lastmod>2025-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://philiaspace.my.id/pengaturan-yomitan-pc/</loc>
+         <lastmod>2025-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://philiaspace.my.id/riwayat-perubahan/</loc>
+         <lastmod>2025-08-02</lastmod>
+    </url>
+    <url>
+         <loc>https://philiaspace.my.id/setup/</loc>
+         <lastmod>2025-08-02</lastmod>
     </url>
 </urlset>
