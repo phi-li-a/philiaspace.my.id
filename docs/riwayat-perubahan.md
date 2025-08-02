@@ -21,6 +21,7 @@ hide:
 ### Agustus
 
 **02-08-2025**
+
 - Umum
 	- Penambahan halaman beranda
 - Pengaturan
