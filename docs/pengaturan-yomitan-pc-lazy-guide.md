@@ -3,7 +3,7 @@
 - Yomitan adalah kamus _pop up_ untuk berbagai bahasa
 - Dipakai buat `mining` ke `Anki`
 - Pengaturan di tutorial ini menggunakan tipe catatan (Note Type) [Lapis](https://github.com/donkuri/lapis)
-- Yomitan [Light](../img/yomitan-light.png) | [Dark](../img/yomitan-dark.png) Mode ([CSS](https://pastebin.com/T9EkQQwm))
+- Yomitan [Light](img/yomitan-light.png) | [Dark](img/yomitan-dark.png) Mode ([CSS](https://pastebin.com/T9EkQQwm))
 
 ---
 
@@ -28,12 +28,12 @@
 1. Di halaman awal `Yomitan`, scroll ke bawah > `Permissions page` > aktifkan `clipboardRead` dan `nativeMessaging`
 
 	???+ note "Tekan tombol `Permission Page` di halaman izin Yomitan"
-		![Yomitan Permission Page](../img/pencet-tuh.jpg){height=250 width=500}
+		![Yomitan Permission Page](img/pencet-tuh.jpg){height=250 width=500}
 		
 		<small>Tekan tombol `Permission Page` di halaman izin Yomitan.</small>
 
 	???+ note "Beri Izin Yomitan"
-		![Yomitan Permission Page](../img/yomitan-permission.jpg){height=250 width=500}
+		![Yomitan Permission Page](img/yomitan-permission.jpg){height=250 width=500}
 		
 		<small> aktifkan `clipboardRead` dan `nativeMessaging` di bawah.</small>
 
@@ -43,42 +43,41 @@
     - Chrome/Edge: aktifkan `Allow access to file URLs`
     - Firefox: aktifkan `Access your data for all websites`
     === "Chrome/Edge"
-        ![Chrome/Edge URL Access](../img/chromium-url-acces.jpg){height=150 width=300}
+        ![Chrome/Edge URL Access](img/chromium-url-acces.jpg){height=150 width=300}
     === "Firefox"
-        ![Firefox Yomitan Access to all websites](../img/firefox-url-access.png){height=300 width=600}
+        ![Firefox Yomitan Access to all websites](img/firefox-url-access.png){height=300 width=600}
 
 4. Instal `Fonts` dengan buka file-nya dari folder `Font`
    
-    ![Yomitan Font](../img/fonts.png){height=150 width=300}
+    ![Yomitan Font](img/fonts.png){height=150 width=300}
 
 5. Masuk ke halaman setting `Yomitan` (klik ikon ekstensi > klik ikon gir)
 
-    ![Yomitan Cog](../img/yomitan-cog.jpg){height=50 width=100}
+    ![Yomitan Cog](img/yomitan-cog.jpg){height=50 width=100}
 
 6. Buka `Dictionaries` > `Configure installed and enabled dictionaries...` > `Import`
     - Import semua kamus dari folder `yomitan dictionary` (bisa pilih semuanya sekaligus)
     - Aktifkan semua kamus
-    - Taruh `Jitendex` di paling atas (priority #1)
-
-    ![Dictionary Import](../img/yomitan-dictionary-import.png){height=250 width=500}
+    - Taruh `JIDict`, `Jitendex`, atau kamus lain yang kamu mau di paling atas (priority #1)
+    ![Dictionary Import](img/yomitan-dictionary-import.png){height=250 width=500}
 
 7. Scroll ke bawah ke bagian `Backup` > `Import Settings` > pilih `lazyGuide-yomitan-settings` (yang udah didownload dari [sini](pengaturan-yomitan-pc-lazy-guide.md/#unduh-dan-pasang))
     - Pilih salah satu:
         - `lazyGuide-local-audio-yomitan-settings` (butuh: [Yomitan Local Audio](pengaturan-yomitan-pc-lazy-guide.md/#info-1-yomitan-local-audio))
         - `lazyGuide-non-local-audio-yomitan-settings`
 
-        ![Yomitan Import Settings](../img/yomitan-import-settings.png){align=left height=300 width=600}
+        ![Yomitan Import Settings](img/yomitan-import-settings.png){align=left height=300 width=600}
 
 8. Pilih profil, biasanya antara `Monolingual` dan `Bilingual`
     - `Bilingual` diatur default, bisa tahan `alt` sambil hover buat ganti ke `Monolingual`
 
-        ![Yomitan Profile](../img/yomitan-profiles.jpg){align=left height=300 width=600}
+        ![Yomitan Profile](img/yomitan-profiles.jpg){align=left height=300 width=600}
 
 9. Sekarang kamu udah bisa hover kata-kata!
     - Buat ganti hotkey, buka `Yomitan` settings > `Scanning` > `Scan modifier key`
     - Pilihan untuk MacOS beda, silakan sesuaikan
 
-        ![Yomitan Scan Key](../img/yomitan-scan-key.png){align=left height=300 width=600}
+        ![Yomitan Scan Key](img/yomitan-scan-key.png){align=left height=300 width=600}
 
 Setup Yomitan di PC udah kelar!
 
@@ -112,7 +111,7 @@ Setup Yomitan di PC udah kelar!
 
     5. Cek apakah udah jalan:
 
-        ![Yomitan Local Audio Check](../img/yomitan-local-audio-check.gif){height=250 width=500}	
+        ![Yomitan Local Audio Check](img/yomitan-local-audio-check.gif){height=250 width=500}	
 	SELESAI
 
 
@@ -122,7 +121,7 @@ Setup Yomitan di PC udah kelar!
 
     Buat ganti tema, buka `Yomitan settings` > `Appearance` > `Theme`
 
-    ![Yomitan Theme](../img/yomitan-theme.png){height=300 width=600}
+    ![Yomitan Theme](img/yomitan-theme.png){height=300 width=600}
 
 ---
 

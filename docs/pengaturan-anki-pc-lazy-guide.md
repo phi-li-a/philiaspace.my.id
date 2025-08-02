@@ -2,7 +2,7 @@
 
 - Anki adalah program flash card berbasis SRS (Spaced Repetition System) untuk _review_ kartu yang penjadwalan ulangnya ditentukan oleh algoritma.
 - Bisa digunakan di perangkat mobile juga.
-- Tampilan Anki: [Light](../img/anki-pc-light.png) | [Dark](../img/anki-pc-dark.png)
+- Tampilan Anki: [Light](img/anki-pc-light.png) | [Dark](img/anki-pc-dark.png)
 
 ---
 
@@ -22,29 +22,29 @@
 ## Cara Setup
 1. Buka Anki, buat akun dan profil dengan klik tombol `Sync`
 
-    ![Anki Sync](../img/anki-sync.png){height=250 width=500}
+    ![Anki Sync](img/anki-sync.png){height=250 width=500}
 
 2. Ekstrak ([?](https://www.webhostinghub.com/help/learn/website/managing-files/extract-file)) file `Anki addons21.7z` (Password: `lazyguide`) dan pindahkan folder `addons21` ke `C:\Users\**NamaUserKamu**\AppData\Roaming\Anki2`
 
-    ![Anki Addons](../img/addons-directory.png){height=150 width=300}
+    ![Anki Addons](img/addons-directory.png){height=150 width=300}
 
 3. Restart Anki kamu, lalu tekan `Ctrl + Shift + A` atau pilih `Tools` > `Add-ons` > `Check for add-ons update`
     - Update semua `addons` lalu restart lagi
 
-    ![Anki Addons Update](../img/addons-update.png){height=250 width=500}
+    ![Anki Addons Update](img/addons-update.png){height=250 width=500}
 
 4. Unduh format [Lapis](https://github.com/donkuri/lapis/releases/latest)
     - Scroll ke bagian Assets, cari `Lapis.apkg`
 
-    ![lapis apkg](../img/lapis-apkg.png){height=150 width=300}
+    ![lapis apkg](img/lapis-apkg.png){height=150 width=300}
 
 5. Import `Lapis.apkg` ke Anki
 
-    ![lapis import](../img/lapis-import.png){height=300 width=600}
+    ![lapis import](img/lapis-import.png){height=300 width=600}
 
 6. Ganti nama `Lapis` jadi `Mining Deck`
 
-    ![Deck rename](../img/deck-rename.png){height=250 width=500}
+    ![Deck rename](img/deck-rename.png){height=250 width=500}
 
 7. Masuk ke opsi `Deck` kamu (ikon roda gigi), lalu salin [pengaturan ini](pengaturan-anki-pc-lazy-guide.md/#__tabbed_1_1)
     - ([Pengaturan 2](pengaturan-anki-pc-lazy-guide.md/#__tabbed_1_2)) Aktifkan `FSRS`
@@ -59,15 +59,15 @@
     - Di menu bar (pojok kiri atas) klik `Tools` > `Preferences` dan sesuaikan dengan [pengaturan ini](pengaturan-anki-pc-lazy-guide.md/#__tabbed_1_5)
 
     === "Pengaturan 1"
-        ![Anki Settings 1](../img/anki-settings-1.png){height=300 width=600}
+        ![Anki Settings 1](img/anki-settings-1.png){height=300 width=600}
     === "Pengaturan 2"
-        ![Anki Settings 2](../img/anki-settings-2.png){height=300 width=600}
+        ![Anki Settings 2](img/anki-settings-2.png){height=300 width=600}
     === "Pengaturan 3"
-        ![Anki Settings 3](../img/anki-settings-3.png){height=300 width=600}
+        ![Anki Settings 3](img/anki-settings-3.png){height=300 width=600}
     === "Pengaturan 4"
-        ![Anki Settings 4](../img/anki-settings-4.png){height=300 width=600}
+        ![Anki Settings 4](img/anki-settings-4.png){height=300 width=600}
     === "Preferensi Anki"
-        ![Anki Preference Settings](../img/anki-preference-settings.png){height=300 width=600}
+        ![Anki Preference Settings](img/anki-preference-settings.png){height=300 width=600}
 
 8. Restart `Anki` kamu dan selesai deh!
 
@@ -88,7 +88,7 @@ Template Anki kamu udah siap, selanjutnya setup Yomitan:
     - Kamu bisa cari tahu fungsinya dengan klik `View Add-on Page`
     - Sebagian besar bisa diakses dari menu `Tools` di `Taskbar`
 
-    ![Anki Add-Ons](/img/anki-addons.png){height=250 width=500}
+    ![Anki Add-Ons](img/anki-addons.png){height=250 width=500}
 
 #### Info 2: Mode Terang & Gelap Anki
 
@@ -96,13 +96,13 @@ Template Anki kamu udah siap, selanjutnya setup Yomitan:
 
     Untuk ganti tema Anki, klik `Tools` > `Preferences` > `Theme`
 
-    ![Anki Theme](../img/anki-theme.png){height=300 width=600}
+    ![Anki Theme](img/anki-theme.png){height=300 width=600}
 
-#### Info 3: Cara Retention
+#### Info 3: Cara Atur Retention
 
-??? info "Cara Retention <small>(klik untuk buka)</small>"
+??? info "Cara Atur Retention <small>(klik untuk buka)</small>"
 
-    Kalau kamu merasa retensi kamu rendah, buka [Retention How-To](retentionHowTo.md) buat saran pengaturan Anki dan tips lainnya
+    Kalau kamu merasa retensi kamu rendah, buka [Retention How-To](retentionHowTo.md) buat saran pengaturan Anki dan tips lainnya. (Tutorial belum dibuat, tunggu pembaruan selanjutnya, ya)
 
 #### Tip 1: Saat Review di Anki
 
@@ -116,7 +116,7 @@ Template Anki kamu udah siap, selanjutnya setup Yomitan:
 
     Saat melihat kartu, warna menunjukkan jenis pitch accent:
 
-    ![Pitch Accent Reference](../img/pitch-accent-reference.png){height=250 width=500}
+    ![Pitch Accent Reference](img/pitch-accent-reference.png){height=250 width=500}
 
 #### Tip 3: Ganti Kamus Bilingual/Monolingual
 
@@ -124,7 +124,7 @@ Template Anki kamu udah siap, selanjutnya setup Yomitan:
 
     Saat review kartu, kamu bisa klik bagian kiri definisinya buat ganti antara `Monolingual` dan `Bilingual`
 
-    ![Anki Glossary Switch](../img/anki-glossary-switch.png){height=250 width=500}
+    ![Anki Glossary Switch](img/anki-glossary-switch.png){height=250 width=500}
 
 ## FAQs
 
@@ -164,12 +164,12 @@ Template Anki kamu udah siap, selanjutnya setup Yomitan:
 
         Masuk ke `Yomitan settings` > `Anki` > `configure Anki card format...`
 
-        ![Sentence Card Instruction 1](../img/sentence-card-instruction-1.png){height=300 width=600}
+        ![Sentence Card Instruction 1](img/sentence-card-instruction-1.png){height=300 width=600}
         
         Di tab `Terms` (di yomitan versi lama namanya Terms, di versi baru ada di bagian Expression), scroll ke bawah, cari `IsSentenceCard`, dan isi dengan `1`, lalu tutup jendelanya
 
-        ![Sentence Card Instruction 2](../img/sentence-card-instruction-2.png){height=300 width=600}
+        ![Sentence Card Instruction 2](img/sentence-card-instruction-2.png){height=300 width=600}
 
         Terapkan pengaturan ini di semua profil di `Editing Profile`, pastikan semua seperti `Monolingual`, `Bilingual`, `Android (Anime, LN & Manga)`, dan `Android (VN)` juga sudah diubah
 
-        ![Yomitan Profile](../img/yomitan-profiles.png){align=left height=300 width=600}
+        ![Yomitan Profile](img/yomitan-profiles.png){align=left height=300 width=600}

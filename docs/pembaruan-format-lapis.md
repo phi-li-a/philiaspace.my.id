@@ -20,11 +20,11 @@ hide:
 1. Unduh versi terbaru dari format [Lapis](https://github.com/donkuri/lapis/releases/latest)  
     - Scroll ke bawah ke bagian *Assets*, lalu cari file `Lapis.apkg`
     
-    ![lapis apkg](../img/lapis-apkg.png){height=150 width=300}
+    ![lapis apkg](img/lapis-apkg.png){height=150 width=300}
 
 2. Pasang file `Lapis.apkg` ke Anki, lalu ikuti petunjuk di gambar bawah ini dan klik `Import`
 
-    ![lapis import update](../img/lapis-import-update.png){height=300 width=600}
+    ![lapis import update](img/lapis-import-update.png){height=300 width=600}
 
 3. Hapus Deck `Lapis` dari layar utama (kalau sebelumnya kamu udah ganti nama deck lama jadi `Mining Deck`)
 

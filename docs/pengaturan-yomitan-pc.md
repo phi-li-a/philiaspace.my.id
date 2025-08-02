@@ -21,7 +21,7 @@ Sebelum memulai Mining dengan Yomitan. Kamu perlu menyesuaikan Deck Anki yang ka
 Download file APKG dari sini untuk mengimpor template [Note Type Mining-JP](https://github.com/rudnam/JP-study/raw/main/Mining_temp.apkg).  
 Setelah didownload, langsung buka dan import.
 
-[![](/img/Ganti-Deck:Note-Type-0-5.jpg)](/img/Ganti-Deck:Note-Type-0-5.jpg){ data-md-img="true" style="max-width: 100%; width: 40%;" }
+[![](img/Ganti-Deck:Note-Type-0-5.jpg)](img/Ganti-Deck:Note-Type-0-5.jpg){ data-md-img="true" style="max-width: 100%; width: 40%;" }
 
 ---
 ### <b>Local Audio for Yomichan (Opsional)</b>
@@ -69,11 +69,11 @@ Tekan icon rantai (di bawah tulisan file di pojok kiri atas) lalu masukkan tauta
 Unduh berkas untuk Local Audio.
 </figcaption>
 
-[![](/img/Awal1.jpg)](/img/Awal1.jpg){ .lightbox data-group="awal" style="width: 48%; display: inline-block;" }
-[![](/img/Awal2.jpg)](/img/Awal2.jpg){ .lightbox data-group="awal" style="width: 48%; display: inline-block;" }
+[![](img/Awal1.jpg)](img/Awal1.jpg){ .lightbox data-group="awal" style="width: 48%; display: inline-block;" }
+[![](img/Awal2.jpg)](img/Awal2.jpg){ .lightbox data-group="awal" style="width: 48%; display: inline-block;" }
 
-[![](/img/Awal3.jpg)](/img/Awal3.jpg){ .lightbox data-group="awal" style="width: 48%; display: inline-block;" }
-[![](/img/Awal4.jpg)](/img/Awal4.jpg){ .lightbox data-group="awal" style="width: 48%; display: inline-block;" }
+[![](img/Awal3.jpg)](img/Awal3.jpg){ .lightbox data-group="awal" style="width: 48%; display: inline-block;" }
+[![](img/Awal4.jpg)](img/Awal4.jpg){ .lightbox data-group="awal" style="width: 48%; display: inline-block;" }
 
 
 Setelah Download selesai, ekstrak filenya. Kalau udah, sementara biarin aja buat nanti sesi pengaturan Add-ons
@@ -352,25 +352,25 @@ Contoh: 審議会 (*council*) memiliki peringkat ke-9733 di CC100, tetapi ke-587
 	<figcaption style="text-align: center; font-style: italic;">
 	Buka Pengaturan Dictionaries.
 	</figcaption>
-	[![](/img/Import-Kamus-1.png)](/img/Import-Kamus-1.png){ data-md-img="true" style="max-width: 40%; width: 40%;" }
+	[![](img/Import-Kamus-1.png)](img/Import-Kamus-1.png){ data-md-img="true" style="max-width: 40%; width: 40%;" }
 
 ???+ note "3. Pilih import (masukkan zip kamusnya dengan drag and drop atau pilih kamusnya dari folder download)"
 	<figcaption style="text-align: center; font-style: italic;">
 	Impor Kamus.
 	</figcaption>
-	[![](/img/Import-Kamus-2.png)](/img/Import-Setting-Yomitan.jpg){ data-md-img="true" style="max-width: 40%; width: 40%;" }
+	[![](img/Import-Kamus-2.png)](img/Import-Setting-Yomitan.jpg){ data-md-img="true" style="max-width: 40%; width: 40%;" }
 	
 	<figcaption style="text-align: center; font-style: italic;">
 	Geser taruh atau buka folder.
 	</figcaption>
-	[![](/img/Import-Kamus-3.png)](/img/Import-Setting-Yomitan.jpg){ data-md-img="true" style="max-width: 100%; width: 40%;" }
+	[![](img/Import-Kamus-3.png)](img/Import-Setting-Yomitan.jpg){ data-md-img="true" style="max-width: 100%; width: 40%;" }
 ???+ note "4. Tunggu sampai semua kamus sudah selesai didownload (ada bar progress di bawah)"
 	Proses impor tergantung ukuran kamus, bisa agak lama, jadi, ditunggu saja.
 ???+ note "5. Kamu bisa mengaktifkan dan menonaktifkan kamus yang mau kamu pakai sesuka hati, juga mengurutkan kamusmu tergantung prioritas pribadi."
 	<figcaption style="text-align: center; font-style: italic;">
 	Aktifkan dan geser sesuai keinginan (Tidak perlu geser kalau mau impor pengaturan di bawah).
 	</figcaption>
-	[![](/img/Import-Kamus-4.png)](/img/Import-Setting-Yomitan.jpg){ data-md-img="true" style="max-width: 100%; width: 40%;" }
+	[![](img/Import-Kamus-4.png)](img/Import-Setting-Yomitan.jpg){ data-md-img="true" style="max-width: 100%; width: 40%;" }
 
 ---
 
@@ -379,12 +379,12 @@ Contoh: 審議会 (*council*) memiliki peringkat ke-9733 di CC100, tetapi ke-587
 1. Di halaman awal `Yomitan`, tekan `Permissions page` > aktifkan `clipboardRead` dan `nativeMessaging`
 
 	???+ note "Tekan tombol `Permission Page` di halaman izin Yomitan"
-		![Yomitan Permission Page](../img/pencet-tuh.jpg){height=250 width=500}
+		![Yomitan Permission Page](img/pencet-tuh.jpg){height=250 width=500}
 		
 		<small>Tekan tombol `Permission Page` di halaman izin Yomitan.</small>
 
 	???+ note "Beri Izin Yomitan"
-		![Yomitan Permission Page](../img/yomitan-permission.jpg){height=250 width=500}
+		![Yomitan Permission Page](img/yomitan-permission.jpg){height=250 width=500}
 		
 		<small> aktifkan `clipboardRead` dan `nativeMessaging` di bawah.</small>
 
@@ -394,9 +394,9 @@ Contoh: 審議会 (*council*) memiliki peringkat ke-9733 di CC100, tetapi ke-587
     - Chrome/Edge: aktifkan `Allow access to file URLs`
     - Firefox: aktifkan `Access your data for all websites`
     === "Chrome/Edge"
-        ![Chrome/Edge URL Access](../img/chromium-url-acces.jpg){height=150 width=300}
+        ![Chrome/Edge URL Access](img/chromium-url-acces.jpg){height=150 width=300}
     === "Firefox"
-        ![Firefox Yomitan Access to all websites](../img/firefox-url-access.png){height=300 width=600}
+        ![Firefox Yomitan Access to all websites](img/firefox-url-access.png){height=300 width=600}
 
 
 Kamu bisa langsung download pengaturanku [di sini](https://github.com/yaaacha/Immerse-Archive/blob/main/Yomitan%20Setting%20Full%20Lapis.json). Cara Importnya, pergi ke Backup > Import Settings>. Aku ga jamin bakal langsung work semua, karena ada beberapa yang harus disetting manual juga. Terutama untuk mining nanti. Kamu juga bisa hapus atau duplikat profile.
@@ -404,13 +404,13 @@ Kamu bisa langsung download pengaturanku [di sini](https://github.com/yaaacha/Im
 Aku tetap menyarankan kamu baca _startup guide_ supaya kamu bisa paham cara kerja yomitan secara umum. Kamu bisa cek pengaturan-pengaturan di bawah untuk menyesuaikan preferensi pribadi.
 
 ???+ note "Impor pengaturan dari sini."
-	[![](/img/Import-Setting-Yomitan.jpg)](/img/Import-Setting-Yomitan.jpg){ data-md-img="true" style="max-width: 100%; width: 40%;" }
+	[![](img/Import-Setting-Yomitan.jpg)](img/Import-Setting-Yomitan.jpg){ data-md-img="true" style="max-width: 100%; width: 40%;" }
 
 ???+ note "Tekan `Configure profile...` untuk memilih profil."
-	[![](/img/Setting-Yomitan-1.jpg)](/img/Setting-Yomitan-1.jpg){ data-md-img="true" style="max-width: 100%; width: 40%;" }
+	[![](img/Setting-Yomitan-1.jpg)](img/Setting-Yomitan-1.jpg){ data-md-img="true" style="max-width: 100%; width: 40%;" }
 
 ???+ note "Pengaturan lanjutan untuk personalisasi."
-	[![](/img/Setting-Yomitan-2.jpg)](/img/Setting-Yomitan-2.jpg){ data-md-img="true" style="max-width: 100%; width: 40%;" }
+	[![](img/Setting-Yomitan-2.jpg)](img/Setting-Yomitan-2.jpg){ data-md-img="true" style="max-width: 100%; width: 40%;" }
 
 
 ## Penyesuaian Akhir
@@ -429,11 +429,11 @@ Kita perlu membuat dek baru.
 - Yomitan dan dek Anki siap digunakan
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center;">
-  <a href="/img/Ganti-Deck:Note-Type-1.jpg" data-md-img>
-    <img src="/img/Ganti-Deck:Note-Type-1.jpg" style="max-width: 100%; width: 300px; height: auto;" />
+  <a href="img/Ganti-Deck:Note-Type-1.jpg" data-md-img>
+    <img src="img/Ganti-Deck:Note-Type-1.jpg" style="max-width: 100%; width: 300px; height: auto;" />
   </a>
-  <a href="/img/Ganti-Deck:Note-Type-2.jpg" data-md-img>
-    <img src="/img/Ganti-Deck:Note-Type-2.jpg" style="max-width: 100%; width: 300px; height: auto;" />
+  <a href="img/Ganti-Deck:Note-Type-2.jpg" data-md-img>
+    <img src="img/Ganti-Deck:Note-Type-2.jpg" style="max-width: 100%; width: 300px; height: auto;" />
   </a>
 </div>
 

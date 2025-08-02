@@ -20,6 +20,13 @@ hide:
 
 ### Agustus
 
+**02-08-2025**
+- Umum
+	- Penambahan halaman beranda
+- Pengaturan
+	- Penambahan halaman pengatar
+	- Perbaikan dokumen
+
 **01-08-2025**
 
 - Umum

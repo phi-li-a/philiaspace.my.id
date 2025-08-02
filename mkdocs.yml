@@ -5,7 +5,7 @@ site_author: ryusuke
 nav:
   - Beranda: 'index.md'
   - 'Panduan':
-    #    - 'Japanese Guide': 'guide.md'
+         - 'Panduan Bahasa Jepang': 'guide.md'
     #    - '30 Day Japanese': 'routine.md'
     #    - 'speaking.md'
     #    - 'animejp.md'
@@ -18,6 +18,8 @@ nav:
     #  - 'Visual Novels':
     #    - 'Learning Japanese with VNs': 'vn.md'
     #    - 'Visual Novel Setup': 'vn-setup.md'
+  - 'Pengaturan':
+      - 'Pengantar (LazyGuide)': 'setup.md'
       - 'Pengaturan Utama':
         - 'Anki PC (LazyGuide)': 'pengaturan-anki-pc-lazy-guide.md'
     #   - 'Anki (Android)': 'pengaturan-anki-android.md'

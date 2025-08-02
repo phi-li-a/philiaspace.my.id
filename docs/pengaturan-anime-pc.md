@@ -28,23 +28,23 @@ Syarat:
 1. Di browser buka `chrome://flags` atau `edge://flags`
     - Cari `Experimental Web Platform features` lalu aktifkan
 
-    ![Aktifkan Fitur Eksperimen](../img/enable-experimental-web-platform.png){height=300 width=600}
+    ![Aktifkan Fitur Eksperimen](img/enable-experimental-web-platform.png){height=300 width=600}
 
 2. Buka [asbplayer](https://killergerbah.github.io/asbplayer/)
 
 3. Upload `anime` dan `subtitle` ke `asbplayer` lewat `browse`
 
     === "Upload File"
-        ![Pilih Anime](../img/pick-anime-pc.jpg){height=300 width=600}
+        ![Pilih Anime](img/pick-anime-pc.jpg){height=300 width=600}
     === "Pilih Anime & Subtitle"
-        ![Pilih Subtitle](../img/pick-anime-sub.jpg){height=300 width=600}
+        ![Pilih Subtitle](img/pick-anime-sub.jpg){height=300 width=600}
 
 4. Sekarang kamu bisa mining pakai `Yomitan` dan asbplayer
     - Lihat [Demo Mining Anime](pengaturan-anime-pc.md/#info-1-demo-mining-anime)
 
 Kamu sudah bisa mining anime di PC.
 
-<small>Kalau ada masalah, cek [Pertanyaan Umum](pengaturan-anime-pc.md/##pertanyaan-umum)</small>
+<small>Kalau ada masalah, cek [Pertanyaan Umum](pengaturan-anime-pc.md/#pertanyaan-umum)</small>
 
 ---
 
@@ -54,6 +54,7 @@ Kamu sudah bisa mining anime di PC.
 
 ??? info "Demo Mining Anime <small>(klik untuk lihat)</small>"
 
+    di tutorial ini aku pakai note type Mining-JP, di bagian pengaturan anki kamu cocokkan dengan note type Lapis.
     <iframe width="560" height="315" src="https://youtube.com/embed/1mOGv9hAHDc" title="Mining Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 #### Tip 1: Sinkronisasi Subtitle
