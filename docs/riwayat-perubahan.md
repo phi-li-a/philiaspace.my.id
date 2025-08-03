@@ -20,6 +20,12 @@ hide:
 
 ### Agustus
 
+**03-08-2025**
+
+- Umum
+	- Penambahan halaman Panduan Ringkas Bahasa Jepang
+        - Penambahan ikon laman
+
 **02-08-2025**
 
 - Umum
