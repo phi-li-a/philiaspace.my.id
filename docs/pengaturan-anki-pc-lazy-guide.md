@@ -24,9 +24,13 @@
 
     ![Anki Sync](img/anki-sync.png){height=250 width=500}
 
-2. Ekstrak ([?](https://www.webhostinghub.com/help/learn/website/managing-files/extract-file)) file `Anki addons21.7z` (Password: `lazyguide`) dan pindahkan folder `addons21` ke `C:\Users\**NamaUserKamu**\AppData\Roaming\Anki2`
+2. Ekstrak ([?](https://www.webhostinghub.com/help/learn/website/managing-files/extract-file)) file `Anki addons21.7z` (Password: `lazyguide`) dan pindahkan folder `addons21` ke 
+     - Windows: `C:\Users\** NamaUserKamu**\AppData\Roaming\Anki2`
+     - Mac    : `/Users/macbookair/Library/Application Support/Anki2/addons21`
 
-    ![Anki Addons](img/addons-directory.png){height=150 width=300}
+    ![Anki Addons Win](img/addons-directory.png){height=150 width=300}
+
+    ![Anki Addons Mac](img/addons-directory-mac.jpg){height=150 width=300}
 
 3. Restart Anki kamu, lalu tekan `Ctrl + Shift + A` atau pilih `Tools` > `Add-ons` > `Check for add-ons update`
     - Update semua `addons` lalu restart lagi
