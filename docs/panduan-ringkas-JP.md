@@ -50,7 +50,7 @@ hide:
     - Waktu ngerjain deck-nya, cukup pake tombol `again (1 = aku nggak tahu jawabannya)` atau `good (spasi atau 3 = aku tahu jawabannya)`, jadi kamu nggak perlu mikir mau `easy (2)` atau `hard (4)`
 
 4. Masuk ke menu `Deck` > klik ikon gear > salin [pengaturannya](panduan-ringkas-JP.md/#__tabbed_2_1) di bawah
-    - (Bar Menu - Kiri Atas) `Tools` > `Preferences` dan sesuaikan dengan [pengaturan ini](panduan-ringkas-JP.md/#__tabbed_2_5)
+    - (Bar Menu - Kiri Atas) `Tools` > `Preferences` dan sesuaikan dengan [pengaturan ini](panduan-ringkas-JP.md/#__tabbed_2_4)
 
     ??? info "Pengaturan Anki <small>(klik di sini)</small>"
     
@@ -64,7 +64,7 @@ hide:
             ![Anki Preference Settings](img/anki-preference-settings.png){height=300 width=600}
 
 5. Kerjain `Deck Kosakata Kaishi 1.5k`, mulai dengan `10 kartu baru/hari` (maksimal 30; jangan berlebihan) barengin juga dengan `panduan grammar` di `langkah 6`;
-    - Kanji udah ada di deck ini; motonya adalah `belajar kosakata, bukan kanji terpisah`
+    - Kanji udah ada di deck ini; cara belajarnya adalah `belajar kosakata, bukan kanji terpisah`
 
 6. Pakai salah satu: [Panduan Grammar Teks Tae Kim](https://guidetojapanese.org/learn/grammar/basic), [Panduan Grammar Video-nya Cure Dolly](https://www.youtube.com/playlist?list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj) (Cukup 34 video pertama aja), atau [NHK World](https://www3.nhk.or.jp/nhkworld/lesson/indonesian/learn/list/).
     - Nggak, kamu nggak perlu sempurna kerjain quiz-nya, `bahkan bisa dilewatin`
@@ -72,12 +72,12 @@ hide:
     - Untuk sumber belajar bunpou lain dalam bahasa indonesia bisa cek [sumber daya di discord](https://discord.com/channels/1370274344571240552/1394673355910545471/1394673744546369577)
 
 7. Setelah selesai `Deck Kosakata Kaishi 1.5k` dan `Panduan Grammar Teks` atau `Panduan Grammar Video`, sekarang kamu bisa mulai `mining` dan `melakukan immersion beneran`
-    - Ini `biasanya butuh waktu 2-4 bulan` tergantung usaha kamu buat bisa mulai immersion
+    - Deck kaishi `biasanya butuh waktu 2-4 bulan` untuk diselesaikan tergantung usaha kamu buat bisa mulai immersion
 
 8. Saat immersion kamu bisa cek cepat `poin grammar` dari [DoJG](https://dojglite.github.io/main/) (Pemula) dan [Nihongokyoshi](https://nihongokyoshi-net.com/jlpt-grammars/) (Menengah+)
     - `Baca/tonton hal yang kamu suka`, tapi cukup sampai level kesulitan sedang aja, atau 4-5/10 di [jpdb](https://jpdb.io/), awalnya bakal berat banget, tapi lakuin aja
 
-9. Buka [Panduan Lazy Mining](index.md) yang aku bikin buat setup gampang alat mining terbaru buat semua jenis media
+9. Buka [Panduan Lazy Mining](setup.md) yang aku bikin buat setup gampang alat mining terbaru buat semua jenis media
     - Mining = proses `bikin kartu dari media` yang kamu pakai buat immersion, tools-ku `bisa bikin mining cukup dengan sekali klik`
 
 ---

@@ -45,7 +45,7 @@ Memang lumayan banyak teksnya. Jadi bisa makan waktu.
 
 Oh iya, di link itu kamu belum ngehafalin kana ya. Aku bakal jelasin caranya nanti di bawah.  
 
-Kalau udah selesai baca, salin [chart dari panduan utama](/img/hiragana_katakana_LARGE.png).    
+Kalau udah selesai baca, salin [chart dari panduan utama](img/hiragana_katakana_LARGE.png).    
 
 Penting banget belajar nulis kana, karena itu bisa bantu kamu bedain hurufnya juga. Nggak usah khawatir tulisan tangan jelek.  
 
@@ -233,7 +233,7 @@ Aku cuma kasih tahu kalau metode ini ada dan bisa kamu pakai.
 **Q: Gimana kalau aku sering denger kata yang bikin penasaran dan pengen tau artinya?**
 
 A: Pertama-tama, itu bagus banget!  
-Kamu bisa pakai [Jisho.org](https://jisho.org/), [Mazii](https://mazii.net/id-ID/search), atau [Yomitan](pengaturan-yomitan-pc-lazy-guide.md) (Yomitan nanti aja buat hari ke 6) buat nyari kata itu.  
+Kamu bisa pakai [Jisho.org](https://jisho.org/), [Mazii](https://mazii.net/id-ID/search), atau [Yomitan](setup-yomitan-pc-lazy-guide.md) (Yomitan nanti aja buat hari ke 6) buat nyari kata itu.  
 Tapi inget, ada kemungkinan kamu salah denger, jadi kadang nggak ketemu kosakata yang kamu cari.  
 
 Esok hari mungkin agak sedikit ribet, jadi, siap-siap(?)
@@ -513,11 +513,11 @@ Setup-nya agak ribet, tapi kita pelan-pelan.
 
 Pertama, kamu butuh Yomitan.  
 
-Klik [link ini](pengaturan-yomitan-pc-lazy-guide.md) buat baca panduan soal itu.  
+Klik [link ini](setup-yomitan-pc-lazy-guide.md) buat baca panduan soal itu.  
 
 Kalau udah pasang Yomitan, ikuti langkah-langkah berikutnya.  
 
-Kamu bisa cek [panduan ini](pengaturan-anime-pc.md) buat lihat cara nonton anime. 
+Kamu bisa cek [panduan ini](setup-anime-pc.md) buat lihat cara nonton anime. 
 
 Sekarang kamu butuh file subtitle untuk anime yang mau ditonton.  
 

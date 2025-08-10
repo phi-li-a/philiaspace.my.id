@@ -272,7 +272,7 @@ Setiap bahasa punya **banyak banget** kosakata, dan tiap kata punya arti yang be
 Belajar baca bahasa Jepang itu ada langkah ekstra; gara-gara kanji kamu harus sering banget buka kamus buat tahu cara bacanya.  
 Contohnya gini, kalau aku kasih lihat kata **今日**, kemungkinan besar kamu nggak bisa baca, atau nggak tahu artinya. Cara belajarnya ya dengan nyari di kamus, misalnya [Jisho.org](https://jisho.org/).  
 Di kamus tertulis bacanya **きょう**, dan artinya *hari ini*. Kalau kita harus nyari kata ini waktu lagi baca sesuatu, kita simpan info itu di otak dan lanjut baca.  
-Ribet sih... tapi ada tools kayak [Yomitan](pengaturan-yomitan-pc-lazy-guide.md) yang bisa ngelakuin ini cuma dengan sekali klik. 
+Ribet sih... tapi ada tools kayak [Yomitan](setup-yomitan-pc-lazy-guide.md) yang bisa bantu cek definisi cuma dengan sekali klik. 
 
 ### Catatan tentang belajar kanji secara terpisah
 
@@ -371,7 +371,7 @@ Jawabannya sebenarnya simpel banget: **Fun!** Sebuah media bisa tetap menghibur 
 
 ### Membaca & Kamus
 
-Biar baca bahasa Jepang nggak terlalu nyusahin, kamu bisa pakai ekstensi browser gratis bernama **Yomitan**. Tutorial cara pakainya ada [di sini](pengaturan-yomitan-pc-lazy-guide.md).  
+Biar baca bahasa Jepang nggak terlalu nyusahin, kamu bisa pakai ekstensi browser gratis bernama **Yomitan**. Tutorial cara pakainya ada [di sini](setup-yomitan-pc-lazy-guide.md).  
 
 Kalau mau nyari arti kata satu per satu, kamu bisa pakai [Jisho.org](https://jisho.org/). Untuk aplikasi HP, ada [Akebi](https://play.google.com/store/apps/details?id=com.craxic.akebifree) di Android dan [Shirabe Jisho](https://apps.apple.com/us/app/shirabe-jisho/id1005203380) di iOS.  
 
@@ -467,7 +467,7 @@ Makasih banget udah meluangkan waktu buat baca panduan ini, dan semoga sukses di
 
 Kalau ada pertanyaan, silakan tanya langsung di server Discord kami.  
 
-[Gabung Discord :fontawesome-brands-discord:](/join){: .md-button }  
+[Gabung Discord :fontawesome-brands-discord:](join.md){: .md-button }  
 
 ### Patreon
 

@@ -24,7 +24,7 @@
 
     ![Anki Sync](img/anki-sync.png){height=250 width=500}
 
-2. Ekstrak ([?](https://www.webhostinghub.com/help/learn/website/managing-files/extract-file)) file `Anki addons21.7z` (Password: `lazyguide`) dan pindahkan folder `addons21` ke 
+2. Ekstrak ([?](https://www.webhostinghub.com/help/learn/website/managing-files/extract-file)) file `Anki addons21.7z` (Password: `lazyguide`) dan pindahkan folder `addons21` ke (cek sesuai OS-mu)
 
     === "Windows"
         Folder Windows = `C:\Users\**NamaUserKamu**\AppData\Roaming\Anki2`
@@ -43,7 +43,7 @@
 
     ![lapis apkg](img/lapis-apkg.png){height=150 width=300}
 
-5. Import `Lapis.apkg` ke Anki
+5. Impor `Lapis.apkg` ke Anki dengan langsung buka file yang sudah diunduh sebelumnya, akan muncul tampilan ini, tekan `Import`
 
     ![lapis import](img/lapis-import.png){height=300 width=600}
 
@@ -58,7 +58,7 @@
         - Gunakan tombol `Optimize` dan `Compute minimum recommended retention` setiap bulan
         - Ganti nilai `Desired retention` sesuai hasil yang muncul
 
-    - Di menu bar (pojok kiri atas) klik `Tools` > `Preferences` dan sesuaikan dengan [pengaturan ini](setup-anki-pc-lazy-guide.md/#__tabbed_2_5)
+    - Di menu bar (pojok kiri atas) klik `Tools` > `Preferences` dan sesuaikan dengan [pengaturan ini](setup-anki-pc-lazy-guide.md/#__tabbed_2_4)
 
     === "Pengaturan 1"
         ![Anki Settings 1](img/anki-settings-1.png){height=300 width=600}
@@ -109,6 +109,11 @@ Template Anki kamu udah siap, selanjutnya setup Yomitan:
 ??? tip "Saat Review di Anki <small>(klik untuk buka)</small>"
 
     - Cukup pakai tombol `again (1 = lupa)` atau `good (spasi/3 = tahu)` aja. Gak perlu ribet mikir `easy (2)` atau `hard (4)`
+    - Cara penilaian simpelnya gini:
+         - Bisa baca ✅ tau makna ✅ = Good/Pass
+         - Bisa baca ✅ tau makna ❌ = Again/Fail
+         - Bisa baca ❌ tau makna ✅ = Again/Fail
+         - Bisa baca ❌ tau makna ❌ = Again/Fail
 
 #### Tip 2: Warna Pitch Accent Anki
 
@@ -158,7 +163,7 @@ Template Anki kamu udah siap, selanjutnya setup Yomitan:
 
 ??? question "Gimana cara pakai sentence card? <small>(klik untuk buka)</small>"
 
-    Kalau kamu belum, silakan setup [Yomitan](setup-yomitan-pc-lazy-guide.md) dulu (ini panduan selanjutnya setelah ini)
+    Silakan setup [Yomitan](setup-yomitan-pc-lazy-guide.md) dulu kalau belum (ini panduan selanjutnya setelah ini)
 
     ??? info "Saya udah setup Yomitan kok <small>(klik untuk buka)</small>"
 
@@ -170,6 +175,6 @@ Template Anki kamu udah siap, selanjutnya setup Yomitan:
 
         ![Sentence Card Instruction 2](img/sentence-card-instruction-2.png){height=300 width=600}
 
-        Terapkan pengaturan ini di semua profil di `Editing Profile`, pastikan semua seperti `Monolingual`, `Bilingual`, `Android (Anime, LN & Manga)`, dan `Android (VN)` juga sudah diubah
+        Terapkan pengaturan ini di semua profil di `Active Profile` (versi lama ada Editing dan default profile, bisa diabaikan), pastikan semua seperti `Monolingual`, `Bilingual`, `Android (Anime, LN & Manga)`, dan `Android (VN)` juga sudah diubah
 
         ![Yomitan Profile](img/yomitan-profiles.png){align=left height=300 width=600}

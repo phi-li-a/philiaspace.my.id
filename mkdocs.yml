@@ -6,7 +6,7 @@ nav:
   - Beranda: 'index.md'
   - 'Panduan':
          - 'Panduan Bahasa Jepang': 'panduan.md'
-         - 'Panduan Ringkas Bahasa Jepang': 'panduan-ringkas-JP'
+         - 'Panduan Ringkas Bahasa Jepang': 'panduan-ringkas-JP.md'
          - '30 Hari Awal': 'rutinitas-awal.md'
     #    - 'speaking.md'
     #    - 'animejp.md'

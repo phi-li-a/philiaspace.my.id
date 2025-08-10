@@ -19,7 +19,7 @@
 
 Syarat:
 
-- Sudah pasang Yomitan di PC
+- Sudah pasang [Yomitan di PC](setup-yomitan-pc-lazy-guide.md)
 
 ---
 
@@ -40,8 +40,8 @@ Syarat:
     === "Mining"
         ![Anki Settings 2](img/asbplayer-settings-2.png){height=400 width=800}
 
-4. Upload your `Anime` and `Subtitle` to the `asbplayer` by clicking the `folder` icon on the top left
-    - Ignore for streaming platforms like `Youtube` or `Netflix`
+4. Buka `Anime` dan `Subtitle` di `asbplayer` dengan klik tombol `browse`
+    - Abaikan cara ini untuk situs streaming seperti `Youtube` atau `Netflix`
 
     === "Buka Anime"
         ![Pick Anime PC](img/pick-anime-pc.jpg){height=300 width=600}
@@ -51,12 +51,12 @@ Syarat:
         ![Pick Anime & Subtitle PC](img/pick-anime-sub-mac.jpg){height=300 width=600}
 
 5. Untuk mining:
-    - Hover kursor ke arah kata di subtitle dan mining dengan `Yomitan`
+    - Arahkan kursor ke kata di subtitle dan mining dengan `Yomitan`
     - Tekan ++ctrl++++shift++ + U  untuk otomatis menambahkan `screenshot` dan `audio` ke `Anki`
     - (Opsional) Untuk mengganti shortcut: `Settings` > `Keyboard Shortcuts` > `Update last-created Anki card`
 
 6. Sekarang kamu bisa Mining dengan `asbplayer` dan `yomitan`!
-    - lihat [Demo Mining Anime](setup-anime-pc.md/#info-1-demo--mining-anime)
+    - lihat [Demo Mining Anime](setup-anime-pc.md/#info-1-demo-mining-anime)
 
 Kamu sudah bisa mining anime di PC.  Mau lanjut cek panduan Setup Mining Light Novel?
 
@@ -72,7 +72,7 @@ Kamu sudah bisa mining anime di PC.  Mau lanjut cek panduan Setup Mining Light N
 
 ??? info "Demo Mining Anime <small>(klik untuk lihat)</small>"
 
-    di tutorial ini aku pakai note type Mining-JP, di bagian pengaturan anki kamu cocokkan dengan note type Lapis. Aku pakai shortcut ++ctrl++++shift++ + X agar bisa mengedit audio/screenshot/subtitle yang akan dikirim ke `Anki`
+    di tutorial ini aku pakai note type Mining-JP, di bagian pengaturan anki di yomitan kamu serharusnya sudah menggunakan note type Lapis. Aku pakai shortcut ++ctrl++++shift++ + X agar bisa mengedit audio/screenshot/subtitle yang akan dikirim ke `Anki`
     <iframe width="560" height="315" src="https://youtube.com/embed/1mOGv9hAHDc" title="Mining Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 #### Tip 1: Sinkronisasi Subtitle
@@ -81,15 +81,15 @@ Kamu sudah bisa mining anime di PC.  Mau lanjut cek panduan Setup Mining Light N
 
     Terkadang `subtitle` tidak sinkron karena beda sumber `anime`, untuk menyesuaikan:
 
-    - +100ms - ++ctrl++++shift++ + ←
-    - -100ms - ++ctrl++++shift++ + →
+    - +100ms = ++ctrl++++shift++ + ←
+    - -100ms = ++ctrl++++shift++ + →
 
 #### Tip 2: Lewatkan Rekaman Audio saat Mining
 
 ??? tip "Lewatkan Rekaman Audio saat Mining <small>(klik untuk lihat)</small>"
 
     - Bisa lewati rekaman audio biar lebih cepat
-    - Kalau kartu Anki kamu bisa dibuat <5 detik, audio rekaman hampir tidak terdengar
+    - Kalau kartu Anki kamu dibuat <5 detik, audio rekaman bisa jadi hampir tidak terdengar
 
 #### Tip 3: ASBPlayer di Youtube, Netflix, dan Web lain
 

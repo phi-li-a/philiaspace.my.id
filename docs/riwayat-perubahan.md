@@ -33,7 +33,7 @@ hide:
 - Setup
        - Penambahan halaman [Setup PC (Novel & Buku)](setup-LN-pc-lazy-guide.md)
        - Pembaruan halaman [Setup Anime](setup-anime-pc.md)
-       - Pembaruan halaman [Setup Anki](setup-anki-pac-lazy-guide.md)
+       - Pembaruan halaman [Setup Anki](setup-anki-pc-lazy-guide.md)
 
 **03-08-2025**
 

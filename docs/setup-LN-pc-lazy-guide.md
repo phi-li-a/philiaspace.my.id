@@ -8,7 +8,7 @@
 
 - Download `Light Novel` dalam format `epubs` sesuai pilihan kamu
 
-- [Yomitan di PC](pengaturan-yomitan-pc-lazy-guide.md) sudah terpasang dan di-setup
+- [Yomitan di PC](setup-yomitan-pc-lazy-guide.md) sudah terpasang dan di-setup
 
 ---
 
@@ -16,19 +16,19 @@
 
 1. Di `browser`, buka `https://reader.ttsu.app/`
 
-    ![TTU Reader](../img/ttu-reader.png){height=500 width=1000}
+    ![TTU Reader](img/ttu-reader.png){height=500 width=1000}
 
 2. Upload `File` atau `Folder` yang berisi `LN epubs`
 
-    ![TTU Upload](../img/ttu-upload.png){height=50 width=100}
+    ![TTU Upload](img/ttu-upload.png){height=50 width=100}
 
 3. Sekarang kamu bisa mining pakai `Yomitan` seperti biasa
 
-    ![TTU Reader PC](../img/ttu-reader-pc.png){height=500 width=1000}
+    ![TTU Reader PC](img/ttu-reader-pc.png){height=500 width=1000}
 
 Sekarang kamu udah bisa baca Light Novel di PC.
 
-<small>Kalau ada masalah, cek [FAQs](setupLnOnPC.md/#faqs)</small>
+<small>Kalau ada masalah, cek [FAQs](setup-LN-pc-lazy-guide.md/#faqs)</small>
 
 ---
 
@@ -39,7 +39,7 @@ Sekarang kamu udah bisa baca Light Novel di PC.
 ??? info "Setting TTU Punyaku <small>(klik di sini)</small>"
     Ini setting `PC` buat `TTU`
 
-    ![TTU Settings Android](../img/ttu-settings-pc.png){height=500 width=1000}
+    ![TTU Settings Android](img/ttu-settings-pc.png){height=500 width=1000}
 
 #### Info 2: Pola Penggantian Teks (Text Replacement Pattern)
 
