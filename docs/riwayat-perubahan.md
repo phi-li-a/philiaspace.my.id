@@ -22,16 +22,18 @@ hide:
 
 **10-08-2025**
 
+- Umum
+       - Perbaikan typo sana-sini dan merapikan formatting di berbagai bagian dokumentasi
 - Panduan
        - Penambahan halaman [Panduan Bahasa Jepang](panduan.md)
        - Penambahan halaman [30 Hari Awal](rutinitas-awal.md)
        - Penambahan halaman [Perbaiki Font](font.md)
        - Penambahan halaman [Belajar Kanji](kanji.md)
+       - Pembaruan halaman [Panduan Ringkas Bahasa Jepang](panduan-ringkas-JP.md)
+- Setup
        - Penambahan halaman [Setup PC (Novel & Buku)](setup-LN-pc-lazy-guide.md)
        - Pembaruan halaman [Setup Anime](setup-anime-pc.md)
        - Pembaruan halaman [Setup Anki](setup-anki-pac-lazy-guide.md)
-       - Pembaruan halaman [Panduan Ringkas Bahasa Jepang](panduan-ringkas-JP.md)
-       - Perbaikan typo sana-sini dan merapikan formatting di berbagai bagian dokumentasi
 
 **03-08-2025**
 
