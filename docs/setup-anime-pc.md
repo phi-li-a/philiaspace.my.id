@@ -1,5 +1,5 @@
 
-# Pengaturan Mining Anime di PC
+# Setup Mining Anime di PC
 ---
 ## Permulaan
 
@@ -31,20 +31,38 @@ Syarat:
     ![Aktifkan Fitur Eksperimen](img/enable-experimental-web-platform.png){height=300 width=600}
 
 2. Buka [asbplayer](https://killergerbah.github.io/asbplayer/)
+     - Terima `request permission` ke `Anki` dan pasang Ekstensinya.
 
-3. Upload `anime` dan `subtitle` ke `asbplayer` lewat `browse`
+3. Di bagian atas kanan halaman pengaturan (ikon gir); salin [pengaturan](setup-anime-pc.md/#__tabbed_1_1) di bawah
 
-    === "Upload File"
-        ![Pilih Anime](img/pick-anime-pc.jpg){height=300 width=600}
-    === "Pilih Anime & Subtitle"
-        ![Pilih Subtitle](img/pick-anime-sub.jpg){height=300 width=600}
+    === "Anki"
+        ![Anki Settings 1](img/asbplayer-settings-1.png){height=400 width=800}
+    === "Mining"
+        ![Anki Settings 2](img/asbplayer-settings-2.png){height=400 width=800}
 
-4. Sekarang kamu bisa mining pakai `Yomitan` dan asbplayer
-    - Lihat [Demo Mining Anime](pengaturan-anime-pc.md/#info-1-demo-mining-anime)
+4. Upload your `Anime` and `Subtitle` to the `asbplayer` by clicking the `folder` icon on the top left
+    - Ignore for streaming platforms like `Youtube` or `Netflix`
 
-Kamu sudah bisa mining anime di PC.
+    === "Buka Anime"
+        ![Pick Anime PC](img/pick-anime-pc.jpg){height=300 width=600}
+    === "Pilih Anime dan Sub (Win)"
+        ![Pick Anime & Subtitle PC](img/pick-anime-sub.png){height=300 width=600}
+    === "Pilih Anime dan Sub (Mac)"
+        ![Pick Anime & Subtitle PC](img/pick-anime-sub-mac.jpg){height=300 width=600}
 
-<small>Kalau ada masalah, cek [Pertanyaan Umum](pengaturan-anime-pc.md/#pertanyaan-umum)</small>
+5. Untuk mining:
+    - Hover kursor ke arah kata di subtitle dan mining dengan `Yomitan`
+    - Tekan ++ctrl++++shift++ + U  untuk otomatis menambahkan `screenshot` dan `audio` ke `Anki`
+    - (Opsional) Untuk mengganti shortcut: `Settings` > `Keyboard Shortcuts` > `Update last-created Anki card`
+
+6. Sekarang kamu bisa Mining dengan `asbplayer` dan `yomitan`!
+    - lihat [Demo Mining Anime](setup-anime-pc.md/#info-1-demo--mining-anime)
+
+Kamu sudah bisa mining anime di PC.  Mau lanjut cek panduan Setup Mining Light Novel?
+
+[Lanjut ke Setup Mining Light Novel di PC](setup-LN-pc-lazy-guide.md){ .md-button .md-button }
+
+<small>Kalau ada masalah, cek [Pertanyaan Umum](setup-anime-pc.md/#pertanyaan-umum)</small>
 
 ---
 
@@ -54,7 +72,7 @@ Kamu sudah bisa mining anime di PC.
 
 ??? info "Demo Mining Anime <small>(klik untuk lihat)</small>"
 
-    di tutorial ini aku pakai note type Mining-JP, di bagian pengaturan anki kamu cocokkan dengan note type Lapis.
+    di tutorial ini aku pakai note type Mining-JP, di bagian pengaturan anki kamu cocokkan dengan note type Lapis. Aku pakai shortcut ++ctrl++++shift++ + X agar bisa mengedit audio/screenshot/subtitle yang akan dikirim ke `Anki`
     <iframe width="560" height="315" src="https://youtube.com/embed/1mOGv9hAHDc" title="Mining Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 #### Tip 1: Sinkronisasi Subtitle
@@ -63,8 +81,8 @@ Kamu sudah bisa mining anime di PC.
 
     Terkadang `subtitle` tidak sinkron karena beda sumber `anime`, untuk menyesuaikan:
 
-    - +100ms - `CTRL + SHIFT + KIRI`
-    - -100ms - `CTRL + SHIFT + KANAN`
+    - +100ms - ++ctrl++++shift++ + ←
+    - -100ms - ++ctrl++++shift++ + →
 
 #### Tip 2: Lewatkan Rekaman Audio saat Mining
 
@@ -72,6 +90,14 @@ Kamu sudah bisa mining anime di PC.
 
     - Bisa lewati rekaman audio biar lebih cepat
     - Kalau kartu Anki kamu bisa dibuat <5 detik, audio rekaman hampir tidak terdengar
+
+#### Tip 3: ASBPlayer di Youtube, Netflix, dan Web lain
+
+??? tip "ASBPlayer bisa digunakan di Youtube, Netflix, dll <small>(klik untuk lihat)</small>"
+
+    - Kamu hanya perlu buka video yang ingin diputar, tekan shortcut `` (tanda petik tunggal, di samping angka 1)`, lalu klik `Load Subtitles`
+    - Kamu bisa mengaktifkan hingga 3 subtitle secara langsung dari subtitle yang disediakan webnya atau impor file .SRT
+    - Untuk kompatibilitas di web lain, kamu bisa cek [ini](https://docs.asbplayer.dev/docs/compatibility#streaming-services-and-subtitle-detection)
 
 ---
 

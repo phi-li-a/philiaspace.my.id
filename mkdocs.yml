@@ -5,33 +5,34 @@ site_author: ryusuke
 nav:
   - Beranda: 'index.md'
   - 'Panduan':
-         - 'Panduan Bahasa Jepang': 'guide.md'
+         - 'Panduan Bahasa Jepang': 'panduan.md'
          - 'Panduan Ringkas Bahasa Jepang': 'panduan-ringkas-JP'
-    #    - '30 Day Japanese': 'routine.md'
+         - '30 Hari Awal': 'rutinitas-awal.md'
     #    - 'speaking.md'
     #    - 'animejp.md'
-    #    - 'kanji.md'
+         - 'Belajar Kanji': 'kanji.md'
     #    - 'readingtips.md'
     #    - 'monolingual.md'
     #    - 'faq.md'
-    #    - 'Fixing your font': 'font.md'
+         - 'Perbaiki Font': 'font.md'
     #    - 'How to use 5ch': '2ch.md'
     #  - 'Visual Novels':
     #    - 'Learning Japanese with VNs': 'vn.md'
     #    - 'Visual Novel Setup': 'vn-setup.md'
-  - 'Pengaturan':
+  - 'Mining (LazyGuide)':
       - 'Pengantar (LazyGuide)': 'setup.md'
-      - 'Pengaturan Utama':
-        - 'Anki PC (LazyGuide)': 'pengaturan-anki-pc-lazy-guide.md'
-    #   - 'Anki (Android)': 'pengaturan-anki-android.md'
-    #   - 'Yomitan PC (Yaaacha)': 'pengaturan-yomitan-pc.md'
-        - 'Yomitan PC (LazyGuide)': 'pengaturan-yomitan-pc-lazy-guide.md'
-    #   - 'OCR (Windows)': 'pengaturan-ocr-windows.md'
-    #   - 'OCR (MacOS)': 'pengaturan-ocr-macos.md'
-      - 'Pengaturan PC':
-        - 'Anime': 'pengaturan-anime-pc.md'
-    # - 'Pengaturan Android':
-    #   - 'Anime': 'pengaturan-anime-android.md'
+      - 'Setup Utama':
+        - 'Anki PC (LazyGuide)': 'setup-anki-pc-lazy-guide.md'
+    #   - 'Anki (Android)': 'setup-anki-android.md'
+    #   - 'Yomitan PC (Yaaacha)': 'setup-yomitan-pc.md'
+        - 'Yomitan PC (LazyGuide)': 'setup-yomitan-pc-lazy-guide.md'
+    #   - 'OCR (Windows)': 'setup-ocr-windows.md'
+    #   - 'OCR (MacOS)': 'setup-ocr-macos.md'
+      - 'Setup PC':
+        - 'Anime': 'setup-anime-pc.md'
+        - 'Novel & Buku': 'setup-LN-pc-lazy-guide.md'
+    # - 'Setup Android':
+    #   - 'Anime': 'setup-anime-android.md'
       - 'Tambahan':
         - 'Memperbarui Format Lapis': 'pembaruan-format-lapis.md'
     #  - 'Resources':

@@ -1,4 +1,4 @@
-# Pengaturan Anki di PC [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupAnki/)
+# Setup Anki di PC [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupAnki/)
 
 - Anki adalah program flash card berbasis SRS (Spaced Repetition System) untuk _review_ kartu yang penjadwalan ulangnya ditentukan oleh algoritma.
 - Bisa digunakan di perangkat mobile juga.
@@ -25,14 +25,15 @@
     ![Anki Sync](img/anki-sync.png){height=250 width=500}
 
 2. Ekstrak ([?](https://www.webhostinghub.com/help/learn/website/managing-files/extract-file)) file `Anki addons21.7z` (Password: `lazyguide`) dan pindahkan folder `addons21` ke 
-     - Windows: `C:\Users\** NamaUserKamu**\AppData\Roaming\Anki2`
-     - Mac    : `/Users/macbookair/Library/Application Support/Anki2/addons21`
 
-    ![Anki Addons Win](img/addons-directory.png){height=150 width=300}
+    === "Windows"
+        Folder Windows = `C:\Users\**NamaUserKamu**\AppData\Roaming\Anki2`
+        ![Anki Addons Win](img/addons-directory.png){height=70% width=70%} 
+    === "MacOS"
+        Folder MacOS = `/Users/macbookair/Library/Application Support/Anki2`
+        ![Anki Addons Mac](img/addons-directory-mac.jpg){height=70% width=70%}
 
-    ![Anki Addons Mac](img/addons-directory-mac.jpg){height=150 width=300}
-
-3. Restart Anki kamu, lalu tekan `Ctrl + Shift + A` atau pilih `Tools` > `Add-ons` > `Check for add-ons update`
+3. Restart Anki kamu, lalu tekan ++ctrl++++shift++ + A (Win)/++cmd++++shift++ + A (MacOS) untuk membuka menu add-ons atau pilih `Tools` > `Add-ons` > `Check for add-ons update`
     - Update semua `addons` lalu restart lagi
 
     ![Anki Addons Update](img/addons-update.png){height=250 width=500}
@@ -50,17 +51,14 @@
 
     ![Deck rename](img/deck-rename.png){height=250 width=500}
 
-7. Masuk ke opsi `Deck` kamu (ikon roda gigi), lalu salin [pengaturan ini](pengaturan-anki-pc-lazy-guide.md/#__tabbed_1_1)
-    - ([Pengaturan 2](pengaturan-anki-pc-lazy-guide.md/#__tabbed_1_2)) Aktifkan `FSRS`
-        - Isi `Desired Retention` dengan `0.80`
-        - Klik `Tools` > `FSRS4Anki Helper` > `Load Balance when rescheduling`
-
-    - ([Pengaturan 2](pengaturan-anki-pc-lazy-guide.md/#__tabbed_1_2)) Dalam 1 bulan pertama, pakai parameter default; setelah itu:
+7. Masuk ke opsi `Deck` kamu (ikon roda gigi), lalu salin [pengaturan ini](setup-anki-pc-lazy-guide.md/#__tabbed_2_1)
+    - ([Pengaturan 2](setup-anki-pc-lazy-guide.md/#__tabbed_2_2)) Aktifkan `FSRS`
+        - Isi `Desired Retention` dengan `0.80`/`80%`
+    - ([Pengaturan 2](setup-anki-pc-lazy-guide.md/#__tabbed_2_2)) Dalam 1 bulan pertama, pakai `FSRS Parameter` default; setelah itu:
         - Gunakan tombol `Optimize` dan `Compute minimum recommended retention` setiap bulan
-        - Ganti nilai `Desired retention` sesuai hasilnya
-        - (Opsional) `Tools` > `FSRS4Anki Helper` > `Reschedule all Cards`
+        - Ganti nilai `Desired retention` sesuai hasil yang muncul
 
-    - Di menu bar (pojok kiri atas) klik `Tools` > `Preferences` dan sesuaikan dengan [pengaturan ini](pengaturan-anki-pc-lazy-guide.md/#__tabbed_1_5)
+    - Di menu bar (pojok kiri atas) klik `Tools` > `Preferences` dan sesuaikan dengan [pengaturan ini](setup-anki-pc-lazy-guide.md/#__tabbed_2_5)
 
     === "Pengaturan 1"
         ![Anki Settings 1](img/anki-settings-1.png){height=300 width=600}
@@ -68,8 +66,6 @@
         ![Anki Settings 2](img/anki-settings-2.png){height=300 width=600}
     === "Pengaturan 3"
         ![Anki Settings 3](img/anki-settings-3.png){height=300 width=600}
-    === "Pengaturan 4"
-        ![Anki Settings 4](img/anki-settings-4.png){height=300 width=600}
     === "Preferensi Anki"
         ![Anki Preference Settings](img/anki-preference-settings.png){height=300 width=600}
 
@@ -77,7 +73,7 @@
 
 Template Anki kamu udah siap, selanjutnya setup Yomitan:
 
-[Langsung ke Setup Yomitan](pengaturan-yomitan-pc-lazy-guide.md){ .md-button .md-button }
+[Langsung ke Setup Yomitan](setup-yomitan-pc-lazy-guide.md){ .md-button .md-button }
 
 ---
 
@@ -162,7 +158,7 @@ Template Anki kamu udah siap, selanjutnya setup Yomitan:
 
 ??? question "Gimana cara pakai sentence card? <small>(klik untuk buka)</small>"
 
-    Kalau kamu belum, silakan setup [Yomitan](pengaturan-yomitan-pc-lazy-guide.md) dulu (ini panduan selanjutnya setelah ini)
+    Kalau kamu belum, silakan setup [Yomitan](setup-yomitan-pc-lazy-guide.md) dulu (ini panduan selanjutnya setelah ini)
 
     ??? info "Saya udah setup Yomitan kok <small>(klik untuk buka)</small>"
 

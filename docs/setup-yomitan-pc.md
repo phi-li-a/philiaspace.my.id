@@ -1,4 +1,4 @@
-# Pengaturan Yomitan di PC (Yaaacha)
+# Setup Yomitan di PC (Yaaacha)
 ---
 ## <b>Persiapan</b>
 Download aplikasi-aplikasi di bawah:

@@ -38,36 +38,38 @@ hide:
 
 2. Download [Anki](https://apps.ankiweb.net/) dan [add-on Anki](https://drive.google.com/drive/folders/1dfmYAp0eg_bhhAkohUISYaS6B6QOBtww?usp=sharing) punyaku
     - Extract ([?](https://www.webhostinghub.com/help/learn/website/managing-files/extract-file)) `Anki add-on`-nya (Password: `lazyguide`) terus paste ke folder:
-        - Windows: `C:\Users\YourUser\AppData\Roaming\Anki2`
-        - Mac    : `/Users/macbookair/Library/Application Support/Anki2/addons21`
+    === "Windows"
+        Folder Windows = `C:\Users\**NamaUserKamu**\AppData\Roaming\Anki2`
+        ![Anki Addons Win](img/addons-directory.png){height=70% width=70%} 
+    === "MacOS"
+        Folder MacOS = `/Users/macbookair/Library/Application Support/Anki2`
+        ![Anki Addons Mac](img/addons-directory-mac.jpg){height=70% width=70%}
     - Restart `Anki` kamu
 
 3. Download [Kaishi.1.5k.apkg](https://github.com/donkuri/Kaishi/releases/latest) (`deck kosakata 1.5k`) atau [Kaishi 1.5k Indonesia Simplified.apkg](https://github.com/yaaacha/Yaacha-Anki-Deck-Archive/blob/main/Kaishi%201.5k%20Indonesia%20Simplified.apkg) terus buka filenya
     - Waktu ngerjain deck-nya, cukup pake tombol `again (1 = aku nggak tahu jawabannya)` atau `good (spasi atau 3 = aku tahu jawabannya)`, jadi kamu nggak perlu mikir mau `easy (2)` atau `hard (4)`
 
-4. Masuk ke menu `Deck` > klik ikon gear > salin [pengaturannya](conciseGuideToJumpstartJP.md/#__tabbed_1_1) di bawah
-    - (Bar Menu - Kiri Atas) `Tools` > `Preferences` dan sesuaikan dengan [pengaturan ini](conciseGuideToJumpstartJP.md/#__tabbed_1_5)
+4. Masuk ke menu `Deck` > klik ikon gear > salin [pengaturannya](panduan-ringkas-JP.md/#__tabbed_2_1) di bawah
+    - (Bar Menu - Kiri Atas) `Tools` > `Preferences` dan sesuaikan dengan [pengaturan ini](panduan-ringkas-JP.md/#__tabbed_2_5)
 
     ??? info "Pengaturan Anki <small>(klik di sini)</small>"
     
         === "Pengaturan 1"
             ![Anki Settings 1](img/anki-settings-1.png){height=300 width=600}
         === "Pengaturan 2"
-            ![Anki Settings 2](img/anki-settings-2-tutorial.png){height=300 width=600}
+            ![Anki Settings 2](img/anki-settings-2.png){height=300 width=600}
         === "Pengaturan 3"
             ![Anki Settings 3](img/anki-settings-3.png){height=300 width=600}
-        === "Pengaturan 4"
-            ![Anki Settings 4](img/anki-settings-4.png){height=300 width=600}
         === "Pengaturan Preferences Anki"
             ![Anki Preference Settings](img/anki-preference-settings.png){height=300 width=600}
 
 5. Kerjain `Deck Kosakata Kaishi 1.5k`, mulai dengan `10 kartu baru/hari` (maksimal 30; jangan berlebihan) barengin juga dengan `panduan grammar` di `langkah 6`;
     - Kanji udah ada di deck ini; motonya adalah `belajar kosakata, bukan kanji terpisah`
 
-6. Pakai salah satu: [Panduan Grammar Teks Tae Kim](https://guidetojapanese.org/learn/grammar/basic) atau [Panduan Grammar Video-nya Cure Dolly](https://www.youtube.com/playlist?list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj) (Cukup 34 video pertama aja)
+6. Pakai salah satu: [Panduan Grammar Teks Tae Kim](https://guidetojapanese.org/learn/grammar/basic), [Panduan Grammar Video-nya Cure Dolly](https://www.youtube.com/playlist?list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj) (Cukup 34 video pertama aja), atau [NHK World](https://www3.nhk.or.jp/nhkworld/lesson/indonesian/learn/list/).
     - Nggak, kamu nggak perlu sempurna kerjain quiz-nya, `bahkan bisa dilewatin`
     - Yang penting itu `nangkep isi materinya` atau minimal tahu garis besarnya karena `kamu bakal balik lagi ke situ ratusan kali nantinya`
-    - Untuk sumber belajar bunpou bahasa indonesia bisa cek [sumber daya di discord](https://discord.com/channels/1370274344571240552/1394673355910545471/1394673744546369577)
+    - Untuk sumber belajar bunpou lain dalam bahasa indonesia bisa cek [sumber daya di discord](https://discord.com/channels/1370274344571240552/1394673355910545471/1394673744546369577)
 
 7. Setelah selesai `Deck Kosakata Kaishi 1.5k` dan `Panduan Grammar Teks` atau `Panduan Grammar Video`, sekarang kamu bisa mulai `mining` dan `melakukan immersion beneran`
     - Ini `biasanya butuh waktu 2-4 bulan` tergantung usaha kamu buat bisa mulai immersion
@@ -85,3 +87,5 @@ hide:
 - Ini `versi yang super disederhanakan`, jadi emang nggak lengkap, langsung aja jalanin sambil belajar, kalau bingung bisa tanya di server-server Japanese Immersion atau cari aku di Discord
 
 - `Nggak ada buku teks omong kosong`, `nggak perlu langganan`, dan nggak usah terjebak bertahun-tahun belajar doang sambil mikir kamu belum siap, karena kamu nggak akan pernah siap kalau nggak mulai immersion
+
+- Kamu bisa coba baca panduan lebih lanjut di [Panduan Bahasa Jepang](panduan.md)
