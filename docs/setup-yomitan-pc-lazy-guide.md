@@ -68,16 +68,26 @@
 
         ![Yomitan Import Settings](img/yomitan-import-settings.png){align=left height=300 width=600}
 
-8. Pilih profil, biasanya antara `Monolingual` dan `Bilingual`
-    - `Bilingual` diatur default, bisa tahan `alt` sambil hover buat ganti ke `Monolingual`
+8. Pilih active profile
+    - Pilih`Monolingual` sebagai `active profile`, bisa sambil tahan tombol ++alt++ (Win)/++opt++ (MacOS) sambil hover buat ganti ke `Monolingual`
+        ![Yomitan Profile](img/yomitan-profiles.jpg){height=300 width=600}
 
-        ![Yomitan Profile](img/yomitan-profiles.jpg){align=left height=300 width=600}
+    - Buka pengaturan `Anki`, lalu ke `Configure Anki flashcards...`
+        ![Yomitan Active Profile](img/yomitan-anki-active-profile.jpg){height=300 width=600}
+    - Ganti bagian `MainDefinition` ke `{single-glossary-jidict-v101}`
+
+        ![Yomitan Active Profile JIDict](img/yomitan-anki-active-profile-jidict.jpg){height=300 width=600}
+
+    - Lakukan juga langkah ke 8 ini ke profil `Bilingual`
 
 9. Sekarang kamu udah bisa hover kata-kata!
     - Buat ganti hotkey, buka `Yomitan` settings > `Scanning` > `Scan modifier key`
-    - Pilihan untuk MacOS beda, silakan sesuaikan
 
+    === "Windows"
         ![Yomitan Scan Key](img/yomitan-scan-key.png){align=left height=300 width=600}
+    === "MacOS"
+        ![Yomitan Scan Key](img/yomitan-scan-key.jpg){align=left height=300 width=600}
+
 
 Setup Yomitan di PC udah kelar!  Mau lanjut cek panduan Setup Mining Anime?
 
@@ -131,22 +141,22 @@ Setup Yomitan di PC udah kelar!  Mau lanjut cek panduan Setup Mining Anime?
 
 ## Pertanyaan Umum
 
-#### Pertanyaan 1: Bisa nambah/menghapus kamus Yomitan?
+#### Pertanyaan 1: Bisa nambah/menghapus kamus Yomitan pilihanku sendiri?
 
 ??? question "Bisa nambah/menghapus/mengedit kamus Yomitan? <small>(klik di sini)</small>"
 
-    - Bisa, mayoritas kamus yang formatnya Anki kompatibel
+    - Bisa, mayoritas kamus yang formatnya Anki kompatibel, tinggal lakukan langkah ke 6 di bagian [setup](setup-yomitan-pc-lazy-guide.md/#setup)
 
-    - Buka `Yomitan settings` > `Anki` > `Configure Anki card format...` > `MainDefinition` > pilih dari dropdown `single-glossary-YANG-KAMU-MAU`
+    - Kamu juga bisa edit di bagian `Yomitan settings` > `Anki` > `Configure Anki card format...` > `MainDefinition` > pilih dari dropdown `single-glossary-YANG-KAMU-MAU`
 
-    - Kalau ganti `MainDefinition`, harus edit tiap `Profile`
+    - Kalau ganti `MainDefinition`, kamu harus edit tiap `Profile`
 
 #### Pertanyaan 2: Kapan kamus di-update? Harus update sendiri?
 
 ??? question "Kapan kamusnya di-update? Perlu update sendiri gak? <small>(klik di sini)</small>"
 
     - Aku jarang update. Santai aja, kontennya jarang berubah kok
-        - Fokusnya biar stabil dalam jangka panjang
+        - Tujuan panduan ini biar stabil dalam jangka panjang
         - Tapi kalau mau ngejar update sendiri juga boleh
 
 #### Pertanyaan 3: Gimana cara pakai sentence card?
@@ -154,5 +164,13 @@ Setup Yomitan di PC udah kelar!  Mau lanjut cek panduan Setup Mining Anime?
 ??? question "Cara pakai sentence card? <small>(klik di sini)</small>"
 
     - Masuk `Yomitan settings` > `Anki` > `Configure Anki card format...`
+
+      ![Sentence Card 1](img/yomitan-anki-active-profile.jpg){height=300 width=600}
+
     - Di bagian `Expression`, scroll ke bawah, cari `IsSentenceCard` dan isi `1`
+
+      ![Sentence Card 2](img/yomitan-sentence-card.jpg){height=300 width=600}
+
     - Terapkan ke semua profil termasuk `Monolingual`, `Bilingual`, `Android (Anime, LN & Manga)`, dan `Android (VN)`
+
+      ![Sentence Card 3](img/yomitan-profiles.jpg){height=300 width=600}
