@@ -51,9 +51,9 @@
 
     ![Deck rename](img/deck-rename.png){height=250 width=500}
 
-7. Masuk ke opsi `Deck` kamu (ikon roda gigi), lalu salin [pengaturan ini](setup-anki-pc-lazy-guide.md/#__tabbed_2_1)
+7. Masuk ke opsi `Deck` kamu, desktop dengan tekan ikon gir, Android dengan tahan `Deck` lalu pilih Deck Option, lalu salin [pengaturan ini](setup-anki-pc-lazy-guide.md/#__tabbed_2_1)
     - ([Pengaturan 2](setup-anki-pc-lazy-guide.md/#__tabbed_2_2)) Aktifkan `FSRS`
-        - Isi `Desired Retention` dengan `0.80`/`80%`
+        - Isi `Desired Retention` dengan `80%`
     - ([Pengaturan 2](setup-anki-pc-lazy-guide.md/#__tabbed_2_2)) Dalam 1 bulan pertama, pakai `FSRS Parameter` default; setelah itu:
         - Gunakan tombol `Optimize` dan `Compute minimum recommended retention` setiap bulan
         - Ganti nilai `Desired retention` sesuai hasil yang muncul
@@ -68,6 +68,8 @@
         ![Anki Settings 3](img/anki-settings-3.png){height=300 width=600}
     === "Preferensi Anki"
         ![Anki Preference Settings](img/anki-preference-settings.png){height=300 width=600}
+    === "Preferensi Anki (Android)"
+        ![Anki Preference Settings](img/anki-preference-settings-android.jpg){height=300 width=600}
 
 8. Restart `Anki` kamu dan selesai deh!
 
@@ -102,7 +104,7 @@ Template Anki kamu udah siap, selanjutnya setup Yomitan:
 
 ??? info "Cara Atur Retention <small>(klik untuk buka)</small>"
 
-    Kalau kamu merasa retensi kamu rendah, buka [Retention How-To](retentionHowTo.md) buat saran pengaturan Anki dan tips lainnya. (Tutorial belum dibuat, tunggu pembaruan selanjutnya, ya)
+    Kalau kamu merasa retensi kamu rendah, buka [Tentang Retention](tentang-retention.md) buat saran pengaturan Anki dan tips lainnya. (Tutorial belum dibuat, tunggu pembaruan selanjutnya, ya)
 
 #### Tip 1: Saat Review di Anki
 

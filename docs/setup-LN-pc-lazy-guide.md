@@ -1,6 +1,6 @@
-# Pengaturan Mining Light Novel dan sejenisnya [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupLnOnPC/)
+# Setup Mining Light Novel dan sejenisnya [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupLnOnPC/)
 
-- Kamu bisa baca `Light Novel` di `PC` selama kamu punya file `epub` dari `Light Novel` itu, situs buat buka `epubs`-nya, dan `yomitan` sudah terpasang.
+- Kamu bisa baca `Light Novel` di `PC` selama kamu punya file `epub` dari `Light Novel` itu, situs buat buka `epub`-nya, dan `yomitan` sudah terpasang.
 
 ---
 
@@ -14,11 +14,11 @@
 
 ## Cara Setup
 
-1. Di `browser`, buka `https://reader.ttsu.app/`
+1. Di `browser`, buka [Ttsu Reader App](https://reader.ttsu.app/)
 
     ![TTU Reader](img/ttu-reader.png){height=500 width=1000}
 
-2. Upload `File` atau `Folder` yang berisi `LN epubs`
+2. Upload `File` atau `Folder` yang berisi `EPUB LN`
 
     ![TTU Upload](img/ttu-upload.png){height=50 width=100}
 
@@ -26,7 +26,7 @@
 
     ![TTU Reader PC](img/ttu-reader-pc.png){height=500 width=1000}
 
-Sekarang kamu udah bisa baca Light Novel di PC.
+Sekarang kamu udah bisa baca Light Novel, Novel, ataupun Buku lain di PC.
 
 <small>Kalau ada masalah, cek [FAQs](setup-LN-pc-lazy-guide.md/#faqs)</small>
 

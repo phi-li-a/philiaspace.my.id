@@ -91,7 +91,7 @@
 
 Setup Yomitan di PC udah kelar!  Mau lanjut cek panduan Setup Mining Anime?
 
-[Lanjut ke Setup Mining Anime di PC](setup-anime-pc.md){ .md-button .md-button }
+[Lanjut ke Setup Mining Anime di PC](setup-anime-pc-lazy-guide.md){ .md-button .md-button }
 
 <small>Kalau ada masalah, cek bagian [Pertanyaan Umum](setup-yomitan-pc-lazy-guide.md/#pertanyaan-umum)</small>
 
@@ -141,11 +141,13 @@ Setup Yomitan di PC udah kelar!  Mau lanjut cek panduan Setup Mining Anime?
 
 ## Pertanyaan Umum
 
-#### Pertanyaan 1: Bisa nambah/menghapus kamus Yomitan pilihanku sendiri?
+#### Pertanyaan 1: Boleh nambah/menghapus kamus Yomitan pilihanku sendiri?
 
-??? question "Bisa nambah/menghapus/mengedit kamus Yomitan? <small>(klik di sini)</small>"
+??? question "Boleh nambah/menghapus/mengedit kamus Yomitan? <small>(klik di sini)</small>"
 
-    - Bisa, mayoritas kamus yang formatnya Anki kompatibel, tinggal lakukan langkah ke 6 di bagian [setup](setup-yomitan-pc-lazy-guide.md/#setup)
+    - Silakan, mayoritas kamus yang formatnya Anki kompatibel, tinggal lakukan langkah ke 6 di bagian [setup](setup-yomitan-pc-lazy-guide.md/#setup)
+
+    - Kamu bisa cek koleksi kamus lain di [koleksi Shoui](https://learnjapanese.link/dictionaries) dari TMW atau [koleksi Marv](https://drive.google.com/drive/folders/1xURpMJN7HTtSLuVs9ZtIbE7MDRCdoU29) dari Yomitan
 
     - Kamu juga bisa edit di bagian `Yomitan settings` > `Anki` > `Configure Anki card format...` > `MainDefinition` > pilih dari dropdown `single-glossary-YANG-KAMU-MAU`
 

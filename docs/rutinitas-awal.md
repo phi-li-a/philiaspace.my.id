@@ -517,7 +517,7 @@ Klik [link ini](setup-yomitan-pc-lazy-guide.md) buat baca panduan soal itu.
 
 Kalau udah pasang Yomitan, ikuti langkah-langkah berikutnya.  
 
-Kamu bisa cek [panduan ini](setup-anime-pc.md) buat lihat cara nonton anime. 
+Kamu bisa cek [panduan ini](setup-anime-pc-lazy-guide.md) buat lihat cara nonton anime. 
 
 Sekarang kamu butuh file subtitle untuk anime yang mau ditonton.  
 

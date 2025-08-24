@@ -65,13 +65,13 @@ Dan karena kamu udah mahir baca Bahasa Indonesia, proses itu jadi otomatis bange
 Perhatiin deh, aku nggak nyebut hal-hal mengenai "nguasain bunpou" atau "ngapalin kosakata" sama sekali. Soalnya kamu nggak memproses bahasa secara natural dengan cara itu. Beberapa pembaca mungkin bahkan bukan penutur asli dan dulu pernah belajar Bunpou bahasa Indonesia, tapi hampir pasti mereka nggak mikirin itu secara sadar setiap kali ketemu Bahasa Indonesia sehari-hari.
 
 
-## 1.4 Berdamai dengan kenyataan kalau awalnya bakal jelek
+## 1.4 Berdamai dengan kenyataan kalau bakal jelek di awal
 
 ![moyamoya](img/moyamoya_woman.png){:  style="display: block; margin: 0 auto; max-width:40%; height:auto;" }  
 
 Dalam belajar bahasa, atau hal lain yang butuh skill, kamu hampir pasti bakal mulai dari fase susah banget dan berjuang lama sebelum akhirnya jadi lebih jago. Kayak yang udah aku sebut sebelumnya, banyak pelajar (termasuk aku sendiri) yang jatuh ke jebakan pengen menguasai sesuatu dulu sebelum nyoba praktik langsung sama hal yang sebenarnya perlu mereka kerjain.  
 
-Misalnya, ada murid yang ribet banget sama satu bagian bunpou sampai kelamaan, dan akhirnya nggak sempet pindah ke hal lain yang sebenernya lebih worth buat waktunya.
+Misalnya, ada murid yang ribet banget sama satu bagian bunpou sampai kelamaan, dan akhirnya nggak sempet pindah ke hal lain yang sebenernya lebih bagus kalau ada alokasi waktu di hal itu.
 
 <div style="text-align: center; font-weight:bold">
 <h3>↑ Nah ini nih yang harus kita hindari.</h3>  
@@ -97,7 +97,7 @@ Secara teknis, ini biasanya disebut *input*, tapi aku pribadi lebih suka nyebutn
 
 Belajar bahasa itu butuh siap mental buat nggak ngerti semua hal.  
 
-Ini beda banget sama cara belajar konvensional di sekolah, di mana perfeksionisme dihargai dan nilai kamu diukur pake kriteria yang kadang asal-asalan atau diukur lewat ujian.  
+Ini beda banget sama cara belajar konvensional di sekolah, di mana perfeksionisme dihargai dan nilai kamu diukur pake kriteria yang kadang asal-asalan atau diukur hanya berdasar hasil ujian.  
 
 Biasanya, yang sering kejadian waktu pelajar bahasa coba berinteraksi sama bahasa aslinya—entah itu nonton serial TV, baca buku, atau bahkan cuma ngobrol biasa sama penutur asli—mereka gampang banget patah semangat karena nggak ngerti semuanya, atau malah hampir nggak ngerti sama sekali. Wajar sih, soalnya kelihatannya kayak nggak masuk akal buat lanjut kalau pahamnya cuma dikit. Tapi, kayak yang udah dijelasin sebelumnya, belajar bahasa itu kayak langsung nyebur ke kolam yang dalam.  
 
@@ -291,30 +291,52 @@ Supaya lebih paham gimana kanji dipakai bareng-bareng dalam kata, aku sarankan k
 ### Setup Anki Cepat
 Anki itu program flashcard yang dirancang untuk membantu kamu mengingat banyak informasi, seperti kosakata.  
 
-Kunjungi [halaman download Anki](https://apps.ankiweb.net/), lalu download Anki sesuai sistem yang kamu pakai dan install.  
+Kunjungi [halaman download Anki](https://apps.ankiweb.net/), gulir ke bawah, lalu download Anki sesuai sistem yang kamu pakai dan install.  
 <figure>
-  <img src="/img/ankidownload.png" / alt="Halaman Download Anki">
+  <img src="/img/ankidownload.jpg" / alt="Halaman Download Anki">
   <figcaption>Download yang sesuai sama sistem kamu.</figcaption>
 </figure>  
 
 Waktu pertama kali buka Anki, kamu akan diminta memilih bahasa tampilan, biarin aja di default (English).    
 
-Deck pemula yang aku rekomendasi adalah [Kaishi 1.5k](https://github.com/donkuri/Kaishi/releases) yang bisa kamu download [di sini](https://github.com/donkuri/Kaishi/releases) (klik link `.apkg`).  
+Deck pemula yang aku rekomendasi adalah Kaishi 1.5k yang bisa kamu download [di sini](https://github.com/donkuri/Kaishi/releases) (klik `Kaishi.1.5k.apkg`). Deck ini diterjemah dari Bahasa Jepang ke Bahasa Inggris. Untuk Deck Kaishi versi Bahasa Indonesia dan deck JP-ID lainnya bisa diakses [di sini](https://discord.com/channels/1370274344571240552/1386235512993611909/1386235542487961692).
 
 Setelah download selesai, import deck-nya dengan klik "Import file", pilih file yang sudah diunduh (.apkg), lalu klik Import di kanan atas.  
 
 ### Panduan Cepat Pakai Anki
 
-Sebelum mulai belajar, aku sarankan ganti beberapa pengaturan dulu. Klik ikon roda gigi di sebelah deck, lalu masuk ke *Options*.  
+Sebelum mulai belajar, aku sarankan ganti beberapa pengaturan dulu.  
 
-Ubah *Maximum reviews/day* dari `200` jadi `9999`. Jangan kaget sama angkanya, review kamu kemungkinan nggak bakal nyampe segitu, ini cuma buat buka batas review harian biar pengalaman belajarnya maksimal.  
+Masuk ke pengaturan `Deck` kamu dengan tekan ikon gir di samping nama `Deck` untuk desktop. Kalau kamu menggunakan Android, pilih dan tahan `Deck Kaishi` lalu pilih Deck Option, lalu samakan pengaturan deck kamu dengan [pengaturan ini](panduan.md/#__tabbed_1_1)
 
-Untuk *New cards/day*, angka `20` kadang terlalu berat buat sebagian orang. Kalau kamu ngerasa nggak sanggup belajar 20 kata baru per hari, coba turunin ke `10` atau lebih rendah.  
+1. ([Pengaturan 2](panduan.md/#__tabbed_1_2)) Aktifkan `FSRS`
+    - Isi `Desired Retention` dengan `80%`
+2. ([Pengaturan 2](panduan.md/#__tabbed_1_2)) Dalam 1 bulan pertama, pakai `FSRS Parameter` default; setelah itu:
+    - Gunakan tombol `Optimize` dan `Compute minimum recommended retention` setiap bulan
+    - Ganti nilai `Desired retention` sesuai hasil yang muncul
+    - Tekan tombol `Save` di kanan atas
+3. Untuk Desktop, di menu bar (pojok kiri atas) klik `Tools` > `Preferences` dan sesuaikan dengan [pengaturan ini](panduan.md/#__tabbed_1_4)
+3. Untuk Android, di tampilan awal, geser (swipe) ke kanan `Settings` > `Appearance` dan sesuaikan dengan [pengaturan ini](panduan.md/#__tabbed_1_5). 
+
+Kamu juga bisa cek settingan lain dan sesuaikan sendiri sesuai kebutuhan dan preferensi.
+
+=== "Pengaturan 1"
+    ![Anki Settings 1](img/anki-settings-1.png){height=300 width=600}
+=== "Pengaturan 2"
+    ![Anki Settings 2](img/anki-settings-2.png){height=300 width=600}
+=== "Pengaturan 3"
+    ![Anki Settings 3](img/anki-settings-3.png){height=300 width=600}
+=== "Preferensi Anki"
+    ![Anki Preference Settings](img/anki-preference-settings.png){height=300 width=600}
+=== "Preferensi Anki (Android)"
+    ![Anki Preference Settings](img/anki-preference-settings-android.jpg){height=300 width=600}
+
+Restart `Anki` kamu dan selesai deh!
 
 Waktu pertama kali mulai belajar deck *Kaishi 1.5k*, kartu pertama biasanya kartu penjelasan. Kamu bisa hapus ini dengan klik "More" lalu "Delete Note".  
 
 Anki membantu kamu mengingat sesuatu dengan mengetes pengetahuan yang ada di balik kartu. Yang dites di sini adalah apakah kamu tahu arti dan cara baca kata tersebut. Semua info lain di kartu hanya sebagai bantuan.  
-Perlu dicatat kalau *Kaishi 1.5k* memang ada kalimat contoh, tapi tujuannya cuma buat ngajarin kata tunggal, bukan kalimat penuh.   
+Perlu dicatat kalau *Kaishi 1.5k* dan Deck starter lainnya memang ada kalimat contoh, tapi tujuannya cuma buat ngajarin kata tunggal, bukan kalimat penuh. Contoh kalimatnya hanya untuk petunjuk aja. 
 
 Kalau ketemu kartu Anki yang belum pernah kamu lihat, aturan umumnya adalah klik *Show Answer* biar lihat isi belakang kartu.  
 <figure>
@@ -345,11 +367,13 @@ Selama bertahun-tahun, banyak banget sumber belajar bunpou yang bermunculan, ada
 
 Berikut beberapa panduan yang aku urutkan berdasarkan seberapa aku rekomendasikan untuk pemula total. Kamu nggak perlu ngerjain semuanya, cukup pilih yang cocok buat kamu.
 
-[Cure Dolly's Organic Japanese YouTube Playlist](https://www.youtube.com/playlist?list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj) ([transkrip](https://docs.google.com/document/d/1XpuXerkGU8waJ4DPDNJA4bGeqOvM-csXjTe57iHARHc/edit))    
-[Tae Kim's Guide to Japanese](https://gohoneko.neocities.org/grammar/taekim)  
-[Japanese Ammo with Misa Grammar YouTube Playlist](https://www.youtube.com/playlist?list=PLd5-Wp_4tLqYZxS5j3g6kbeOfVXlTkr3N)    
-[Sakubi](https://gohoneko.neocities.org/learn/anon/sakubi)  
-[IMABI](https://imabi.org/)    
+| **Bahasa Inggris**. | **Bahasa Indonesia**  |
+| :--------: | :-------: |
+| [Cure Dolly's Organic Japanese YouTube Playlist](https://www.youtube.com/playlist?list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj) ([transkrip](https://docs.google.com/document/d/1XpuXerkGU8waJ4DPDNJA4bGeqOvM-csXjTe57iHARHc/edit))  | [Chakurin Fuufu](https://youtube.com/playlist?list=PL3MNfkiecePcNDeX9Ca06GSECT184ddoV&si=s4l6OLITx0_gxKin) |
+| [Tae Kim's Guide to Japanese](https://gohoneko.neocities.org/grammar/taekim) | [Yasashi Nihongo (Minna no Nihongo)](https://youtube.com/playlist?list=PLhQ568NlkEK3ZGH0-nt7eCyynFsCLdBB5&si=CBmY6rMJX1rN6I7f) |
+| [Japanese Ammo with Misa Grammar YouTube Playlist](https://www.youtube.com/playlist?list=PLd5-Wp_4tLqYZxS5j3g6kbeOfVXlTkr3N) | [Gakushudo no Nihongo](https://www.youtube.com/playlist?list=PLvVp7545yxgyAwuRIS-KTjFXbPM1jy0ST) |
+| [Sakubi](https://gohoneko.neocities.org/learn/anon/sakubi) | [ Yasashi Nihongo](https://www.youtube.com/playlist?list=PLlunYOgtRJXXJGOZqc1DmWQ-DcO_pNQcg) |
+| [IMABI](https://imabi.org/)  | [Muzukashii Nihongo](https://www.youtube.com/@nassusensei/playlists) |
 
 Waktu yang pas buat mulai immersion adalah setelah kamu belajar beberapa poin bunpou baru. Melihat gimana bunpou yang baru kamu pelajari dipakai dalam penggunaan asli akan sangat membantu memperdalam pemahamanmu.  
 
@@ -461,7 +485,7 @@ Buat yang penasaran, ini perkiraan kemampuan bahasa Jepang yang bisa kamu harapk
 
 Sebenarnya, nggak banyak yang berubah dari proses belajar selain terus banyak-banyak immersion, belajar kosakata, dan bunpou. Dengan metode ini, kamu beneran bisa fasih bahasa Jepang. Tapi ada satu hal yang bakal berubah begitu kamu keluar dari tahap pemula.  
 
-Belajar kosakata dengan Anki bakal jadi jauh lebih personal, karena kamu bakal bikin kartu sendiri dari kata yang kamu temukan saat immersion. Proses ini kita sebut *mining*. Panduan mining yang direkomendasikan adalah [Donkuri's mining guide](https://donkuri.github.io/learn-japanese/mining/). Mining pada dasarnya bakal jadi inti dari *belajar* bahasa Jepangmu.  
+Belajar kosakata dengan Anki bakal jadi jauh lebih personal, karena kamu bakal bikin kartu sendiri dari kata yang kamu temukan saat immersion. Proses ini kita sebut *mining*. Panduan mining bisa kamu akses di [Panduan Mining Lazy Guide](setup.md). Mining pada dasarnya bakal jadi inti dari *belajar* bahasa Jepangmu.  
 
 Makasih banget udah meluangkan waktu buat baca panduan ini, dan semoga sukses di perjalanan belajarmu!  
 
@@ -469,15 +493,15 @@ Kalau ada pertanyaan, silakan tanya langsung di server Discord kami.
 
 [Gabung Discord :fontawesome-brands-discord:](join.md){: .md-button }  
 
-### Patreon
+### Trakteer
 
-Kalau panduan ini bermanfaat buat perjalanan belajar bahasa Jepangmu, dukungan lewat Patreon bakal sangat dihargai!  
+Kalau panduan ini bermanfaat buat perjalanan belajar bahasa Jepangmu, dukungan lewat Trakteer bakal sangat dihargai!  
 
-[:fontawesome-brands-patreon: Jadi patron](https://www.patreon.com/shoui){: .md-button }  
+[Trakteer](https://trakteer.id/philiaanimelist/tip){: .md-button }  
 
 ### Kontributor
 
-Aku mau ngucapin terima kasih ke semua yang udah berkontribusi dalam pembuatan panduan ini:
+Aku mau ngucapin terima kasih ke semua yang udah berkontribusi dalam pembuatan panduan asli versi Bahasa Inggris:
 
 iamatryhard  
 shigatsunoraion  
