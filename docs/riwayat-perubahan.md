@@ -20,6 +20,21 @@ hide:
 
 ### Agustus
 
+**24-08-2025**
+
+- Umum
+       - Pembaruan susunan dokumentasi
+- Setup Utama
+       - Penambahan halaman [Setup Yomitan Android](setup-yomitan-android-lazy-guide.md)
+       - Penambahan halaman [Setup ShareX](setup-ShareX-pc.md)
+- Setup PC
+       - Penambahan halaman [Setup Manga](setup-manga-pc-lazy-guide.md)
+- Setup Android
+       - Penambahan halaman [Setup Anime](setup-anime-android-lazy-guide.md)
+       - Penambahan halaman [Setup LN & Buku](setup-LN-android-lazy-guide.md)
+       - Penambahan halaman [Setup Manga](setup-manga-android-lazy-guide.md)
+       - Pembaruan halaman []()
+
 **10-08-2025**
 
 - Umum
@@ -32,7 +47,7 @@ hide:
        - Pembaruan halaman [Panduan Ringkas Bahasa Jepang](panduan-ringkas-JP.md)
 - Setup
        - Penambahan halaman [Setup PC (Novel & Buku)](setup-LN-pc-lazy-guide.md)
-       - Pembaruan halaman [Setup Anime](setup-anime-pc.md)
+       - Pembaruan halaman [Setup Anime](setup-anime-pc-lazy-guide.md)
        - Pembaruan halaman [Setup Anki](setup-anki-pc-lazy-guide.md)
 
 **03-08-2025**
