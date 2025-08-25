@@ -147,13 +147,39 @@ Setup Yomitan di PC udah kelar!  Mau lanjut cek panduan Setup Mining Anime?
 
     - Silakan, mayoritas kamus yang formatnya Anki kompatibel, tinggal lakukan langkah ke 6 di bagian [setup](setup-yomitan-pc-lazy-guide.md/#setup)
 
-    - Kamu bisa cek koleksi kamus lain di [koleksi Shoui](https://learnjapanese.link/dictionaries) dari TMW atau [koleksi Marv](https://drive.google.com/drive/folders/1xURpMJN7HTtSLuVs9ZtIbE7MDRCdoU29) dari Yomitan
-
     - Kamu juga bisa edit di bagian `Yomitan settings` > `Anki` > `Configure Anki card format...` > `MainDefinition` > pilih dari dropdown `single-glossary-YANG-KAMU-MAU`
 
     - Kalau ganti `MainDefinition`, kamu harus edit tiap `Profile`
 
-#### Pertanyaan 2: Kapan kamus di-update? Harus update sendiri?
+#### Pertanyaan 2: Cari kamus lainnya di mana?
+
+??? question "Cari kamus lainnya di mana? <small>(klik di sini)</small>"
+
+    - Kamu bisa cek koleksi kamus lain di [koleksi Shoui](https://learnjapanese.link/dictionaries) dari TMW atau [koleksi Marv](https://drive.google.com/drive/folders/1xURpMJN7HTtSLuVs9ZtIbE7MDRCdoU29) dari Yomitan
+
+#### Pertanyaan 3: Rekomendasi Kamus Frequency?
+
+??? question "Rekomendasi Kamus Frequency? <small>(klik di sini)</small>"
+
+    - JPDB
+        - Merupakan daftar frekuensi yang diambil dari [jpdb.io](https://jpdb.io), sebuah situs yang menganalisis banyak *light novel*, *visual novel*, anime, dan *J-drama*. Jadi, daftar ini merefleksikan seberapa sering kata muncul dalam media fiksi berbahasa Jepang.
+    - CC100
+        - Merupakan daftar frekuensi dari data korpus internet Jepang. Kata-kata formal akan tampak lebih umum dalam daftar ini.  
+        - Contoh: 審議会 (*council*) memiliki peringkat ke-9733 di CC100, tetapi ke-58730 di JPDB.
+
+#### Pertanyaan 4: Apa yang dimaksud dengan "kata umum"?
+
+??? question "Apa yang dimaksud dengan "kata umum"?  <small>(klik di sini)</small>"
+
+    - **Sangat umum:** 1–10.000
+    - **Umum:** 10.001–20.000
+    - **Cukup umum:** 20.001–30.000
+    - **Agak jarang:** 30.001–40.000
+    - **Jarang:** 40.001–50.000
+    - **Sangat jarang:** 50.001–80.000
+    - **Tingkat yang mungkin tidak dikenal penutur asli:** 80.000+
+
+#### Pertanyaan 5: Kapan kamus di-update? Harus update sendiri?
 
 ??? question "Kapan kamusnya di-update? Perlu update sendiri gak? <small>(klik di sini)</small>"
 
@@ -161,7 +187,7 @@ Setup Yomitan di PC udah kelar!  Mau lanjut cek panduan Setup Mining Anime?
         - Tujuan panduan ini biar stabil dalam jangka panjang
         - Tapi kalau mau ngejar update sendiri juga boleh
 
-#### Pertanyaan 3: Gimana cara pakai sentence card?
+#### Pertanyaan 6: Gimana cara pakai sentence card?
 
 ??? question "Cara pakai sentence card? <small>(klik di sini)</small>"
 

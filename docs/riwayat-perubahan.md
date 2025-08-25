@@ -20,6 +20,12 @@ hide:
 
 ### Agustus
 
+**25-08-2025**
+
+- Setup Utama
+       - Pembaruan FAQ [Setup Yomitan PC](setup-yomitan-pc-lazy-guide.md)
+       - Pembaruan FAQ [Setup Yomitan Android](setup-yomitan-android-lazy-guide.md)
+
 **24-08-2025**
 
 - Umum
