@@ -1,0 +1,1624 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="pi pi pi philia">
+      
+      
+        <meta name="author" content="ryusuke">
+      
+      
+        <link rel="canonical" href="https://philiaspace.my.id/setup-yomitan-android-lazy-guide/">
+      
+      
+        <link rel="prev" href="../setup-yomitan-pc-lazy-guide/">
+      
+      
+        <link rel="next" href="../setup-ShareX-pc/">
+      
+      
+      <link rel="icon" href="../img/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Yomitan Android - Philia Space</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6M8XGSMGX2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6M8XGSMGX2');
+</script>
+
+
+
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7374918663808833"
+     crossorigin="anonymous"></script>
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="fff7c4" data-md-color-accent="cyan">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#setup-yomitan-di-android-lazyguide" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      <!--
+  Copyright (c) 2016-2021 Martin Donath <martin.donath@squidfunk.com>
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Header -->
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="header.title">
+    
+    <!-- Link to home -->
+    <a href=".." title="Philia Space"
+      class="md-header__button md-logo" aria-label="Philia Space" data-md-component="logo">
+      
+  <img src="../img/moe.svg" alt="logo">
+
+    </a>
+
+    <!-- Button to open drawer -->
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+
+    <!-- Header title -->
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Philia Space
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+            Yomitan Android
+            
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Discord icon that links to discord-->
+    <label class="md-header__button md-icon">
+      <a href="/join">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M524.531 69.836a1.5 1.5 0 0 0-.764-.7A485 485 0 0 0 404.081 32.03a1.82 1.82 0 0 0-1.923.91 338 338 0 0 0-14.9 30.6 447.9 447.9 0 0 0-134.426 0 310 310 0 0 0-15.135-30.6 1.89 1.89 0 0 0-1.924-.91 483.7 483.7 0 0 0-119.688 37.107 1.7 1.7 0 0 0-.788.676C39.068 183.651 18.186 294.69 28.43 404.354a2.02 2.02 0 0 0 .765 1.375 487.7 487.7 0 0 0 146.825 74.189 1.9 1.9 0 0 0 2.063-.676A348 348 0 0 0 208.12 430.4a1.86 1.86 0 0 0-1.019-2.588 321 321 0 0 1-45.868-21.853 1.885 1.885 0 0 1-.185-3.126 251 251 0 0 0 9.109-7.137 1.82 1.82 0 0 1 1.9-.256c96.229 43.917 200.41 43.917 295.5 0a1.81 1.81 0 0 1 1.924.233 235 235 0 0 0 9.132 7.16 1.884 1.884 0 0 1-.162 3.126 301.4 301.4 0 0 1-45.89 21.83 1.875 1.875 0 0 0-1 2.611 391 391 0 0 0 30.014 48.815 1.86 1.86 0 0 0 2.063.7A486 486 0 0 0 610.7 405.729a1.88 1.88 0 0 0 .765-1.352c12.264-126.783-20.532-236.912-86.934-334.541M222.491 337.58c-28.972 0-52.844-26.587-52.844-59.239s23.409-59.241 52.844-59.241c29.665 0 53.306 26.82 52.843 59.239 0 32.654-23.41 59.241-52.843 59.241m195.38 0c-28.971 0-52.843-26.587-52.843-59.239s23.409-59.241 52.843-59.241c29.667 0 53.307 26.82 52.844 59.239 0 32.654-23.177 59.241-52.844 59.241"/></svg>
+      </a>
+    </label>
+
+    <!-- Heart emoji that links to patreon -->
+    <label class="md-header__button md-icon">
+      <a href="/donate">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22.957 7.21c-.004-3.064-2.391-5.576-5.191-6.482-3.478-1.125-8.064-.962-11.384.604C2.357 3.231 1.093 7.391 1.046 11.54c-.039 3.411.302 12.396 5.369 12.46 3.765.047 4.326-4.804 6.068-7.141 1.24-1.662 2.836-2.132 4.801-2.618 3.376-.836 5.678-3.501 5.673-7.031"/></svg>
+      </a>
+    </label>
+
+
+
+    <!-- Color palette -->
+    
+    <form class="md-header__option" data-md-component="palette">
+      
+      
+      
+      <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default"
+        data-md-color-primary="fff7c4" data-md-color-accent="cyan" type="radio" name="__palette"
+        id="__palette_1" />
+      
+      <label class="md-header__button md-icon" title="Switch to dark mode"
+        for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+      
+      
+      
+      
+      <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate"
+        data-md-color-primary="c9c189" data-md-color-accent="cyan" type="radio" name="__palette"
+        id="__palette_2" />
+      
+      <label class="md-header__button md-icon" title="Switch to light mode"
+        for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+      
+      
+    </form>
+    
+
+    <!-- Site language selector -->
+    
+
+    <!-- Button to open search modal -->
+    
+    <label class="md-header__button md-icon" for="__search">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+    </label>
+
+    <!-- Search interface -->
+    <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    <!-- Repository information -->
+    
+  </nav>
+
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+
+
+
+<div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
+    <div class="md-sidebar__scrollwrap">
+        <div class="md-sidebar__inner">
+            
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Philia Space" class="md-nav__button md-logo" aria-label="Philia Space" data-md-component="logo">
+      
+  <img src="../img/moe.svg" alt="logo">
+
+    </a>
+    Philia Space
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Beranda
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Panduan
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Panduan
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../panduan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Panduan Bahasa Jepang
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../panduan-ringkas-JP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Panduan Ringkas Bahasa Jepang
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rutinitas-awal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    30 Hari Awal
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kanji/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Belajar Kanji
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../font/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Perbaiki Font
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    LazyGuide - Mining
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            LazyGuide - Mining
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pengantar - LazyGuide
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Setup Utama - LazyGuide
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Setup Utama - LazyGuide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup-anki-pc-lazy-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Anki PC
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup-yomitan-pc-lazy-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Yomitan PC
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Yomitan Android
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Yomitan Android
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#download-dan-install" class="md-nav__link">
+    <span class="md-ellipsis">
+      Download dan Install
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-awal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting Awal
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#info-tambahan-dan-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      Info Tambahan dan Tips
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Info Tambahan dan Tips">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#info-1-android-yomitan-local-audio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Info 1: Android Yomitan Local Audio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#info-2-yomitan-light-dan-dark-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      Info 2: Yomitan Light dan Dark Mode
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faqs" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAQs
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FAQs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pertanyaan-1-boleh-nggak-nambahin-kamus-yomitan-sendiri" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pertanyaan 1: Boleh nggak nambahin kamus Yomitan sendiri?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pertanyaan-2-kapan-kamus-di-update-harus-update-sendiri" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pertanyaan 2: Kapan kamus di-update? Harus update sendiri?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pertanyaan-3-gimana-cara-pakai-sentence-card" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pertanyaan 3: Gimana cara pakai sentence card?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup-ShareX-pc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ShareX (Windows)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Setup PC - LazyGuide
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Setup PC - LazyGuide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup-anime-pc-lazy-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Anime
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup-LN-pc-lazy-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    LN & Buku
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup-manga-pc-lazy-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Manga
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Setup Android - LazyGuide
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Setup Android - LazyGuide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup-anime-android-lazy-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Anime
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup-LN-android-lazy-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    LN & Buku
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup-manga-android-lazy-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Manga
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Setup Lain
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            Setup Lain
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pembaruan-format-lapis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Memperbarui Format Lapis
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Lain-lain
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Lain-lain
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../riwayat-perubahan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Riwayat Perubahan
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../donate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Donate
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" >
+    <div class="md-sidebar__scrollwrap">
+        <a href="/join"><img width="100%" src="/img/discord.png"></a>
+       <!-- <a href="/donate"><img width="100%" src="/img/donate.png"></a> -->
+        <div class="md-sidebar__inner">
+            <br>
+            
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#download-dan-install" class="md-nav__link">
+    <span class="md-ellipsis">
+      Download dan Install
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-awal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting Awal
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#info-tambahan-dan-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      Info Tambahan dan Tips
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Info Tambahan dan Tips">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#info-1-android-yomitan-local-audio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Info 1: Android Yomitan Local Audio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#info-2-yomitan-light-dan-dark-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      Info 2: Yomitan Light dan Dark Mode
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faqs" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAQs
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FAQs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pertanyaan-1-boleh-nggak-nambahin-kamus-yomitan-sendiri" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pertanyaan 1: Boleh nggak nambahin kamus Yomitan sendiri?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pertanyaan-2-kapan-kamus-di-update-harus-update-sendiri" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pertanyaan 2: Kapan kamus di-update? Harus update sendiri?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pertanyaan-3-gimana-cara-pakai-sentence-card" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pertanyaan 3: Gimana cara pakai sentence card?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+        </div>
+    </div>
+</div>
+
+
+
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="setup-yomitan-di-android-lazyguide">Setup Yomitan di Android <a href="https://lazyguidejp.github.io/jp-lazy-guide/setupYomitanOnAndroid/">LazyGuide</a><a class="headerlink" href="#setup-yomitan-di-android-lazyguide" title="Permanent link">&para;</a></h1>
+<ul>
+<li>Yomitan adalah kamus hover untuk bahasa Jepang</li>
+<li>Dipakai buat <code>mining</code> ke <code>Anki</code></li>
+<li>Yomitan <a href="../img/yomitan-light.png">Light</a> | <a href="../img/yomitan-dark.png">Dark</a> Mode (<a href="https://pastebin.com/T9EkQQwm">CSS</a>)</li>
+</ul>
+<hr />
+<h2 id="download-dan-install">Download dan Install<a class="headerlink" href="#download-dan-install" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>Install <a href="https://play.google.com/store/apps/details?id=com.microsoft.emmx.canary">Edge Canary</a></p>
+</li>
+<li>
+<p>Download dari <a href="https://drive.google.com/drive/folders/1DHJ18Lk2_tVYWJ1Adhe8XByuyFBGuTr_?usp=sharing">sini</a>:</p>
+<ul>
+<li><code>Font</code></li>
+<li><code>yomitan dictionary</code></li>
+<li><code>lazyGuide-yomitan-settings</code> (download dua-duanya)</li>
+<li>Tambahan kamus <a href="https://drive.google.com/file/d/1VPvizJLN3ShjzdNbTxpY4dN33UI9l0FR/view?usp=drivesdk">JIDict</a> dan <a href="https://github.com/phi-li-a/PhiliaArchive/blob/main/Yomitan/Trilingual/%5BBETA%20VERSION%5D%20JMDict%20JP-EN-ID%20V.0.1.zip">JMDict Trilingual JP-EN-ID</a></li>
+</ul>
+</li>
+<li>
+<p>Setelah download:</p>
+<ul>
+<li>Extract (<a href="https://www.webhostinghub.com/help/learn/website/managing-files/extract-file">?</a>) <code>Font.7z</code> dan <code>yomitan dictionary.7z</code> (Password: <code>lazyguide</code>)</li>
+<li><code>yomitan dictionary.7z</code> cukup di-extract sekali, <strong>jangan extract dictionary di dalamnya</strong>.</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="setting-awal">Setting Awal<a class="headerlink" href="#setting-awal" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p>Masuk <code>Menu</code> &gt; <code>Settings</code> &gt; <code>About Microsoft Edge</code> &gt; <code>Privacy and Terms</code> &gt; tap <code>Edge Canary build number</code> 7 kali  </p>
+<ul>
+<li><code>Developer Options</code> akan aktif</li>
+</ul>
+<p><img alt="Edge Canary Build Number" height="200" src="../img/edge-canary-build-number.png" width="400" /></p>
+</li>
+<li>
+<p>Kembali ke <code>Settings</code> &gt; <code>Developer Options</code> &gt; <code>Extension install by id</code> &gt; paste ini:</p>
+<div class="highlight"><pre><span></span><code>idelnfbbmikgfiejhgmddlbkfgiifnnn
+</code></pre></div>
+</li>
+<li>
+<p>Klik <code>Add</code> Yomitan Extension lalu tunggu sampai selesai download  </p>
+<ul>
+<li><code>Welcome Page</code> akan muncul otomatis, atau buka <code>Settings</code> &gt; <code>Extensions</code> &gt; tap <code>Yomitan Popup Dictionary</code> &gt; <code>Settings (ikon roda gigi)</code></li>
+</ul>
+</li>
+<li>
+<p>Di <code>Welcome Page</code>, nyalakan <code>Enable optional permissions</code></p>
+<p><img alt="Enable optional permissions" height="200" src="../img/enable-optional-permissions.png" width="400" /></p>
+</li>
+<li>
+<p>Selanjutnya, buka <code>Settings Page</code> atau <code>Settings</code> &gt; <code>Extensions</code> &gt; tap <code>Yomitan Popup Dictionary</code> &gt; <code>Settings (ikon roda gigi)</code></p>
+</li>
+<li>
+<p>Masuk ke <code>Dictionary</code> &gt; <code>Configure installed and enabled dictionaries...</code> &gt; <code>Import</code></p>
+<ul>
+<li>Import semua kamus dari folder <code>yomitan dictionary</code> (bisa pilih semua sekaligus)</li>
+<li>Nyalakan <code>JIDict</code> dan taruh di prioritas #1 (paling atas)</li>
+</ul>
+<p><img alt="Dictionary Import" height="250" src="../img/yomitan-dictionary-import.png" width="500" /></p>
+</li>
+<li>
+<p>Scroll ke bawah, di <code>Backup</code> &gt; <code>Import Settings</code> &gt; pilih <code>lazyGuide-yomitan-settings</code> (file dari <a href="./#download-dan-install">sini</a>)</p>
+<ul>
+<li>
+<p>Pilih salah satu:</p>
+<ul>
+<li><code>lazyGuide-local-audio-yomitan-settings</code> (Instal <a href="./#info-1-android-yomitan-local-audio">Yomitan Local Audio</a> kalau pake yang ini)</li>
+<li><code>lazyGuide-non-local-audio-yomitan-settings</code></li>
+</ul>
+<p><img align="left" alt="Yomitan Import Settings" height="300" src="../img/yomitan-import-settings.png" width="600" /></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Pilih profil <code>Android (Anime, LN &amp; Manga)</code> sebagai <code>Active Profile</code></p>
+<p><img align="left" alt="Yomitan Profile" height="300" src="../img/yomitan-profiles.jpg" width="600" /></p>
+</li>
+</ol>
+<p>Setup Yomitan selesai.</p>
+<p><small>Kalau ada masalah cek <a href="./#faqs">FAQs</a></small></p>
+<hr />
+<h2 id="info-tambahan-dan-tips">Info Tambahan dan Tips<a class="headerlink" href="#info-tambahan-dan-tips" title="Permanent link">&para;</a></h2>
+<h4 id="info-1-android-yomitan-local-audio">Info 1: Android Yomitan Local Audio<a class="headerlink" href="#info-1-android-yomitan-local-audio" title="Permanent link">&para;</a></h4>
+<details class="info">
+<summary>Android Yomitan Local Audio <small>(klik di sini)</small></summary>
+<p>Syarat:</p>
+<ul>
+<li>Pastikan kamu sudah setup <a href="../setup-yomitan-pc-lazy-guide/#info-1-yomitan-local-audio">PC Yomitan Local Audio</a></li>
+<li>Sudah install <a href="https://github.com/KamWithK/AnkiconnectAndroid/releases/latest">Ankiconnect Android</a></li>
+<li>Sumber <a href="https://github.com/Aquafina-water-bottle/AnkiconnectAndroid/tree/local_audio#additional-instructions-local-audio">info</a> utama atau update lain</li>
+<li>Setup ini makan ruang <strong>3GB+</strong></li>
+</ul>
+<hr />
+<ol>
+<li>
+<p>Di <code>Anki</code> PC: <code>Tools</code> &gt; <code>Local Audio Server</code> &gt; <code>Generate Android database</code>  </p>
+<ul>
+<li>Proses ini 30+ menit (Anki nggak bisa dipakai untuk sementara, tapi masih bisa mining)</li>
+</ul>
+</li>
+<li>
+<p>Di <code>Anki</code> PC: <span class="keys"><kbd class="key-control">Ctrl</kbd></span><span class="keys"><kbd class="key-shift">Shift</kbd></span> + A (Win) / <span class="keys"><kbd class="key-command">Cmd</kbd></span><span class="keys"><kbd class="key-shift">Shift</kbd></span> + A (MacOS) atau <code>Tools</code> &gt; <code>Add-ons</code> &gt; pilih <code>Local Audio Server for Yomitan</code> &gt; <code>View Files</code>  </p>
+<ul>
+<li>Akan ada file <code>android</code> atau <code>android.db</code></li>
+</ul>
+</li>
+<li>
+<p>Di Android, buka <code>AnkiConnect Android</code> &gt; <code>Settings</code> &gt; <code>Print Local Audio Directory</code>  </p>
+<ul>
+<li>Bakal munculin path dan bikin foldernya</li>
+</ul>
+</li>
+<li>
+<p>Di lokasi dari langkah 3, biasanya: <code>Android/data/com.kamwithk.ankiconnectandroid/files/</code>  </p>
+<ul>
+<li>Paste file <code>android</code> dari PC (langkah 2) ke folder <code>files</code>  </li>
+<li>Hasilnya harus: <code>Android/data/com.kamwithk.ankiconnectandroid/files/android.db</code></li>
+</ul>
+</li>
+<li>
+<p>Pakai profil <code>local-audio-yomitan-settings</code> punyaku: <code>Android (Anime, LN &amp; Manga)</code>  </p>
+<ul>
+<li>Kalau nggak pakai profilku, masuk <code>Yomitan settings</code> &gt; <code>Audio</code> &gt; <code>Configure audio playback sources...</code> &gt; <code>Add</code> &gt; <code>Custom URL (JSON)</code>  </li>
+<li>Paste:<br />
+<code>http://localhost:8765/localaudio/get/?sources=jpod,jpod_alternate,nhk16,forvo&amp;term={term}&amp;reading={reading}</code><br />
+   dan pastikan ini di paling atas</li>
+</ul>
+</li>
+<li>
+<p>Cek apakah semua sumber audio ada  </p>
+<ul>
+<li>Kalau nggak jalan, pastikan AnkiConnect Android <code>Start Service</code> aktif  </li>
+<li>Matikan battery optimization untuk AnkiConnect Android, Ankidroid, dan Edge Canary</li>
+</ul>
+<p><img alt="Yomitan Local Audio Check" height="250" src="../img/yomitan-local-audio-check.gif" width="500" /></p>
+<p>Selesai!</p>
+</li>
+</ol>
+</details>
+<h4 id="info-2-yomitan-light-dan-dark-mode">Info 2: Yomitan Light dan Dark Mode<a class="headerlink" href="#info-2-yomitan-light-dan-dark-mode" title="Permanent link">&para;</a></h4>
+<details class="info">
+<summary>Yomitan Light dan Dark Mode <small>(klik di sini)</small></summary>
+<p>Untuk ganti tema Yomitan, masuk <code>Yomitan settings</code> &gt; <code>Appearance</code> &gt; <code>Theme</code></p>
+<p><img alt="Yomitan Theme" height="300" src="../img/yomitan-theme.png" width="600" /></p>
+</details>
+<hr />
+<h2 id="faqs">FAQs<a class="headerlink" href="#faqs" title="Permanent link">&para;</a></h2>
+<h4 id="pertanyaan-1-boleh-nggak-nambahin-kamus-yomitan-sendiri">Pertanyaan 1: Boleh nggak nambahin kamus Yomitan sendiri?<a class="headerlink" href="#pertanyaan-1-boleh-nggak-nambahin-kamus-yomitan-sendiri" title="Permanent link">&para;</a></h4>
+<details class="question">
+<summary>Boleh nggak nambah, hapus, atau ubah kamus Yomitan? <small>(klik di sini)</small></summary>
+<ul>
+<li>
+<p>Silakan, mayoritas kamus yang formatnya Anki kompatibel, tinggal lakukan langkah ke 6 di bagian <a href="../setup-yomitan-pc-lazy-guide/#setup">setup</a></p>
+</li>
+<li>
+<p>Kamu bisa cek koleksi kamus lain di <a href="https://learnjapanese.link/dictionaries">koleksi Shoui</a> dari TMW atau <a href="https://drive.google.com/drive/folders/1xURpMJN7HTtSLuVs9ZtIbE7MDRCdoU29">koleksi Marv</a> dari Yomitan</p>
+</li>
+<li>
+<p>Kamu juga bisa edit di bagian <code>Yomitan settings</code> &gt; <code>Anki</code> &gt; <code>Configure Anki card format...</code> &gt; <code>MainDefinition</code> &gt; pilih dari dropdown <code>single-glossary-YANG-KAMU-MAU</code></p>
+</li>
+<li>
+<p>Kalau ganti <code>MainDefinition</code>, kamu harus edit tiap <code>Profile</code></p>
+</li>
+</ul>
+</details>
+<h4 id="pertanyaan-2-kapan-kamus-di-update-harus-update-sendiri">Pertanyaan 2: Kapan kamus di-update? Harus update sendiri?<a class="headerlink" href="#pertanyaan-2-kapan-kamus-di-update-harus-update-sendiri" title="Permanent link">&para;</a></h4>
+<details class="question">
+<summary>Kapan kamusnya di-update? Perlu update sendiri gak? <small>(klik di sini)</small></summary>
+<ul>
+<li>Aku jarang update; nggak perlu buru-buru ke versi terbaru karena isinya jarang berubah.  </li>
+<li>Tujuanku stabilitas jangka panjang tanpa pusing update.  </li>
+<li>Tapi kalau mau ngejar yang paling baru, bisa update sendiri.</li>
+</ul>
+</details>
+<h4 id="pertanyaan-3-gimana-cara-pakai-sentence-card">Pertanyaan 3: Gimana cara pakai sentence card?<a class="headerlink" href="#pertanyaan-3-gimana-cara-pakai-sentence-card" title="Permanent link">&para;</a></h4>
+<details class="question">
+<summary>Gimana cara pakai sentence card? <small>(klik di sini)</small></summary>
+<p>Di <code>Yomitan settings</code> &gt; <code>Anki</code> &gt; <code>configure Anki flashcard...</code></p>
+<p><img alt="Sentence Card Instruction 1" height="300" src="../img/yomitan-anki-active-profile.jpg" width="600" /></p>
+<p>Di <code>Expression</code>, scroll ke bawah dan cari <code>IsSentenceCard</code>, ubah nilainya jadi <code>1</code> lalu tutup.</p>
+<p><img alt="Sentence Card Instruction 2" height="300" src="../img/yomitan-sentence-card.jpg" width="600" /></p>
+<p>Terapkan ini di semua profil dan pastikan <code>Monolingual</code>, <code>Bilingual</code>, <code>Android (Anime, LN &amp; Manga)</code> dan <code>Android (VN)</code> udah diubah konfigurasinya.</p>
+<p><img align="left" alt="Yomitan Profile" height="300" src="../img/yomitan-profiles.jpg" width="600" /></p>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.sections", "navigation.expand", "search.suggest", "search.highlighting", "search.share"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+        <script src="../javascripts/extra.js"></script>
+      
+        <script src="../javascripts/lang.js"></script>
+      
+        <script src="../js/open_in_new_tab.js"></script>
+      
+    
+  </body>
+</html>
