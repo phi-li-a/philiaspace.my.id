@@ -18,6 +18,26 @@ hide:
 
 ---
 
+### Oktober
+
+**31-10-2026**
+
+- Landing Page & Desain
+       - Pembaruan beranda dokumentasi (`index.md`) bergaya Nextra docs: navigasi roadmap 3 fase (Fondasi, Tooling, Immersion), katalog setup perangkat (Desktop & Mobile), dan kanal komunitas
+       - Penyesuaian proporsi visual: reduksi ukuran header 25% dan kartu hero landing page 50%
+- Tampilan & Antarmuka
+       - Pembaruan layout dokumentasi bergaya Nextra docs dengan header & sidebar terkunci (*isolated scrolling*)
+       - Penyelarasan tema gelap (*slate mode*) dengan palet warna biru logo Philia Space (`#00bbff` dan `#38bdf8`)
+       - Pembaruan logo situs di header dan icon tab browser (*favicon*) memakai logo resmi baru Philia Space
+       - Perbaikan navigasi pagination footer (Previous & Next): lebar tombol simetris seimbang 50/50 dan judul panjang tidak terpotong (*no clipping*)
+       - Pembaruan tombol donasi di header dengan ikon hati
+       - Perbaikan styling komponen callout (*admonition*) agar rapi dan menyatu dengan alur teks
+- Pembaruan Konten
+       - Penyuntingan komprehensif naskah [Panduan Bahasa Jepang](panduan.md) agar lebih natural, sistematis, dan terstruktur
+       - Pembaruan tautan panduan keyboard Jepang macOS di [Rutinitas Awal](rutinitas-awal.md) ke panduan resmi Apple Indonesia
+
+---
+
 ### April
 
 **13-04-2025**

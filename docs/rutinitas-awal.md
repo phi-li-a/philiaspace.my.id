@@ -434,7 +434,7 @@ Pakai [Jisho.org dengan tag #sentence](https://jisho.org/search/%20%23sentences%
 
 **Pasang Keyboard Jepang**  
 
-Ikuti artikel ini: [Windows](https://support.microsoft.com/id-id/windows/mengelola-pengaturan-tata-letak-bahasa-dan-keyboard-input-di-windows-12a10cb4-8626-9b77-0ccb-5013e0c7c7a2#windowsversion=windows_10) atau [Mac](https://support.apple.com/id-id/guide/mac-help/mchlp1406/15.0/mac/15.0#mchlpa10dc0f)  
+Ikuti artikel ini: [Windows](https://support.microsoft.com/id-id/windows/mengelola-pengaturan-tata-letak-bahasa-dan-keyboard-input-di-windows-12a10cb4-8626-9b77-0ccb-5013e0c7c7a2#windowsversion=windows_10) atau [Mac](https://support.apple.com/id-id/guide/mac-help/mchlp1406/mac)  
 
 Setelah itu, ini fungsi-fungsi yang sering kepakai:  
 === "Windows"
