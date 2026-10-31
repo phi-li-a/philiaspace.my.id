@@ -1,31 +1,948 @@
-.md-typeset ul li, .md-typeset ol li{
-    margin-bottom: 0em;
+/* ==========================================================================
+   Philia Space - Nextra Docs Theme (Default MkDocs Scaling & Typography)
+   Preserving original colors: #00bbff (accent/primary)
+   ========================================================================== */
+
+/* --- Root Variables & Color Tokens --- */
+:root {
+  --nx-header-height: 3rem; /* 48px navbar (reduced 25% from 64px) */
 }
 
+/* Light Theme Variables */
 [data-md-color-scheme="default"] {
+  --md-default-bg-color: #ffffff;
+  --md-default-fg-color: #111827;
+  --md-default-fg-color--light: #4b5563;
+  --md-default-fg-color--lighter: #9ca3af;
+  --md-default-fg-color--lightest: #e5e7eb;
+
+  /* Philia Space Signature Light Colors (#00bbff from site/stylesheets/extra.css) */
+  --md-primary-fg-color: #00bbff;
+  --md-primary-fg-color--light: #33c9ff;
+  --md-primary-fg-color--dark: #009ce0;
+  --md-primary-fg-color--text: #ffffff;
+  --md-accent-fg-color: #00bbff;
+  --md-typeset-a-color: #00bbff;
   --md-typeset-kbd-border-color: #517ae7;
+
+  /* Nextra UI Tokens */
+  --nx-border: rgba(0, 0, 0, 0.08);
+  --nx-border-hover: rgba(0, 0, 0, 0.16);
+  --nx-hover-bg: rgba(0, 0, 0, 0.04);
+  --nx-active-bg: rgba(0, 187, 255, 0.12);
+  --nx-active-fg: #0088cc;
+  --nx-header-bg: #00bbff;
+  --nx-sidebar-bg: #ffffff;
+  --nx-code-bg: #f8fafc;
 }
 
-.md-typeset kbd {
-  font-size: .78em;
+/* Dark Theme Variables */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #111111;
+  --md-default-fg-color: #f3f4f6;
+  --md-default-fg-color--light: #9ca3af;
+  --md-default-fg-color--lighter: #6b7280;
+  --md-default-fg-color--lightest: #262626;
+
+  /* Philia Space Signature Dark Colors (Matching #00bbff logo blue) */
+  --md-primary-fg-color: #00bbff;
+  --md-primary-fg-color--light: #38bdf8;
+  --md-primary-fg-color--dark: #009ce0;
+  --md-primary-fg-color--text: #ffffff;
+  --md-accent-fg-color: #00bbff;
+  --md-typeset-a-color: #38bdf8;
+  --md-typeset-kbd-border-color: #00bbff;
+
+  /* Nextra UI Tokens */
+  --nx-border: rgba(255, 255, 255, 0.08);
+  --nx-border-hover: rgba(255, 255, 255, 0.18);
+  --nx-hover-bg: rgba(255, 255, 255, 0.05);
+  --nx-active-bg: rgba(0, 187, 255, 0.15);
+  --nx-active-fg: #38bdf8;
+  --nx-header-bg: rgba(17, 17, 17, 0.82);
+  --nx-sidebar-bg: #111111;
+  --nx-code-bg: #18181b;
 }
 
+/* --- Base Body & Typography (Keep MkDocs Default Scaling) --- */
+html, body {
+  overflow-x: clip;
+}
+
+/* --- Nextra Header (Permanently Fixed & Locked) --- */
+.md-header {
+  height: var(--nx-header-height);
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  z-index: 30 !important;
+  background-color: var(--nx-header-bg) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--nx-border) !important;
+  box-shadow: none !important;
+}
+
+.md-container {
+  padding-top: var(--nx-header-height) !important;
+}
+
+.md-header__inner {
+  height: 100%;
+  max-width: 61rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+}
+
+/* Logo & Brand text */
+.md-header__button.md-logo {
+  padding: 0;
+  margin-right: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 1.5rem;
+  width: 1.5rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1.5px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.md-header__button.md-logo:hover img,
+.md-header__button.md-logo:hover svg {
+  transform: scale(1.05);
+  border-color: rgba(255, 255, 255, 0.85);
+}
+
+/* Sidebar drawer logo */
+.md-nav--primary .md-nav__button.md-logo img,
+.md-nav--primary .md-nav__button.md-logo svg {
+  height: 1.5rem;
+  width: 1.5rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.md-header__title {
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: -0.02em;
+}
+
+.md-header__title .md-header__ellipsis {
+  height: auto;
+}
+
+.md-header__topic {
+  font-weight: 700;
+}
+
+/* Header Text & Icon Colors (Light Mode: White on Blue #00bbff) */
+[data-md-color-scheme="default"] .md-header {
+  background-color: #00bbff !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+[data-md-color-scheme="default"] .md-header .md-header__title,
+[data-md-color-scheme="default"] .md-header .md-header__topic,
+[data-md-color-scheme="default"] .md-header .md-header__button.md-icon,
+[data-md-color-scheme="default"] .md-header .md-header__source,
+[data-md-color-scheme="default"] .md-header .md-source__repository {
+  color: #ffffff !important;
+}
+
+[data-md-color-scheme="default"] .md-header .md-header__button.md-icon:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  color: #ffffff !important;
+}
+
+/* Header Text & Icon Colors (Dark Mode) */
+[data-md-color-scheme="slate"] .md-header .md-header__title,
+[data-md-color-scheme="slate"] .md-header .md-header__topic,
+[data-md-color-scheme="slate"] .md-header .md-header__source {
+  color: var(--md-default-fg-color) !important;
+}
+
+[data-md-color-scheme="slate"] .md-header .md-header__button.md-icon {
+  color: var(--md-default-fg-color--light) !important;
+}
+
+[data-md-color-scheme="slate"] .md-header .md-header__button.md-icon:hover {
+  background-color: var(--nx-hover-bg) !important;
+  color: var(--md-default-fg-color) !important;
+}
+
+/* Action icons in Header */
+.md-header__button.md-icon {
+  border-radius: 6px;
+  padding: 0.35rem;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+/* Search Bar (Nextra Pill Input on Desktop) */
+@media screen and (min-width: 60em) {
+  .md-search {
+    padding: 0;
+    margin-right: 1rem;
+  }
+  .md-search__inner {
+    width: 15rem;
+  }
+  .md-search__form {
+    border-radius: 8px !important;
+    height: 2.25rem !important;
+    transition: border-color 0.15s ease, background-color 0.15s ease;
+  }
+  
+  /* Light Mode Search Input */
+  [data-md-color-scheme="default"] .md-search__form {
+    background-color: rgba(255, 255, 255, 0.18) !important;
+    border: 1px solid rgba(255, 255, 255, 0.28) !important;
+  }
+  [data-md-color-scheme="default"] .md-search__form:hover,
+  [data-md-color-scheme="default"] .md-search__form:focus-within {
+    background-color: rgba(255, 255, 255, 0.26) !important;
+    border-color: rgba(255, 255, 255, 0.55) !important;
+  }
+  [data-md-color-scheme="default"] .md-search__input {
+    color: #ffffff !important;
+  }
+  [data-md-color-scheme="default"] .md-search__input::placeholder {
+    color: rgba(255, 255, 255, 0.75) !important;
+  }
+  [data-md-color-scheme="default"] .md-search__icon {
+    color: #ffffff !important;
+  }
+
+  /* Dark Mode Search Input */
+  [data-md-color-scheme="slate"] .md-search__form {
+    background-color: var(--nx-hover-bg) !important;
+    border: 1px solid var(--nx-border) !important;
+  }
+  [data-md-color-scheme="slate"] .md-search__form:hover,
+  [data-md-color-scheme="slate"] .md-search__form:focus-within {
+    background-color: var(--md-default-bg-color) !important;
+    border-color: var(--nx-border-hover) !important;
+  }
+  [data-md-color-scheme="slate"] .md-search__input {
+    color: var(--md-default-fg-color) !important;
+  }
+  [data-md-color-scheme="slate"] .md-search__input::placeholder {
+    color: var(--md-default-fg-color--lighter) !important;
+  }
+  [data-md-color-scheme="slate"] .md-search__icon {
+    color: var(--md-default-fg-color--lighter) !important;
+  }
+
+  .md-search__input {
+    font-size: 0.8125rem !important;
+    padding-left: 2.25rem !important;
+  }
+  .md-search__icon {
+    width: 1rem !important;
+    height: 1rem !important;
+  }
+}
+
+/* --- Layout Structure (Default MkDocs Grid) --- */
+.md-main__inner {
+  margin-top: 0;
+}
+
+/* --- Left Sidebar (Locked & Isolated Scroll, Default Width) --- */
+@media screen and (min-width: 60em) {
+  .md-sidebar--primary {
+    position: sticky !important;
+    top: var(--nx-header-height) !important;
+    height: calc(100vh - var(--nx-header-height)) !important;
+    max-height: calc(100vh - var(--nx-header-height)) !important;
+    overflow: hidden !important;
+    align-self: flex-start !important;
+    padding: 0 !important;
+  }
+  .md-sidebar--primary .md-sidebar__scrollwrap {
+    position: relative !important;
+    height: 100% !important;
+    max-height: 100% !important;
+    overflow-y: auto !important;
+    overscroll-behavior: contain !important;
+    scrollbar-width: thin;
+    scrollbar-color: var(--nx-border) transparent;
+  }
+  .md-nav--primary {
+    padding: 1rem 0.5rem 2rem;
+  }
+}
+
+.md-sidebar--primary .md-sidebar__scrollwrap {
+  margin: 0;
+  scrollbar-width: thin;
+  scrollbar-color: var(--nx-border) transparent;
+}
+
+.md-nav--primary .md-nav__title {
+  display: none; /* Hide redundant sidebar title */
+}
+
+.md-nav__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+/* Sidebar Item Links */
+.md-nav--primary .md-nav__link {
+  border-radius: 6px;
+  padding: 0.35rem 0.65rem;
+  transition: background-color 0.15s ease, color 0.15s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.md-nav--primary .md-nav__link:hover {
+  background-color: var(--nx-hover-bg);
+  color: var(--md-default-fg-color) !important;
+}
+
+/* Active Item (Nextra Signature Pill) */
+.md-nav--primary .md-nav__item--active > .md-nav__link,
+.md-nav--primary .md-nav__link--active {
+  background-color: var(--nx-active-bg) !important;
+  color: var(--nx-active-fg) !important;
+  font-weight: 600 !important;
+}
+
+/* Nested Folder Section */
+.md-nav--primary .md-nav__item--nested > .md-nav__link {
+  font-weight: 600;
+  color: var(--md-default-fg-color) !important;
+}
+
+.md-nav--primary .md-nav__item--nested > .md-nav {
+  border-left: 1px solid var(--nx-border);
+  margin-left: 0.85rem;
+  padding-left: 0.5rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.35rem;
+}
+
+/* --- Main Article Content (Default Typography & Scaling) --- */
+.md-content__inner {
+  padding: 1.5rem 0.8rem 4rem;
+}
+
+.md-typeset hr {
+  border: 0;
+  border-top: 1px solid var(--nx-border);
+  margin: 2.5rem 0;
+}
+
+/* Preserved Links */
+.md-typeset a {
+  color: var(--md-typeset-a-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.md-typeset a:hover {
+  text-decoration: underline;
+}
+
+/* Preserved Blockquote */
 .md-typeset blockquote {
-	border-left: .2rem solid hsl(262deg 47% 55%);
-
+  border-left: 0.25rem solid hsl(262deg 47% 55%);
+  background-color: var(--nx-hover-bg);
+  border-radius: 0 6px 6px 0;
+  padding: 0.75rem 1rem;
+  margin: 1.5rem 0;
+  color: var(--md-default-fg-color--light);
 }
 
-[data-md-color-primary=blue-grey] {
-    --md-primary-fg-color: #0b5570;
-    --md-primary-fg-color--light: #0F6888;
-    --md-primary-fg-color--dark: #0B516A;
-    --md-primary-bg-color: #fff;
-    --md-typeset-a-color: #00bbff;
-    --md-primary-bg-color--light: hsla(0,0%,100%,.7);
+/* Preserved Kbd */
+.md-typeset kbd {
+  font-size: 0.78em;
+  border: 1px solid var(--md-typeset-kbd-border-color);
+  background-color: var(--nx-hover-bg);
+  border-radius: 4px;
+  padding: 0.15em 0.4em;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08);
 }
 
-.md-banner__inner {
-    font-size: .7rem;
-    margin: .1rem auto;
-    padding: 0 .8rem;
+/* --- Nextra Buttons & CTA --- */
+.md-typeset .md-button {
+  font-family: var(--nx-font-sans);
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  padding: 0.6em 1.25em;
+  transition: all 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  line-height: 1.4;
+  text-decoration: none !important;
+}
+
+/* Light Mode Primary Button */
+[data-md-color-scheme="default"] .md-typeset .md-button--primary {
+  background-color: #00bbff !important;
+  border-color: #00bbff !important;
+  color: #071727 !important;
+  box-shadow: 0 1px 2px rgba(0, 187, 255, 0.25);
+}
+
+[data-md-color-scheme="default"] .md-typeset .md-button--primary:hover,
+[data-md-color-scheme="default"] .md-typeset .md-button--primary:focus {
+  background-color: #009ce0 !important;
+  border-color: #009ce0 !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 12px rgba(0, 187, 255, 0.35);
+}
+
+/* Light Mode Secondary / Outline Button */
+[data-md-color-scheme="default"] .md-typeset .md-button:not(.md-button--primary) {
+  border-color: #00bbff !important;
+  color: #0088cc !important;
+  background-color: transparent;
+}
+
+[data-md-color-scheme="default"] .md-typeset .md-button:not(.md-button--primary):hover {
+  background-color: rgba(0, 187, 255, 0.08) !important;
+  border-color: #009ce0 !important;
+  color: #0077b6 !important;
+}
+
+/* Dark Mode Buttons */
+[data-md-color-scheme="slate"] .md-typeset .md-button--primary {
+  background-color: #38bdf8 !important;
+  border-color: #38bdf8 !important;
+  color: #071727 !important;
+  box-shadow: 0 1px 2px rgba(56, 189, 248, 0.25);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .md-button--primary:hover,
+[data-md-color-scheme="slate"] .md-typeset .md-button--primary:focus {
+  background-color: #0284c7 !important;
+  border-color: #0284c7 !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 12px rgba(56, 189, 248, 0.35);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .md-button:not(.md-button--primary) {
+  border-color: #38bdf8 !important;
+  color: #38bdf8 !important;
+  background-color: transparent;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .md-button:not(.md-button--primary):hover {
+  background-color: rgba(56, 189, 248, 0.12) !important;
+}
+
+/* --- Nextra Callouts (Admonitions) --- */
+.md-typeset .admonition {
+  border: 1px solid var(--nx-border);
+  border-left-width: 4px;
+  border-radius: 8px;
+  box-shadow: none !important;
+  margin: 1.5rem 0;
+  overflow: hidden;
+  background-color: var(--nx-hover-bg);
+  padding: 0;
+}
+
+.md-typeset .admonition .admonition-title {
+  margin: 0;
+  padding: 0.65rem 1rem 0.65rem 2.5rem;
+  background-color: transparent;
+  border-bottom: 1px solid var(--nx-border);
+}
+
+[dir="ltr"] .md-typeset .admonition .admonition-title:before {
+  left: 0.85rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.md-typeset .admonition > :not(.admonition-title) {
+  padding: 0.75rem 1rem;
+  margin: 0;
+}
+
+/* Callout Accent Colors */
+.md-typeset .admonition.warning {
+  border-left-color: #f59e0b;
+}
+.md-typeset .admonition.note,
+.md-typeset .admonition.info {
+  border-left-color: var(--md-accent-fg-color);
+}
+.md-typeset .admonition.danger {
+  border-left-color: #ef4444;
+}
+.md-typeset .admonition.tip {
+  border-left-color: #10b981;
+}
+
+/* --- Nextra Code Blocks --- */
+.md-typeset .highlight {
+  border: 1px solid var(--nx-border);
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 1.5rem 0;
+  background-color: var(--nx-code-bg);
+}
+
+.md-typeset pre > code {
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.md-typeset :not(pre) > code {
+  background-color: var(--nx-hover-bg);
+  border: 1px solid var(--nx-border);
+  border-radius: 5px;
+  padding: 0.2em 0.4em;
+  font-size: 0.85em;
+  color: var(--md-default-fg-color);
+}
+
+/* --- Nextra Tables --- */
+.md-typeset table:not([class]) {
+  border: 1px solid var(--nx-border);
+  border-radius: 8px;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow-x: auto;
+  display: block;
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--nx-hover-bg);
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 0.65rem 1rem;
+  border-bottom: 1px solid var(--nx-border);
+  text-align: left;
+}
+
+.md-typeset table:not([class]) td {
+  padding: 0.65rem 1rem;
+  font-size: 0.9rem;
+  border-bottom: 1px solid var(--nx-border);
+}
+
+.md-typeset table:not([class]) tr:last-child td {
+  border-bottom: 0;
+}
+
+/* --- Right Sidebar (Locked & Isolated Scroll, Default Width) --- */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--secondary {
+    position: sticky !important;
+    top: var(--nx-header-height) !important;
+    height: calc(100vh - var(--nx-header-height)) !important;
+    max-height: calc(100vh - var(--nx-header-height)) !important;
+    overflow: hidden !important;
+    align-self: flex-start !important;
+    padding: 0 !important;
+  }
+  .md-sidebar--secondary .md-sidebar__scrollwrap {
+    position: relative !important;
+    height: 100% !important;
+    max-height: 100% !important;
+    overflow-y: auto !important;
+    overscroll-behavior: contain !important;
+    scrollbar-width: thin;
+    scrollbar-color: var(--nx-border) transparent;
+  }
+  .md-sidebar--secondary .md-sidebar__inner {
+    padding: 1.25rem 0.5rem 2rem;
+  }
+}
+
+.md-sidebar--secondary .md-nav--secondary .md-nav__title {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+  padding: 0;
+}
+
+.md-sidebar--secondary .md-nav__link {
+  padding: 0.25rem 0;
+  transition: color 0.15s ease;
+}
+
+.md-sidebar--secondary .md-nav__link:hover {
+  color: var(--md-default-fg-color);
+}
+
+.md-sidebar--secondary .md-nav__link--active {
+  color: var(--md-default-fg-color) !important;
+  font-weight: 600;
+}
+
+/* --- Nextra Pagination Cards Footer (Symmetric, No Clipping) --- */
+.md-footer {
+  background: transparent !important;
+  color: var(--md-default-fg-color) !important;
+}
+
+.md-footer__inner {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.65rem;
+  padding: 0.75rem 0;
+  border-top: 1px solid var(--nx-border);
+  width: 100%;
+}
+
+.md-footer__link {
+  display: flex !important;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 0.65rem;
+  border: 1px solid var(--nx-border);
+  border-radius: 6px;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color) !important;
+  text-decoration: none !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  min-height: 44px; /* R-03 touch target standard */
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.md-footer__link:hover {
+  border-color: var(--nx-border-hover);
+  background-color: var(--nx-hover-bg);
+}
+
+.md-footer__link--prev {
+  grid-column: 1 !important;
+  justify-content: flex-start;
+}
+
+.md-footer__link--next {
+  grid-column: 2 !important;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+/* Ensure Prev & Next titles are never hidden by MkDocs Material mobile overrides */
+.md-footer__link--prev .md-footer__title {
+  display: block !important;
+  text-align: left;
+}
+
+.md-footer__link--next .md-footer__title {
+  display: block !important;
+  text-align: right;
+}
+
+.md-footer__title {
+  flex: 1 1 auto;
+  min-width: 0;
+  max-width: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.md-footer__button.md-icon {
+  margin: 0;
+  padding: 0;
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.md-footer__button.md-icon svg {
+  width: 0.85rem !important;
+  height: 0.85rem !important;
+}
+
+.md-footer__direction {
+  display: block;
+  font-size: 0.5625rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+  color: var(--md-default-fg-color--lighter);
+  margin-bottom: 0.1rem;
+}
+
+/* Allow text to wrap cleanly without truncation */
+.md-footer__title .md-ellipsis {
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--md-default-fg-color);
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: unset !important;
+  word-break: break-word;
+}
+
+.md-footer-meta {
+  background: transparent !important;
+  border-top: 1px solid var(--nx-border);
+  font-size: 0.6875rem;
+  color: var(--md-default-fg-color--lighter);
+  padding: 0.5rem 0;
+}
+
+/* Small mobile breakpoint: stack cleanly to prevent narrow squeezed columns */
+@media screen and (max-width: 480px) {
+  .md-footer__inner {
+    grid-template-columns: 1fr !important;
+    gap: 0.5rem;
+  }
+  .md-footer__link--prev {
+    grid-column: 1 !important;
+  }
+  .md-footer__link--next {
+    grid-column: 1 !important;
+  }
+}
+
+/* --- Philia Space Custom Content Components (Reduced 50% Visual Scale) --- */
+.ps-hero {
+  padding: 1.125rem 0 0.875rem;
+  border-bottom: 1px solid var(--nx-border);
+  margin-bottom: 1.125rem;
+}
+
+.ps-hero h1 {
+  font-size: clamp(1.15rem, 2.2vw, 1.45rem);
+  font-weight: 800;
+  line-height: 1.15;
+  margin: 0 0 0.35rem;
+  letter-spacing: -0.025em;
+}
+
+.ps-hero p {
+  font-size: clamp(0.75rem, 1.2vw, 0.8125rem);
+  color: var(--md-default-fg-color--light);
+  line-height: 1.45;
+  margin: 0 0 0.75rem;
+  max-width: 34rem;
+}
+
+.ps-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+  align-items: center;
+}
+
+.ps-actions .md-button {
+  min-height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem 0.65rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.ps-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+  margin: 0.65rem 0 1rem;
+}
+
+@media (min-width: 640px) {
+  .ps-grid-2 { grid-template-columns: repeat(2, 1fr); }
+  .ps-grid-3 { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 960px) {
+  .ps-grid-3 { grid-template-columns: repeat(3, 1fr); }
+}
+
+.ps-card {
+  border: 1px solid var(--nx-border);
+  border-radius: 4px;
+  padding: 0.65rem 0.75rem;
+  background: var(--md-default-bg-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.ps-card:hover {
+  border-color: var(--nx-border-hover);
+  transform: translateY(-1px);
+}
+
+.ps-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.25rem;
+}
+
+.ps-step-tag {
+  font-size: 0.625rem;
+  font-weight: 700;
+  padding: 0.08rem 0.28rem;
+  border-radius: 2px;
+  background: var(--nx-active-bg);
+  color: var(--nx-active-fg);
+  letter-spacing: 0.04em;
+}
+
+.ps-card h3 {
+  font-size: 0.875rem;
+  font-weight: 700;
+  margin: 0 0 0.2rem;
+  line-height: 1.25;
+}
+
+.ps-card p {
+  font-size: 0.75rem;
+  color: var(--md-default-fg-color--light);
+  line-height: 1.4;
+  margin: 0 0 0.45rem;
+}
+
+.ps-card-links {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0.25rem 0 0 !important;
+  border-top: 1px solid var(--nx-border);
+  display: flex;
+  flex-direction: column;
+  gap: 0.0625rem;
+}
+
+.ps-card-links li {
+  display: flex;
+  align-items: center;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.ps-card-links a {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  min-height: 24px;
+  padding: 0.15rem 0.3rem;
+  border-radius: 3px;
+  font-size: 0.75rem;
+  color: var(--md-default-fg-color);
+  text-decoration: none;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.ps-card-links a:hover {
+  background-color: var(--nx-hover-bg);
+  color: var(--md-typeset-a-color);
+}
+
+.ps-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.5625rem;
+  font-weight: 700;
+  padding: 0.05rem 0.25rem;
+  border-radius: 2px;
+  margin-right: 0.25rem;
+  border: 1px solid var(--nx-border);
+  color: var(--md-default-fg-color--lighter);
+  flex-shrink: 0;
+  letter-spacing: 0.03em;
+}
+
+/* Page Section Headings (Reduced 50%) */
+.md-typeset h2 {
+  font-size: 0.95rem !important;
+  margin: 1rem 0 0.4rem !important;
+  line-height: 1.25 !important;
+  font-weight: 700 !important;
+}
+
+/* --- Mobile Responsive & Drawer (antislop-layoutmobile) --- */
+@media screen and (max-width: 59.984375em) {
+  :root {
+    --nx-header-height: 2.625rem; /* reduced 25% from 3.5rem */
+  }
+
+  .md-header {
+    height: var(--nx-header-height) !important;
+  }
+
+  .md-header__inner {
+    padding: 0 0.5rem;
+  }
+
+  /* Hamburger tap target */
+  .md-header__button.md-icon[for="__drawer"] {
+    min-width: 40px;
+    min-height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.15rem;
+    cursor: pointer;
+  }
+
+  /* Mobile Drawer sits cleanly below fixed header, never covered */
+  .md-sidebar--primary {
+    top: var(--nx-header-height) !important;
+    height: calc(100vh - var(--nx-header-height)) !important;
+    max-height: calc(100vh - var(--nx-header-height)) !important;
+    z-index: 25 !important;
+    border-right: 1px solid var(--nx-border) !important;
+  }
+
+  .md-overlay {
+    top: var(--nx-header-height) !important;
+    z-index: 24 !important;
+  }
+
+  /* Mobile Drawer isolated scrolling */
+  .md-sidebar--primary .md-sidebar__scrollwrap {
+    position: relative !important;
+    height: 100% !important;
+    max-height: 100% !important;
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain !important;
+    padding-bottom: 2rem;
+  }
+
+  /* Mobile Navigation tap targets */
+  .md-nav--primary .md-nav__link {
+    min-height: 36px;
+    padding: 0.4rem 0.65rem;
+    font-size: 0.8125rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .md-content__inner {
+    padding: 0.75rem 0.5rem 1.5rem;
+  }
 }
