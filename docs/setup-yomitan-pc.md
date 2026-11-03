@@ -21,7 +21,7 @@ Sebelum memulai Mining dengan Yomitan. Kamu perlu menyesuaikan Deck Anki yang ka
 Download file APKG dari sini untuk mengimpor template [Note Type Mining-JP](https://github.com/rudnam/JP-study/raw/main/Mining_temp.apkg).  
 Setelah didownload, langsung buka dan import.
 
-[![](img/Ganti-Deck:Note-Type-0-5.jpg)](img/Ganti-Deck:Note-Type-0-5.jpg){ data-md-img="true" style="max-width: 100%; width: 40%;" }
+[![](img/Ganti-Deck-Note-Type-0-5.jpg)](img/Ganti-Deck-Note-Type-0-5.jpg){ data-md-img="true" style="max-width: 100%; width: 40%;" }
 
 ---
 ### <b>Local Audio for Yomichan (Opsional)</b>
