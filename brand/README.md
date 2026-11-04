@@ -1,6 +1,6 @@
 # Brand Guideline Philia Space
 
-Pedoman identitas visual untuk philiaspace.my.id. Draft v0.2, November 2026, diekspor dari brand kit FigCraft. Versi PDF lengkap (8 halaman): [philiaspace-brand-guidelines.pdf](brand/philiaspace-brand-guidelines.pdf).
+Pedoman identitas visual untuk philiaspace.my.id. Draft v0.2, November 2026, diekspor dari brand kit FigCraft.
 
 ## Ringkasan
 
