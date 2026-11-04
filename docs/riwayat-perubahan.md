@@ -32,6 +32,15 @@ hide:
 - Perbaikan
        - Teks di atas warna biru Langit diganti ke Ink (`#111827`): kontras putih di atas `#00bbff` hanya 2.2:1 dan tidak lolos WCAG
        - Gaya kartu dan grid lama dipertahankan untuk halaman [Proyek Komunitas](proyek.md)
+       - Daftar poin di [Panduan Bahasa Jepang](panduan.md) yang menyatu jadi satu baris diperbaiki; baris alur membaca yang tampil sebagai rumus mentah diganti teks biasa
+       - Tautan mati gohoneko di Panduan (kuis kana, Tae Kim, Sakubi) diganti ke situs yang hidup
+- Pembaruan Konten
+       - [Panduan Bahasa Jepang](panduan.md) ditulis ulang dengan register lebih santai; istilah "imersi" diseragamkan jadi "immersion"
+       - Bagian 3.1 sampai penutup dilokalisasi ulang mengikuti TheMoeWay versi terbaru (output sejak awal, pelafalan, tolok ukur kemajuan, penutup soal mining)
+       - Disamakan dengan TheMoeWay: target belajar kana 3 minggu sampai sebulan, tiga level menyimak, dan catatan boleh menonton tanpa takarir sejak belajar kana
+       - Video kana jadi tab (ENG) dengan tambahan Hiragana dan Katakana berbahasa Indonesia (IDN) dari Ryu Sensei; kuis kana ke DJT Guide dan Philia Shizen; Tadoku ke Level Start versi Inggris; kamus ke JIDict beserta cara pasang sebagai aplikasi di iOS dan Android
+       - Penilaian kartu Anki jadi tabel centang/silang; alur harian jadi tabel; tangkapan layar halaman unduh Anki diperbarui (versi 26.09.3) dengan catatan AnkiMobile iOS berbayar
+       - Tautan diperbarui: Kaishi (JP-EN), dek komunitas Discord, transkrip Cure Dolly ke kellenok.github.io
 - Penambahan
        - Halaman baru [Proyek Komunitas](proyek.md): JIDict sebagai proyek utama (deskripsi, cara pasang, tautan repo dan versi web) serta alat buatan komunitas lainnya (Philia Bunrei, Tes Frekuensi Kosakata, Jimaku Bunseki, Shizen, Philia Kensaku, JobApp Mailer)
        - Entri navigasi "Proyek Komunitas" dan tautan dari beranda

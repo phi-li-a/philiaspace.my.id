@@ -7,89 +7,89 @@ Diunggah: 10 Agustus 2025 – `Yaaacha`
 ---
 
 ??? warning "Perhatian <small>(klik di sini)</small>"
-    - Panduan ini merupakan adaptasi dan lokalisasi dari [TheMoeWay](https://learnjapanese.moe/guide/) dengan penyesuaian referensi serta sumber belajar berbahasa Indonesia.
-    - Jika kamu nyaman membaca panduan berbahasa Inggris, kamu juga dapat membaca versi aslinya di tautan tersebut.
+    - Panduan ini adaptasi dan lokalisasi dari [TheMoeWay](https://learnjapanese.moe/guide/), dengan referensi dan sumber belajar yang diganti ke versi bahasa Indonesia.
+    - Kalau kamu nyaman baca panduan bahasa Inggris, versi aslinya ada di tautan itu.
 
-*Jika kamu ingin langsung ke praktik teknis, silakan lompat ke [2.1 Cara belajar bahasa Jepang](#21-cara-belajar-bahasa-jepang).*
+*Mau langsung ke bagian praktik? Lompat ke [2.1 Cara belajar bahasa Jepang](#21-cara-belajar-bahasa-jepang).*
 
 ## 1.1 Mengapa banyak orang “gagal” belajar bahasa Jepang
 
-Mayoritas pembelajar memiliki tujuan sederhana: menikmati konten berbahasa Jepang tanpa bergantung pada terjemahan dan mampu berbicara dengan lancar. Namun, kenyataannya banyak orang terhenti di tengah jalan meski sudah belajar bertahun-tahun. Apakah bahasa Jepang memang terlalu sulit, atau usaha mereka yang kurang?
+Kebanyakan orang belajar bahasa Jepang dengan tujuan sederhana: bisa menikmati konten Jepang tanpa bergantung pada terjemahan, dan bisa ngobrol dengan lancar. Nyatanya banyak yang berhenti di tengah jalan padahal sudah belajar bertahun-tahun. Apakah bahasa Jepangnya yang terlalu sulit, atau usahanya yang kurang?
 
-Masalah utamanya bukan pada bakat atau tingkat kesulitan bahasa, melainkan pada **metode belajarnya**.
+Dua-duanya bukan. Masalahnya ada di **cara belajarnya**.
 
-Mencapai kemahiran praktis tidak cukup hanya mengandalkan metode kelas tradisional. Banyak pembelajar gagal karena melewatkan satu pilar utama dalam rutinitas belajar: **immersion (imersi)**. Imersi adalah kegiatan membaca atau mendengarkan konten autentik yang dibuat langsung oleh dan untuk penutur asli bahasa tersebut—seperti menonton anime tanpa takarir bahasa Indonesia/Inggris, membaca manga, atau mendengarkan siniar (*podcast*) penutur asli.
+Kelas tradisional saja tidak cukup untuk sampai ke tingkat yang benar-benar bisa dipakai. Banyak yang gagal karena melewatkan satu hal utama dalam rutinitas mereka: **immersion**, yaitu membaca atau mendengarkan konten asli yang dibuat oleh dan untuk penutur asli. Contohnya nonton anime tanpa takarir bahasa Indonesia atau Inggris, baca manga, atau dengarkan siniar (*podcast*) orang Jepang.
 
 ## 1.2 Masalah dengan metode tradisional
 
 ![study_wakaranai_boy](img/study_wakaranai_boy.png){: style="display: block; margin: 0 auto; max-width:40%; height:auto;" }
 
-Pola belajar konvensional biasanya mengikuti urutan berikut:
+Pola belajar konvensional biasanya begini urutannya:
 
-1. Menghafal abjad (*hiragana*, *katakana*, lalu daftar *kanji*).
-2. Menghafal frasa sapaan atau percakapan formal dasar.
-3. Mempelajari rumus tata bahasa (*bunpou*) dan menghafal daftar kosakata terisolasi.
-4. Mencoba menyusun kalimat sendiri lewat latihan soal, mengobrol dengan tutor, atau menulis esai pendek.
-5. Menerjemahkan kalimat bolak-balik antara bahasa ibu dan bahasa target.
-6. Menumpuk materi teori dari buku teks atau video penjelasan rumus.
+1. Hafalkan abjad (*hiragana*, *katakana*, lalu daftar *kanji*).
+2. Hafalkan sapaan dan percakapan formal dasar.
+3. Pelajari rumus tata bahasa (*bunpou*) dan hafalkan daftar kosakata lepas.
+4. Coba susun kalimat sendiri lewat latihan soal, ngobrol dengan tutor, atau menulis esai pendek.
+5. Terjemahkan kalimat bolak-balik antara bahasa ibu dan bahasa Jepang.
+6. Tumpuk teori dari buku teks atau video penjelasan rumus.
 
-Langkah-langkah tersebut berguna untuk membangun pemahaman awal, tetapi tidak mencukupi untuk membawa pembelajar ke tingkat kemahiran tinggi. Penyebabnya jelas: pembelajar terlalu lama berteori tanpa berinteraksi langsung dengan bahasa aslinya.
+Langkah-langkah ini berguna untuk pemahaman awal, tapi tidak akan membawamu ke tingkat mahir. Sebabnya: terlalu lama berteori tanpa bersentuhan langsung dengan bahasanya.
 
-Ibarat belajar berenang: kamu tidak bisa mahir jika hanya berdiri di kolam dangkal menggunakan pelampung sambil menghafal teori ayunan tangan. Kamu harus masuk ke kolam sesungguhnya. Dalam konteks belajar bahasa, interaksi langsung dengan materi penutur asli adalah kolam renang yang sesungguhnya.
+Ibarat belajar berenang, kamu tidak akan bisa kalau cuma berdiri di kolam dangkal pakai pelampung sambil menghafal teori ayunan tangan. Kamu harus nyebur ke kolam sesungguhnya. Dalam belajar bahasa, kolam sesungguhnya itu materi dari penutur asli.
 
 !!! warning "Hindari jebakan materi pemula"
-    Jangan terjebak berbulan-bulan di materi pengantar hanya demi memastikan seluruh teori dasar dipahami sempurna. Kamu tidak akan pernah merasa "benar-benar siap" sampai kamu mulai menceburkan diri ke konten aslinya.
+    Jangan terjebak berbulan-bulan di materi pengantar demi memastikan semua teori dasar dipahami sempurna. Kamu tidak akan pernah merasa "benar-benar siap" sampai kamu mulai nyebur ke konten aslinya.
 
-Perfeksionisme sering menjadi penghambat terbesar. Terlalu terpaku pada detail kecil justru mengorbankan waktu yang seharusnya digunakan untuk membangun jam terbang pemaparan bahasa. Belajar bahasa mirip mendaki gunung: buku teks dan teori hanya tali bantu, tetapi kamu tetap harus melangkah mendaki jalurnya sendiri.
+Perfeksionisme sering jadi penghambat terbesar. Terlalu terpaku pada detail kecil memakan waktu yang seharusnya dipakai untuk menambah jam terbang. Buku teks dan teori itu seperti tali bantu saat mendaki gunung: berguna, tapi jalurnya tetap harus kamu daki sendiri.
 
 ## 1.3 Skala sebuah bahasa
 
-Bahasa memiliki cakupan yang teramat luas. Nuansa, konteks budaya, dan keluwesan pemakaian penutur asli jauh melampaui rumus kaku "X berarti Y" di aplikasi atau lembar kerja.
+Bahasa itu luas sekali. Nuansa, konteks budaya, dan keluwesan pemakaian penutur asli jauh melampaui rumus kaku "X artinya Y" di aplikasi atau lembar kerja.
 
-Tanpa paparan nyata, kalimat yang kita susun cenderung terasa ganjil bagi penutur asli karena terbentuk dari terjemahan harfiah bahasa ibu. Sebaliknya, tanpa mendengar bagaimana penutur asli berbicara sehari-hari, kita akan kesulitan memahami percakapan wajar di luar contoh buku teks yang disterilkan.
+Tanpa pengalaman langsung, kalimat yang kamu susun akan terasa ganjil bagi penutur asli, karena terbentuk dari terjemahan harfiah bahasa ibu. Tanpa mendengar langsung cara orang Jepang bicara sehari-hari, kamu juga akan kesulitan memahami percakapan wajar di luar contoh buku teks yang sudah disterilkan.
 
-Di sinilah peran **immersion**: membiasakan otak menyerap pola bahasa langsung dari sumbernya.
+Di sinilah immersion bekerja: membiasakan otak menyerap pola bahasa langsung dari sumbernya.
 
-Bahasa diperoleh melalui internalisasi pola bawah sadar lewat *comprehensible input* (masukan yang dapat dipahami). Saat kamu memahami makna suatu pesan di dalam konten yang kamu nikmati, otak secara otomatis mencatat relasi antar-kata, konteks situasi, dan struktur kalimatnya. Proses ini berlangsung alami—sama seperti caramu memahami kalimat dalam bahasa Indonesia saat ini tanpa perlu membedah struktur subjek, predikat, dan objeknya secara sadar setiap detik.
+Bahasa diperoleh lewat *comprehensible input* (masukan yang bisa dipahami), dan polanya terinternalisasi tanpa kamu sadari. Saat kamu paham maksud sebuah pesan di konten yang kamu nikmati, otak mencatat sendiri hubungan antarkata, konteks situasinya, dan struktur kalimatnya. Prosesnya sama seperti caramu memahami kalimat ini sekarang tanpa perlu membedah subjek, predikat, dan objeknya satu per satu.
 
 ## 1.4 Berdamai dengan ketidakpahaman awal
 
 ![moyamoya](img/moyamoya_woman.png){: style="display: block; margin: 0 auto; max-width:40%; height:auto;" }
 
-Saat pertama kali beralih ke materi penutur asli, kamu akan merasa kewalahan. Tingkat pemahaman mungkin hanya 10% hingga 20%.
+Saat pertama kali pindah ke materi penutur asli, kamu akan kewalahan. Yang kamu pahami mungkin cuma 10% sampai 20%.
 
-Perasaan tidak nyaman ini adalah fase wajar yang dilalui semua pembelajar. Jangan berhenti hanya karena belum memahami seluruh dialog dalam suatu episode anime atau setiap kalimat di halaman buku. Membangun kepekaan bahasa memerlukan repetisi kontekstual: sebuah kata sering kali baru benar-benar dipahami setelah kamu menjumpainya di 4–5 konteks kalimat yang berbeda.
+Rasa tidak nyaman ini fase wajar yang dilewati semua orang. Jangan berhenti cuma karena belum paham seluruh dialog di satu episode anime atau tiap kalimat di satu halaman buku. Kepekaan bahasa dibangun lewat pengulangan dalam konteks: satu kata sering baru benar-benar nyantol setelah kamu menemuinya di 4–5 kalimat yang berbeda.
 
-Kuncinya adalah menurunkan standar kesempurnaan dan mempertahankan konsistensi paparan harian.
+Kuncinya: turunkan standar kesempurnaan, dan jaga paparan harianmu tetap konsisten.
 
 ---
 
 ## 1.5 Apa itu "immersion"?
 
-**Immersion** adalah interaksi teratur dengan konten alami dalam bahasa target—yaitu konten yang **bukan** disederhanakan khusus untuk pelajar asing, melainkan diproduksi untuk dinikmati oleh penutur asli bahasa Jepang.
+**Immersion** adalah interaksi rutin dengan konten alami dalam bahasa target, yaitu konten yang **bukan** disederhanakan untuk pelajar asing, melainkan dibuat untuk dinikmati penutur asli bahasa Jepang.
 
-- **Bukan immersion:** Mengerjakan soal pilihan ganda di buku teks atau mendengarkan rekaman audio latihan berkecepatan lambat.
-- **Immersion:** Membaca manga, membaca novel web, menonton anime bertakarir bahasa Jepang, menyimak siaran YouTube kreator Jepang, atau memainkan video game berbahasa Jepang.
+- **Bukan immersion:** Mengerjakan soal pilihan ganda di buku teks atau mendengarkan rekaman latihan yang diperlambat.
+- **Immersion:** Membaca manga, membaca novel web, menonton anime bertakarir bahasa Jepang, menyimak YouTuber Jepang, atau memainkan game berbahasa Jepang.
 
-Secara teknis proses ini disebut penyerapan *input*, yang menjadi bahan bakar utama otak untuk membangun intuisi berbahasa.
+Dalam istilah teknisnya, ini disebut penyerapan *input*, dan dari sinilah otak membangun intuisi berbahasa.
 
 ## 1.6 Pendekatan *top-down*
 
-Pendekatan *top-down* menuntut kesiapan mental untuk menerima ambiguitas. Berbeda dari sistem penilaian kelas yang menghukum kesalahan sekecil apa pun, metode ini berfokus pada pemahaman inti pesan di tengah keterbatasan kosakata.
+Pendekatan *top-down* menuntutmu siap menerima ambiguitas. Berbeda dari penilaian kelas yang menghukum kesalahan sekecil apa pun, pendekatan ini fokus pada menangkap inti pesan walau kosakatamu masih terbatas.
 
-Kamu tidak perlu menunggu sampai menguasai seluruh kanji atau menghafal semua buku tata bahasa sebelum mulai menikmati karya asli. Cukup kuasai fondasi dasar seperlunya (aksara kana, prinsip tata bahasa ringkas, dan kosakata esensial), lalu gunakan alat bantu digital (seperti kamus sembulan/*pop-up dictionary*) untuk menjembatani kata-kata yang belum kamu pahami di materi imersi.
+Kamu tidak perlu menunggu sampai hafal semua kanji atau tamat semua buku tata bahasa sebelum mulai menikmati karya asli. Kuasai fondasi seperlunya (kana, tata bahasa ringkas, dan kosakata dasar), lalu pakai alat bantu seperti kamus sembulan (*pop-up dictionary*) untuk kata-kata yang belum kamu kenal di materi immersion.
 
 ---
 
 ## 2.1 Cara belajar bahasa Jepang
 
 ### Alur belajar pemula
-Rutinitas pemula dirancang ringkas agar kamu segera bisa menyentuh konten asli:
+Rutinitas pemula dibuat ringkas supaya kamu cepat sampai ke konten asli:
 
-1. **Kuasai Hiragana dan Katakana** (target: 3–7 hari).
-2. **Bangun leksikon kosakata dasar dan kanji** menggunakan sistem pengulangan berjarak (*Spaced Repetition System*) via Anki.
-3. **Pahami fondasi tata bahasa (*bunpou*)** melalui panduan ringkas terkurasi.
-4. **Mulai rutinitas imersi harian** dengan konten yang ramah pemula dan menarik minatmu.
+1. **Kuasai Hiragana dan Katakana** (biasanya 3 minggu sampai sebulan, tergantung orangnya).
+2. **Hafalkan kosakata dasar dan kanji** dengan sistem pengulangan berjarak (*Spaced Repetition System*) lewat Anki.
+3. **Pahami dasar tata bahasa (*bunpou*)** lewat panduan ringkas yang sudah dikurasi.
+4. **Mulai rutinitas immersion harian** dengan konten ramah pemula yang kamu suka.
 
 ## 2.2 Hiragana dan Katakana
 
@@ -98,9 +98,9 @@ Rutinitas pemula dirancang ringkas agar kamu segera bisa menyentuh konten asli:
   <figcaption>"Hiragana" dan "Katakana" ditulis dalam bentuk tulisannya masing-masing.</figcaption>
 </figure> 
 
-Sistem tulisan bahasa Jepang terdiri dari tiga komponen: *hiragana*, *katakana*, dan *kanji*. 
+Tulisan Jepang punya tiga komponen: *hiragana*, *katakana*, dan *kanji*. 
 
-*Hiragana* dan *katakana* (keduanya lazim disebut **kana**) secara teknis merupakan sistem **silabari**, bukan alfabet murni. Setiap karakter mewakili satu mora atau suku kata bunyi (misalnya, 「か」 dibaca "ka"), bukan fonem konsonan tunggal.
+*Hiragana* dan *katakana* (keduanya biasa disebut **kana**) secara teknis adalah **silabari**, bukan alfabet. Tiap karakter mewakili satu mora atau suku kata (misalnya 「か」 dibaca "ka"), bukan satu konsonan.
 
 ### Hiragana
 <figure>
@@ -108,10 +108,11 @@ Sistem tulisan bahasa Jepang terdiri dari tiga komponen: *hiragana*, *katakana*,
   <figcaption>Karakter hiragana dasar.</figcaption>
 </figure>
 
-Hiragana memiliki bentuk guratan melengkung dan berfungsi sebagai fondasi utama tulisan Jepang, terutama untuk:
-- Partikel dan elemen gramatikal (*okurigana* di belakang kanji).
-- Kosakata asli bahasa Jepang yang tidak memiliki kanji umum.
-- Keterangan pelafalan di atas kanji (*furigana*).
+Hiragana bentuknya melengkung dan jadi fondasi utama tulisan Jepang, terutama untuk:
+
+- Partikel dan unsur gramatikal (*okurigana* di belakang kanji).
+- Kosakata asli Jepang yang tidak punya kanji umum.
+- Keterangan cara baca di atas kanji (*furigana*).
 
 ---
 
@@ -121,10 +122,11 @@ Hiragana memiliki bentuk guratan melengkung dan berfungsi sebagai fondasi utama 
   <figcaption>Karakter katakana dasar.</figcaption>
 </figure>
 
-Katakana memiliki bentuk bersudut tegas. Bunyi yang diwakili identik dengan hiragana, namun fungsinya dikhususkan untuk:
+Katakana bentuknya bersudut tegas. Bunyinya sama persis dengan hiragana, tapi dipakai khusus untuk:
+
 - Kata serapan asing (*gairaigo*, mis. 「テレビ」 - *terebi* / TV).
 - Kata tiruan bunyi (*onomatope*).
-- Penekanan visual, nama ilmiah flora/fauna, atau istilah gaul/slang.
+- Penekanan visual, nama ilmiah flora/fauna, atau istilah gaul.
 
 ---
 
@@ -140,38 +142,52 @@ Katakana memiliki bentuk bersudut tegas. Bunyi yang diwakili identik dengan hira
   </figcaption>
 </figure>
 
-Simpan tabel ini sebagai referensi cepat. Kolom mewakili bunyi vokal (A, I, U, E, O) dan baris mewakili konsonan (K, S, T, N, H, M, Y, R, W).
+Simpan tabel ini sebagai contekan. Kolom mewakili bunyi vokal (A, I, U, E, O) dan baris mewakili konsonan (K, S, T, N, H, M, Y, R, W).
 
 #### Langkah 2 - Video penjelasan fonetik
-Tonton panduan visual komprehensif berikut untuk pengenalan bentuk huruf dan pelafalan:  
+Tonton salah satu video berikut untuk mengenal bentuk huruf dan pelafalannya:
 
-<iframe width="100%" height="380" src="https://www.youtube.com/embed/_wZHqOghvSs" title="Video Panduan Hiragana & Katakana" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 8px; margin: 12px 0;"></iframe>
+=== "Hiragana & Katakana (ENG)"
+    <iframe width="100%" height="380" src="https://www.youtube.com/embed/_wZHqOghvSs" title="Video Panduan Hiragana & Katakana" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 8px; margin: 12px 0;"></iframe>
 
-*Tautan alternatif: [Tonton langsung di YouTube](https://youtu.be/_wZHqOghvSs){: target="_blank" }*
+    [Tonton langsung di YouTube](https://youtu.be/_wZHqOghvSs){: target="_blank" }
+
+=== "Hiragana (IDN)"
+    <iframe width="100%" height="380" src="https://www.youtube.com/embed/nrv_iMuMLFk" title="Hiragana - Ryu Sensei" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 8px; margin: 12px 0;"></iframe>
+
+    [Tonton langsung di YouTube](https://youtu.be/nrv_iMuMLFk){: target="_blank" }
+
+=== "Katakana (IDN)"
+    <iframe width="100%" height="380" src="https://www.youtube.com/embed/RZG9IjuF1zg" title="Katakana - Ryu Sensei" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 8px; margin: 12px 0;"></iframe>
+
+    [Tonton langsung di YouTube](https://youtu.be/RZG9IjuF1zg){: target="_blank" }
 
 ---
 
 #### Langkah 3 - Latihan pengenalan visual cepat
-Gunakan alat kuis web interaktif untuk mempercepat refleks baca:  
-**[Latihan Interaktif Kana (Gohoneko)](https://gohoneko.neocities.org/learn/kana){: target="_blank" }**
+Pakai salah satu kuis web interaktif ini untuk melatih refleks baca:
+
+- **[Latihan Interaktif Kana (DJT Guide)](https://djtguide.neocities.org/kana/){: target="_blank" }**
+- **[Philia Shizen](https://philia-shizen.vercel.app/){: target="_blank" }**
 
 **Panduan latihan:**
-1. Buka menu opsi, pilih kategori *Hiragana*.
-2. Uji tebakan bunyi tiap karakter hingga mencapai akurasi ±80%.
-3. Tambahkan variasi kombinasi (*dakuon*, *handakuon*, dan kombinasi *ya/yu/yo*).
-4. Ulangi proses yang sama untuk *Katakana*.
 
-Targetkan tahap ini selesai dalam 3 sampai 7 hari. Hindari menunda langkah berikutnya hanya karena sesekali masih ragu membedakan karakter mirip (seperti シ/ツ atau ソ/ン); ketajaman visual akan terbentuk sempurna saat mulai membaca teks nyata.
+1. Buka menu opsi, pilih kategori *Hiragana*.
+2. Tebak bunyi tiap karakter sampai akurasimu sekitar 80%.
+3. Tambahkan variasi kombinasi (*dakuon*, *handakuon*, dan kombinasi *ya/yu/yo*).
+4. Ulangi untuk *Katakana*.
+
+Seluruh proses ini bisa makan 3 minggu sampai sebulan, tergantung orangnya. Jangan kecil hati kalau bagian ini terasa lama, karena sambil belajar kana kamu sudah bisa mulai hal lain seperti immersion tingkat pemula. Jangan pula menunda langkah berikutnya cuma karena sesekali masih bingung membedakan karakter mirip (seperti シ/ツ atau ソ/ン); matamu akan terbiasa sendiri begitu mulai membaca teks sungguhan.
 
 ---
 
 #### Langkah 4 - Latihan membaca teks bertakarir (*graded readers*)
-Setelah mengenali karakter secara individual, latih kelancaran dengan membaca materi bertaraf dasar yang dilengkapi *furigana* (huruf kana kecil di atas kanji):
+Setelah hafal karakternya satu per satu, latih kelancaran dengan bacaan tingkat dasar yang dilengkapi *furigana* (kana kecil di atas kanji):
 
 Contoh:  
 <ruby>日本語<rp>(</rp><rt>にほんご</rt><rp>)</rp></ruby> (*nihongo* - bahasa Jepang).
 
-Gunakan bacaan berjenjang gratis di **[Tadoku Graded Readers Level 0](https://tadoku.org/japanese/free-books/#l0){: target="_blank" }**. Pada langkah ini, fokuslah pada kelancaran mengubah simbol menjadi bunyi, tanpa perlu terbebani untuk menghafal arti setiap kata.
+Pakai bacaan berjenjang gratis di **[Tadoku Graded Readers Level Start](https://tadoku.org/japanese/en/free-books-en/?level%5B%5D=l-start){: target="_blank" }**. Di tahap ini fokus saja pada kelancaran mengubah simbol jadi bunyi; artinya belum perlu dihafal.
 
 ---
 
@@ -182,20 +198,21 @@ Gunakan bacaan berjenjang gratis di **[Tadoku Graded Readers Level 0](https://ta
   <figcaption>80 kanji dasar tingkat awal di sekolah dasar Jepang.</figcaption>
 </figure>
 
-*Kanji* adalah sistem karakter logografis asal Tiongkok yang diadopsi ke dalam bahasa Jepang. Terdapat sekitar 2.000 hingga 3.000 karakter umum dalam penggunaan sehari-hari (*Jouyou Kanji*).
+*Kanji* adalah karakter logografis asal Tiongkok yang diserap ke bahasa Jepang. Yang umum dipakai sehari-hari (*Jouyou Kanji*) ada sekitar 2.000 sampai 3.000 karakter.
 
-Perbedaan mendasar antara kana dan kanji:
-- **Kana** bersifat fonetik murni: bunyinya konsisten dan jumlahnya terbatas, sehingga bisa dipelajari sekaligus secara terpisah.
-- **Kanji** mewakili makna morfemik dan memiliki variasi bacaan (*onyomi* dan *kunyomi*) yang bergantung pada kata tempat karakter tersebut digunakan.
+Bedanya kana dan kanji:
 
-Oleh karena itu, **pelajari kanji langsung di dalam kosakata utuh, bukan sebagai simbol terisolasi**.
+- **Kana** murni fonetik: bunyinya tetap dan jumlahnya terbatas, jadi bisa dipelajari sekaligus secara terpisah.
+- **Kanji** membawa makna, dan bacaannya (*onyomi* dan *kunyomi*) berubah tergantung kata tempat kanji itu dipakai.
 
-Menghafal daftar bacaan kanji tunggal tanpa contoh kata hanya membebani memori kerja. Ambil contoh kata **今日**: daripada menghafal bacaan terpisah 今 (*kon/ima*) dan 日 (*nichi/hi*), jauh lebih efektif langsung menghafal kata **今日** yang dibaca **きょう** (*kyou*) dan bermakna *hari ini*.
+Karena itu, **pelajari kanji langsung di dalam kata utuh, bukan sebagai simbol lepas**.
+
+Menghafal daftar bacaan kanji tunggal tanpa contoh kata cuma membebani ingatan. Ambil kata **今日**: daripada menghafal bacaan 今 (*kon/ima*) dan 日 (*nichi/hi*) secara terpisah, jauh lebih gampang langsung menghafal **今日** yang dibaca **きょう** (*kyou*) dan berarti *hari ini*.
 
 ### Komponen dan radikal kanji
-Kanji tampak rumit jika dilihat sebagai guratan acak, tetapi sebenarnya tersusun dari pola komponen radikal yang berulang. 
+Kanji terlihat rumit kalau dilihat sebagai guratan acak, padahal tersusun dari komponen radikal yang berulang. 
 
-Misalnya karakter **萌**: karakter ini dibangun dari komponen rumput (艹), matahari (日), dan bulan (月). Memahami komponen dasar mempermudah otak membedakan kanji yang bentuknya mirip. Jika kamu membutuhkan pengenalan visual komponen kanji, dek Anki berbasis komponen berbahasa Inggris dapat diunduh [di sini](https://mega.nz/file/2SJiWC4b#hL98qtC_hiLlQDg0LqVJoqD2-5ywT2Nwd4kjROY_KwQ).
+Misalnya karakter **萌**: karakter ini disusun dari komponen rumput (艹), matahari (日), dan bulan (月). Mengenal komponen dasar membantu otak membedakan kanji yang bentuknya mirip. Kalau kamu butuh pengenalan visual komponen kanji, ada dek Anki berbasis komponen (bahasa Inggris) yang bisa diunduh [di sini](https://mega.nz/file/2SJiWC4b#hL98qtC_hiLlQDg0LqVJoqD2-5ywT2Nwd4kjROY_KwQ).
 
 ![Kanji](img/kanji.png)
 
@@ -203,27 +220,27 @@ Misalnya karakter **萌**: karakter ini dibangun dari komponen rumput (艹), mat
 
 ## 2.4 Belajar Kosakata dengan Anki
 
-Untuk membangun leksikon awal secara cepat, gunakan dek kosakata frekuensi tinggi pada aplikasi flashcard pintar **Anki**. Dek ini mencakup sekitar 1.500 kata pertama yang paling sering muncul dalam percakapan dan media Jepang.
+Untuk membangun kosakata awal dengan cepat, pakai dek kosakata frekuensi tinggi di aplikasi flashcard **Anki**. Dek ini berisi sekitar 1.500 kata yang paling sering muncul di percakapan dan media Jepang.
 
 ### Pemasangan Anki
-1. Unduh dan pasang aplikasi resmi dari **[AnkiWeb](https://apps.ankiweb.net/){: target="_blank" }** sesuai sistem operasi perangkatmu (Windows, macOS, Linux, atau AnkiDroid di Android).
+1. Unduh dan pasang aplikasi resminya dari **[AnkiWeb](https://apps.ankiweb.net/#downloads){: target="_blank" }** sesuai sistem operasimu (Windows, macOS, Linux, atau AnkiDroid di Android). Semuanya gratis, kecuali AnkiMobile di iOS yang berbayar.
 2. Unduh dek kosakata dasar:
-   - **[Kaishi 1.5k (EN-JP)](https://github.com/donkuri/Kaishi/releases){: target="_blank" }** (versi rujukan utama).
-   - **[Kaishi versi Bahasa Indonesia & Dek Komunitas](https://discord.com/channels/1370274344571240552/1386235512993611909/1386235542487961692){: target="_blank" }** (tersedia di server Discord Philia Space).
-3. Buka Anki, pilih menu **Import File**, dan pilih berkas `.apkg` yang telah diunduh.
+   - **[Kaishi 1.5k (JP-EN)](https://github.com/donkuri/Kaishi/releases){: target="_blank" }** (versi rujukan utama).
+   - **[Kaishi versi Bahasa Indonesia & Dek Komunitas](https://discord.com/channels/1370274344571240552/1386235512993611909/1386235512993611909){: target="_blank" }** (tersedia di server Discord Philia Space).
+3. Buka Anki, pilih menu **Import File**, lalu pilih berkas `.apkg` yang tadi diunduh.
 
 <figure>
   <img src="/img/ankidownload.jpg" alt="Halaman Unduh Anki">
-  <figcaption>Pilih installer Anki yang sesuai dengan sistem operasi perangkatmu.</figcaption>
+  <figcaption>Halaman unduh Anki. Pilih yang sesuai sistem operasimu; semuanya gratis kecuali AnkiMobile (iOS).</figcaption>
 </figure>
 
 ### Konfigurasi optimal Anki (Algoritma FSRS)
-Sebelum memulai latihan, sesuaikan pengaturan dek dengan mengeklik ikon gir di samping nama dek:
+Sebelum mulai, atur dek lewat ikon gir di samping nama dek:
 
 1. Aktifkan penjadwal **FSRS** (*Free Spaced Repetition Scheduler*).
-2. Atur **Desired Retention** di angka `0.80` (80%). Angka ini memberi keseimbangan optimal antara retensi memori dan beban jumlah ulasan harian.
-3. Batasi kartu baru di awal sebanyak **10–15 kartu per hari**. Menambah terlalu banyak kartu baru sekaligus dapat memicu penumpukan ulasan (*review hell*) yang berujung kelelahan belajar.
-4. Tinjau pengaturan tampilan visual sesuai panduan tab di bawah ini:
+2. Atur **Desired Retention** ke `0.80` (80%). Angka ini seimbang antara daya ingat dan jumlah ulasan harian.
+3. Batasi kartu baru di awal **10–15 kartu per hari**. Terlalu banyak kartu baru sekaligus bikin ulasan menumpuk (*review hell*), dan ujung-ujungnya kamu capek sendiri.
+4. Samakan pengaturan tampilan dengan tab di bawah ini:
 
 === "Pengaturan 1"
     ![Anki Settings 1](img/anki-settings-1.png){height=300 width=600}
@@ -237,33 +254,38 @@ Sebelum memulai latihan, sesuaikan pengaturan dek dengan mengeklik ikon gir di s
     ![Anki Preference Settings](img/anki-preference-settings-android.jpg){height=300 width=600}
 
 ### Prinsip penilaian kartu
-Tujuan flashcard adalah menguji ingatan aktif terhadap **bacaan fonetik dan arti dasar** dari kata yang ditampilkan:
+Tujuan flashcard adalah menguji ingatan aktif terhadap **cara baca dan arti dasar** kata yang ditampilkan:
 
 <figure>
   <img src="/img/ankikaishi.png" alt="Tampilan Kartu Kaishi di Anki">
   <figcaption>Komponen informasi penting: kata target, cara baca kana, dan definisi ringkas.</figcaption>
 </figure>
 
-Gunakan sistem penilaian biner yang tegas:
-- **Tahu cara baca DAN paham artinya** → Tekan **Good**.
-- **Lupa cara baca ATAU tidak tahu artinya** → Tekan **Again**.
+Nilainya gampang. Cuma dua tombol yang kamu pakai, dan aturannya satu: dua-duanya harus kena.
 
-Hindari terlalu sering menekan tombol *Hard* atau *Easy* agar algoritma penjadwalan interval tetap bekerja secara akurat. Selesaikan seluruh ulasan harian secara disiplin setiap hari.
+| Bisa baca | Tahu makna | Tekan |
+| :---: | :---: | :--- |
+| ✅ | ✅ | **Good** (lolos) |
+| ✅ | ❌ | **Again** (gagal) |
+| ❌ | ✅ | **Again** (gagal) |
+| ❌ | ❌ | **Again** (gagal) |
+
+Satu saja meleset, tekan Again. Jangan nawar pakai *Hard* atau *Easy*; kalau dua tombol itu sering dipakai, jadwal ulangannya jadi ngaco. Dan ulasan hari ini ya diselesaikan hari ini, jangan numpuk.
 
 ---
 
 ## 2.5 Bunpou (Tata Bahasa)
 
-Tata bahasa dalam metode imersi berfungsi sebagai **alat klarifikasi** (*clarification tool*), bukan himpunan rumus untuk dihafal luar kepala. Tujuan belajar tata bahasa adalah mengenali fungsi partikel dan struktur kalimat saat kamu menjumpainya di materi asli.
+Dalam metode immersion, tata bahasa berfungsi sebagai **alat klarifikasi** (*clarification tool*), bukan kumpulan rumus untuk dihafal luar kepala. Tujuannya supaya kamu mengenali fungsi partikel dan struktur kalimat saat menemuinya di materi asli.
 
-Pilihlah salah satu sumber belajar yang paling nyaman untukmu:
+Pilih satu sumber yang paling nyaman buatmu:
 
 | Bahasa Inggris | Bahasa Indonesia |
 | :--- | :--- |
-| **[Cure Dolly YouTube Playlist](https://www.youtube.com/playlist?list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj)** ([transkrip](https://docs.google.com/document/d/1XpuXerkGU8waJ4DPDNJA4bGeqOvM-csXjTe57iHARHc/edit)) | **[Chakurin Fuufu (YouTube)](https://youtube.com/playlist?list=PL3MNfkiecePcNDeX9Ca06GSECT184ddoV&si=s4l6OLITx0_gxKin)** |
-| **[Tae Kim's Guide to Japanese](https://gohoneko.neocities.org/grammar/taekim)** | **[Yasashi Nihongo - MNN Dasar](https://youtube.com/playlist?list=PLhQ568NlkEK3ZGH0-nt7eCyynFsCLdBB5&si=CBmY6rMJX1rN6I7f)** |
+| **[Cure Dolly YouTube Playlist](https://www.youtube.com/playlist?list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj)** ([transkrip](https://kellenok.github.io/cure-script/1-the-basic-types-of-sentences.html)) | **[Chakurin Fuufu (YouTube)](https://youtube.com/playlist?list=PL3MNfkiecePcNDeX9Ca06GSECT184ddoV&si=s4l6OLITx0_gxKin)** |
+| **[Tae Kim's Guide to Japanese](https://guidetojapanese.org/learn/complete/writing)** | **[Yasashi Nihongo - MNN Dasar](https://youtube.com/playlist?list=PLhQ568NlkEK3ZGH0-nt7eCyynFsCLdBB5&si=CBmY6rMJX1rN6I7f)** |
 | **[Japanese Ammo with Misa](https://www.youtube.com/playlist?list=PLd5-Wp_4tLqYZxS5j3g6kbeOfVXlTkr3N)** | **[Gakushudo no Nihongo](https://www.youtube.com/playlist?list=PLvVp7545yxgyAwuRIS-KTjFXbPM1jy0ST)** |
-| **[Sakubi](https://gohoneko.neocities.org/learn/anon/sakubi)** | **[Muzukashii Nihongo](https://www.youtube.com/@nassusensei/playlists)** |
+| **[Sakubi](https://sakubi.neocities.org/)** | **[Muzukashii Nihongo](https://www.youtube.com/@nassusensei/playlists)** |
 | **[IMABI](https://imabi.org/)** | |
 
 ??? example "Tonton langsung playlist video tata bahasa (klik untuk melihat)"
@@ -279,104 +301,126 @@ Pilihlah salah satu sumber belajar yang paling nyaman untukmu:
     === "Japanese Ammo with Misa (EN)"
         <iframe width="100%" height="380" src="https://www.youtube.com/embed/videoseries?list=PLd5-Wp_4tLqYZxS5j3g6kbeOfVXlTkr3N" title="Japanese Ammo with Misa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 8px; margin: 12px 0;"></iframe>
 
-Pelajari beberapa poin tata bahasa dasar, lalu segera amati bagaimana pola tersebut muncul secara alami dalam konten imersi yang kamu tonton atau baca.
+Pelajari beberapa poin dasar, lalu segera perhatikan bagaimana pola itu muncul di konten yang kamu tonton atau baca.
 
 ---
 
-## 2.6 Eksekusi Imersi untuk Pemula
+## 2.6 Eksekusi Immersion untuk Pemula
 
-Kunci menjaga keberlanjutan imersi pemula terletak pada **pemilihan materi yang benar-benar kamu minati**. Otak manusia dapat mentoleransi ketidakpahaman bahasa jika alur cerita atau sajian visual yang dinikmati tetap menghibur secara emosional.
+Supaya immersion pemula bertahan lama, kuncinya ada di **pilihan materi yang benar-benar kamu suka**. Otak masih bisa bertahan dengan ketidakpahaman bahasa selama cerita atau visualnya tetap menghibur.
 
-Jangan membatasi diri hanya pada materi edukatif anak-anak yang membosankan jika kamu tidak menikmatinya. Seiring bertambahnya jam terbang, frasa yang awalnya terdengar samar akan mulai terurai menjadi pola yang jelas.
+Jangan memaksakan diri ke materi edukatif anak-anak kalau kamu tidak menikmatinya. Makin banyak jam terbang, frasa yang awalnya terdengar samar akan terurai sendiri jadi pola yang jelas.
 
 ---
 
 ## 2.7 Strategi Mendengar dan Membaca
 
 ### Alat bantu membaca & kamus instan
-Untuk mempermudah membaca teks digital tanpa terhenti membuka kamus manual setiap saat, pasang ekstensi peramban **Yomitan**:
+Supaya tidak terus-terusan berhenti buka kamus saat membaca teks digital, pasang ekstensi peramban **Yomitan**:
+
 - **[Panduan Lengkap Pemasangan Yomitan PC](setup-yomitan-pc-lazy-guide.md)**
-- Rujukan kamus web: **[Jisho.org](https://jisho.org/)**
-- Kamus luring di ponsel: **Akebi** (Android) atau **Shirabe Jisho** (iOS).
+- Kamus web: **[JIDict](https://jidict.vercel.app/){: target="_blank" }** (Jepang-Indonesia, bisa dipakai offline)
+
+JIDict bisa dipasang sebagai aplikasi di HP, dan setelah itu jalan tanpa internet:
+
+- **iOS:** buka di Safari, ketuk tombol **Bagikan** (kotak dengan panah ke atas), lalu pilih **Tambah ke Layar Utama**.
+- **Android:** buka di Chrome, ketuk menu **⋮** di pojok kanan atas, lalu pilih **Instal aplikasi** (di beberapa versi tertulis **Tambahkan ke layar utama**).
 
 ### Pemilihan materi
-Pilihlah media yang menyalakan antusiasmemu: anime, drama, novel ringan (*light novel*), manga digital, novel visual (*visual novel*), atau video kanal YouTube penutur asli.
+Pilih media yang bikin kamu semangat: anime, drama, novel ringan (*light novel*), manga digital, novel visual (*visual novel*), atau YouTuber Jepang.
 
 ### Metode menyimak (*Listening*)
-1. **Active Listening (Menyimak Aktif):** Perhatian penuh tertuju pada dialog dan visual. Di sinilah pemetaan intonasi dan bunyi fonetik berkembang paling pesat.
-2. **Passive Listening (Menyimak Pasif):** Audio berbahasa Jepang diputar sebagai latar belakang saat kamu beraktivitas lain (bepergian, merapikan ruangan, atau berolahraga). Berguna untuk menjaga sensitisasi ritme bahasa di sela-sela rutinitas harian.
+Menyimak itu hampir sepenuhnya *top-down* dan intuitif: jangan kebanyakan mikir, ikuti saja alurnya sampai ketemu momen yang pas untuk berhenti dan mencari arti. Ada tiga level:
+
+| Level | Caranya |
+| :---: | :--- |
+| **1** | Dengarkan terus tanpa mencari arti apa pun. |
+| **2** | Cari arti kata yang menonjol di telinga, tapi tontonan tetap jalan. |
+| **3** | Pause di tiap kata yang tidak kamu tahu dan cari artinya satu per satu. |
+
+Dari pemula sampai menengah, cukup level 1 dan 2. Nikmati tiap kesempatan kecil yang kamu dapat.
+
+1. **Active Listening (Menyimak Aktif):** Perhatian penuh ke dialog dan visual. Di sini kepekaanmu terhadap intonasi dan bunyi berkembang paling cepat.
+2. **Passive Listening (Menyimak Pasif):** Audio bahasa Jepang diputar sebagai latar saat kamu melakukan hal lain (di perjalanan, beres-beres kamar, atau olahraga). Berguna untuk menjaga telinga tetap akrab dengan ritme bahasanya di sela rutinitas.
 
 ### Metode membaca (*Reading*)
-Membaca bersifat lebih analitis. Kamu memiliki kendali penuh atas tempo pemrosesan kalimat. Alurnya sederhana:
+Membaca lebih analitis. Kamu pegang kendali penuh atas temponya. Alurnya sederhana:
 
-$$	ext{Baca Kalimat} \rightarrow 	ext{Sorot Kata Sulit via Yomitan} \rightarrow 	ext{Pahami Arti dalam Konteks} \rightarrow 	ext{Lanjutkan Membaca}$$
+**Baca kalimat → sorot kata sulit via Yomitan → pahami arti dalam konteks → lanjut baca.**
 
-Gunakan bantuan teks digital bertakarir bahasa Jepang (misalnya lewat alat bantu pemutar video seperti UsagiSpoon/asbplayer) atau manga digital yang teksnya dapat disalin.
+Pakai teks digital bertakarir bahasa Jepang (misalnya lewat alat bantu pemutar video seperti UsagiSpoon/asbplayer) atau manga digital yang teksnya bisa disalin.
 
 ### Rasio alokasi waktu
-Pada fase pemula, alokasikan rasio waktu **70% menyimak aktif dan 30% membaca**. Menyimak membangun kepekaan pelafalan dan memori auditori alami. Setelah leksikon kosakatamu berkembang ke tingkat menengah, sesuaikan rasio menuju **50:50** agar kemampuan literasi dan pemahaman lisan berkembang beriringan.
+Di fase pemula, bagi waktunya **70% menyimak aktif dan 30% membaca**. Menyimak membangun kepekaan pelafalan dan memori pendengaran. Setelah kosakatamu sampai tingkat menengah, geser ke **50:50** supaya kemampuan membaca dan pemahaman lisan tumbuh beriringan.
 
 ---
 
 ## 2.8 Siklus Belajar Harian Pemula (*Daily Loop*)
 
-Hindari kesalahan umum: mempelajari seluruh kana, menghafal 1.500 kata Anki sampai tuntas, dan membaca seluruh buku tata bahasa terlebih dahulu sebelum mencoba imersi.
+Kesalahan umum yang harus dihindari: menamatkan semua kana, menghafal 1.500 kata Anki sampai tuntas, dan menamatkan semua buku tata bahasa dulu sebelum mencoba immersion.
 
-Terapkan alur harian yang terintegrasi:
+!!! tip "Boleh mulai lebih awal"
+    Sambil masih belajar kana, coba saja tonton sesuatu dalam bahasa Jepang tanpa takarir. Apa pun yang kamu suka, dan tidak perlu paham apa-apa dulu. Anggap ini buat ngepush diri sendiri supaya telinga mulai terbiasa.
 
-```
-[Pagi]     Tuntaskan ulasan Anki (15–20 menit)
-   ↓
-[Siang]    Pelajari 1–2 poin tata bahasa dasar & tambah 10 kartu Anki
-   ↓
-[Malam]    Imersi aktif 1–2 jam (nonton anime ber-subtitle JP / baca manga / dengerin podcast)
-```
+Pakai alur harian yang berjalan bersamaan:
 
-Targetkan imersi minimal **1 hingga 2 jam per hari**. Konsistensi harian jauh lebih berdampak pada plastisitas otak daripada belajar maraton 8 jam hanya di akhir pekan.
+| Waktu | Kegiatan |
+| :--- | :--- |
+| **Pagi** | Tuntaskan ulasan Anki (15–20 menit). |
+| **Siang** | Pelajari 1–2 poin tata bahasa dasar, lalu tambah 10 kartu Anki. |
+| **Malam** | Immersion aktif 1–2 jam: nonton anime bertakarir JP, baca manga, atau dengerin podcast. |
+
+Targetkan immersion minimal **1 sampai 2 jam per hari**. Sedikit tapi tiap hari jauh lebih berpengaruh daripada maraton 8 jam cuma di akhir pekan.
 
 ---
 
-## 3.1 Kemampuan Berbicara dan Menulis (*Output*)
+## 3.1 Soal Berbicara dan Menulis (*Output*)
 
-Banyak pembelajar menduga bahwa banyak berbicara sejak hari pertama adalah kunci kefasihan. Kenyataannya, kemampuan produksi (*output*) yang bermutu merupakan hasil alami dari saturasi ribuan jam masukan (*input*) yang berkualitas.
+Banyak orang mengira banyak bicara adalah cara jadi jago bahasa. Sebenarnya tidak begitu. Yang benar-benar bikin kamu berkembang adalah *input*: apa yang kamu dengar dan baca dari penutur asli. Tapi *output* tetap penting dilatih, lewat chat maupun bicara, karena keduanya jalan beriringan. Saat kamu mencoba bicara atau menulis, otak dipaksa memastikan ia benar-benar paham kata-kata yang kamu dengar, dan tanpa sadar kamu mulai mencari kesempatan memakai apa yang kamu temui di immersion.
 
-Memaksakan berbicara terlalu dini tanpa bekal representasi kalimat yang kaya sering kali hanya menumbuhkan kebiasaan salah pelafalan (*fosilisasi kesalahan*) dan struktur terjemahan yang canggung. Namun, kamu tidak perlu paranoid atau takut salah saat kesempatan berkomunikasi muncul. Latihlah berbicara dan menulis secara wajar tanpa terbebani ekspektasi kesempurnaan.
+Output rutin bersama input rutin, itu yang disarankan.
+
+Berbeda dari banyak metode berbasis immersion lain, panduan ini tidak menganggap menunda output sampai "benar-benar jago" sebagai ide bagus, apalagi dengan alasan "ngomong salah bakal merusak bahasa Jepangmu". Menunda seperti itu bikin kamu kehilangan banyak kesempatan menangkap hal-hal yang bisa langsung kamu pakai, dan menanamkan perfeksionisme yang justru bikin kamu terlalu protektif pada bahasa Jepangmu sendiri.
+
+Selama lebih dari 4 tahun menjalankan TheMoeWay dan ngobrol dengan berbagai pembelajar immersion, penulis aslinya jarang menemukan yang percaya diri dengan output-nya. Kenapa? Kebanyakan bahkan tidak mau mencoba sama sekali: takut salah ngomong, takut bahasa Jepangnya rusak, takut ditertawakan. Semua itu buah dari perfeksionisme yang sama, dan itu merugikan belajar lewat immersion.
 
 ## 3.2 Pelafalan dan *Pitch Accent*
 
-Bahasa Jepang memiliki sistem aksen nada (*pitch accent*), bukan aksen tekanan vokal (*stress accent*). 
-- Prioritas utama pemula adalah mendengarkan pelafalan penutur asli dengan saksama melalui audio Anki dan materi imersi (*ear training*).
-- Jika tujuan akhirmu mencakup pelafalan yang terdengar sangat natural mendekati penutur asli, kamu dapat mempelajari teori dasar *pitch accent* dan transkripsi fonetik IPA secara mandiri sedini mungkin.
+Dibanding komunitas dan sumber belajar bahasa lain, sumber belajar, tutor, dan pembelajar bahasa Jepang cenderung menomorduakan pelafalan, karena pelafalan Jepang memang sederhana. Benar sederhana, dan benar kamu tidak perlu takut disalahpahami, tapi sebagian orang memang punya target pelafalan yang bagus.
+
+Panduan ini ikut barisan yang bilang kamu tidak wajib belajar pelafalan: kalau kamu tidak terlalu peduli terdengar sempurna, tidak usah pusing soal pelafalan.
+
+Kalau mau lebih dari itu, pelajari *pitch accent* dan pelafalan IPA yang benar secara mandiri, sebaiknya sedini mungkin.
 
 ## 3.3 Tolok Ukur Kemajuan Belajar
 
-Sebagai gambaran umum, berikut perkiraan perkembangan intuitif yang dapat kamu rasakan seiring bertambahnya volume paparan:
+Buat yang penasaran, kira-kira begini kemampuan yang bisa kamu harapkan setelah melewati tahap-tahap ini:
 
-- **10 serial anime (tanpa subtitle ID/EN):** Telinga mulai terbiasa dengan ritme dan kecepatan bicara alami penutur asli.
-- **25 serial anime:** Dialog sehari-hari yang berulang mulai dapat dipahami secara langsung tanpa perlu jeda berpikir.
-- **50 serial anime:** Keluar dari fase pemula awal; struktur kalimat umum terasa intuitif.
-- **1 novel selesai dibaca:** Mengatasi rintangan mental terbesar dalam membaca teks panjang; buku berikutnya akan terasa jauh lebih ringan.
-- **5 novel / 1 novel visual panjang:** Kemampuan membaca menguat; ketergantungan pada kamus menurun drastis.
-- **10 novel / 2 novel visual panjang:** Fondasi leksikal kokoh; siap memasuki level menengah-atas.
+- **10 serial anime tanpa takarir:** Kamu mulai terbiasa mendengar bahasa Jepang dan mungkin sudah paham sebagian besar kalimat. Anime yang kamu tonton di awal akan terasa beda sekali!
+- **25 serial anime:** Mendengar bahasa Jepang terasa lebih alami dari sebelumnya.
+- **50 serial anime:** Kalau belajarmu konsisten, kamu sudah tidak bisa disebut pemula lagi. Bedanya dengan saat kamu mulai akan terasa jauh sekali!
+- **1 novel selesai dibaca:** Buku ini pasti berat, tapi kamu mulai benar-benar lepas dari tahap pemula. Buku berikutnya akan terasa jelas lebih mudah.
+- **5 novel / 1 novel visual sedang-panjang:** Kamu bukan pemula lagi. Kemampuan membacamu mulai terbentuk dengan baik.
+- **10 novel / 2 novel visual sedang-panjang:** Sudah benar-benar tingkat menengah. Selamat!
 
-## 3.4 Langkah Lanjutan: Pembuatan Kartu Mandiri (*Sentence Mining*)
+## 3.4 Penutup: Lepas dari Tahap Pemula
 
-Setelah menyelesaikan dek pengantar *Kaishi 1.5k*, kamu akan beralih ke pembuatan kartu kosa kata mandiri langsung dari materi imersi yang kamu temui sehari-hari. Proses ini disebut **mining**.
+Selebihnya tidak banyak: immersion sebanyak-banyaknya, pelajari kata dan tata bahasa. Dengan metode ini kamu benar-benar bisa fasih. Tapi ada satu hal yang berubah setelah kamu lepas dari tahap pemula.
 
-Panduan teknis pembuatan kartu otomatis dapat dibaca di **[Panduan Mining Lazy Guide](setup.md)**.
+Belajar kosakata dengan Anki jadi jauh lebih personal, karena kamu akan membuat kartu sendiri dari kata-kata yang kamu temui di immersion. Proses ini disebut **mining**, dan mining akan jadi jantung belajar bahasa Jepangmu. Panduan teknisnya ada di **[Panduan Mining Lazy Guide](setup.md)**; versi aslinya di [panduan mining Donkuri](https://donkuri.github.io/learn-japanese/mining/){: target="_blank" }.
 
----
+Terima kasih sudah meluangkan waktu membaca panduan ini. Semoga lancar belajar bahasa Jepangnya!
 
-Jika kamu memiliki pertanyaan atau ingin berdiskusi seputar proses belajar, mari bergabung dengan komunitas pembelajar di peladen Discord kami.
+Kalau ada pertanyaan, tanya saja di server Discord kami.
 
 [Gabung Discord :fontawesome-brands-discord:](join.md){: .md-button }
 
 ### Trakteer
-Dukungan sukarela untuk pemeliharaan server dan pengembangan panduan ini dapat disalurkan melalui tautan berikut:
+Kalau panduan ini berguna buat perjalanan belajarmu, dukungan lewat Trakteer sangat kami hargai:
 
 [Trakteer Philia Space](https://trakteer.id/philiaanimelist/tip){: .md-button }
 
 ### Kontributor Panduan Asli
-Apresiasi mendalam kami sampaikan kepada seluruh kontributor naskah asli TheMoeWay:
+Terima kasih kepada semua yang ikut menyusun panduan asli TheMoeWay:
 
 iamatryhard · shigatsunoraion · qazsedctgb · ktamashi · kaio.n · saegusa.mayumin · pedipanol · .ikki. · ultravioletspring · deviru · kazuhira___ · marv.n
