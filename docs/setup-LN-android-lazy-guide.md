@@ -1,12 +1,13 @@
+<!-- upstream: setupLnOnAndroid @ 2026-07-12 -->
 # Setup Mining LN, Buku, dan sejenisnya di Android [Lazy Guide](https://lazyguidejp.github.io/jp-lazy-guide/setupLnOnAndroid/)
 
 ---
 
- Diunggah: 24 Agustus 2025 – `Yaaacha`
+ Diunggah: 24 Agustus 2025 · Diperbarui: 4 November 2026 – `Yaaacha`
 
 ---
 
-- Kamu bisa pakai `Android` buat baca `Light Novel` lewat `Edge Canary` sambil scan kata pakai `Yomitan`.
+- Kamu bisa pakai `Android` buat baca `Light Novel` lewat `Firefox` atau `Edge Canary` sambil scan kata pakai `Yomitan`.
 
 ---
 
@@ -27,12 +28,12 @@
 1. Buka `AnkiConnect Android`, nyalakan service  
     - Buka `Ankidroid` dan biarkan tetap jalan di background
 
-2. Di `Edge Canary`, buka `Yomitan Settings` > `Profile` > `Default` & `Editing` Profile > `Android (Anime, LN & Manga)`  
+2. Di `Firefox` atau `Edge Canary`, buka `Yomitan Settings` > `Profile` > `Default` & `Editing` Profile > `Android (Anime, LN & Manga)`  
     - Kalau kamu nggak pakai setting Yomitan punyaku, cek [Info 2](setup-LN-android-lazy-guide.md/#info-2-text-replacement-pattern)
 
      ![Yomitan Profile Android](img/yomitan-profile-android.png){height=250 width=500}
 
-3. Di `Edge Canary`, buka `https://reader.ttsu.app/` dan upload file epub `Light Novel` kamu
+3. Di `Firefox` atau `Edge Canary`, buka `https://reader.ttsu.app/` dan upload file epub `Light Novel` kamu
 
 4. Sekarang kamu bisa `mine` di `Android` dengan `tap` kata buat scan
 
@@ -96,7 +97,7 @@ Sekarang kamu bisa baca Light Novel di Android.
 
     6. Cek apakah semua sumber audio ada  
          - Kalau nggak jalan, pastikan AnkiConnect Android `Start Service` aktif  
-         - Matikan battery optimization untuk AnkiConnect Android, Ankidroid, dan Edge Canary
+         - Matikan battery optimization untuk AnkiConnect Android, Ankidroid, dan Firefox/Edge Canary
 
           ![Yomitan Local Audio Check](img/yomitan-local-audio-check.gif){height=250 width=500}
 

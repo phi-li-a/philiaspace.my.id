@@ -1,11 +1,12 @@
+<!-- upstream: setupMangaOnAndroid @ 2026-07-12 -->
 # Setup: Manga di Android
 ---
 
- Diunggah: 24 Agustus 2025 – `Yaaacha`
+ Diunggah: 24 Agustus 2025 · Diperbarui: 4 November 2026 – `Yaaacha`
 
 ---
 
-- Kamu bisa pakai `Android` buat baca `Manga` lewat `Edge Canary` sambil scan kata pakai `Yomitan`.
+- Kamu bisa pakai `Android` buat baca `Manga` lewat `Firefox` atau `Edge Canary` sambil scan kata pakai `Yomitan`.
 - Termasuk juga fitur screenshot otomatis `Manga` walaupun di `Android`.
 
 ---

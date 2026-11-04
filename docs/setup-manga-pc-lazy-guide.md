@@ -1,17 +1,18 @@
+<!-- upstream: setupMangaOnPC @ 2026-03-25 -->
 # Setup Mining Manga di PC Windows [Lazy Guide](https://lazyguidejp.github.io/jp-lazy-guide/setupMangaOnPC/) 
 ---
 
- Diunggah: 24 Agustus 2025 – `Yaaacha`
+ Diunggah: 24 Agustus 2025 · Diperbarui: 4 November 2026 – `Yaaacha`
 
 ---
 
-- [MangaOCR](setup-manga-pc-lazy-guide.md/#setup-mining-mangaocr) adalah tool yang dipakai buat scan teks `Jepang` dan langsung nyimpen hasilnya ke clipboard, yang nanti bisa kamu scan pakai `Yomitan`.
+- [OCR](setup-manga-pc-lazy-guide.md/#setup-ocr) adalah tool yang dipakai buat scan teks `Jepang` dan langsung nyimpen hasilnya ke clipboard, yang nanti bisa kamu scan pakai `Yomitan`.
 
 - (Rekomendasi) [Mokuro Manga](setup-manga-pc-lazy-guide.md/#setup-mining-mokuro-manga) adalah setup yang memproses `manga` dulu supaya kamu bisa hover kata-katanya dan langsung scan pakai `Yomitan`.
 
 ---
 
-## MangaOCR
+## OCR
 
 **Kebutuhan:**
 
@@ -21,9 +22,9 @@
 
 ---
 
-## Setup Mining MangaOCR
+## Setup OCR
 
-1. Download [python](https://www.python.org/downloads/release/python-31011/) (`hanya versi 3.10.xx`)  
+1. Download [python](https://www.python.org/downloads/release/python-3139/) (`baru diuji di versi 3.13.9`)  
     - Scroll ke bawah, pilih Windows`INSTALLER (64-bit)` dan install  
     - Centang `Add Python to PATH`
 
@@ -31,7 +32,7 @@
 
 2. Buka `command prompt` lewat tombol Windows/search > ketik `cmd`
 
-3. Ketik `pip3 install mokuro`  
+3. Ketik `pip install owocr[mangaocr,screenai,lens]`  
     - Tunggu sampai selesai install (butuh beberapa menit)  
     - Kalau muncul error `pip3 is not recognized...`:
         - Uninstall `Python` (ulang step 1) > restart PC > install lagi Python (ulangi kalau masih error, ya emang agak nyebelin)
@@ -41,16 +42,17 @@
     ![ShareX OCR Path](img/sharex-ocr-path.png){height=150 width=300}
 
 5. Di `command prompt` ketik:
-    - `manga_ocr "\path\to\sharex\screenshot\folder"`  
+    - `owocr -e screenai -w clipboard -j -d -r "\path\to\sharex\screenshot\folder"`  
         - ganti `path` sesuai folder OCR yang kamu set di step 4, lalu minimize window
-    - Bisa juga cuma ketik `manga_ocr` tanpa path, cara ini bakal scan layar dari mana aja
-    - Kalau mau bikin shortcut program, cek [Info 1](setup-manga-pc-lazy-guide.md/#info-1-shortcut-program-mangaocr)
+    - Bisa juga cuma ketik `owocr` tanpa path, cara ini bakal scan layar dari mana aja
+    - Kalau mau bikin shortcut program, cek [Info 1](setup-manga-pc-lazy-guide.md/#info-1-shortcut-program-ocr)
 
 6. Untuk scan, capture gambar pakai hotkey `Shift + Alt + Q` (atau sesuai setting OCR kamu di ShareX)  
    - Pastikan [Yomitan Search Page](setup-manga-pc-lazy-guide.md/#__tabbed_1_1) udah kebuka  
    - Kalau mau scan pakai tombol mouse, cek [Info 2](setup-manga-pc-lazy-guide.md/#info-2-scan-pakai-tombol-mouse)
 
-7. Sekarang kamu udah bisa mulai baca Manga pakai MangaOCR
+7. Sekarang kamu udah bisa mulai baca Manga pakai OCR
+    - Engine bawaannya (j) Screen AI (Google Lens lokal). Kamu bisa ganti engine dengan menekan tombol ini di jendela `command prompt`: (l) Google Lens (online), (m) atau (n) MangaOCR, (b) Bing
 
     ??? info "Video Cara Pakai <small>(klik di sini)</small>"
         <iframe width="560" height="315" src="https://user-images.githubusercontent.com/22717958/150238361-052b95d1-0152-485f-a441-48a957536239.mp4" title="MangaOCR How-to" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -81,7 +83,7 @@ Kamu bisa pilih 3 metode:
 
 1. Buka [Katalog Mokuro](https://catalog.mokuro.moe/).
 
-2. Cari manga pilihanu. Pilih volume yang mau dibaca. Impor.
+2. Cari manga pilihanmu. Pilih volume yang mau dibaca. Impor.
 
 3. Tunggu hingga manga selesai diimpor.
 
@@ -99,7 +101,7 @@ Kamu bisa pilih 3 metode:
 
 ### Metode Lokal
 
-1. Download [python](https://www.python.org/downloads/release/python-31011/) (**hanya versi 3.10.xx**)  
+1. Download [python](https://www.python.org/downloads/release/python-3139/) (**baru diuji di versi 3.13.9**)  
     - Scroll ke bawah, pilih Windows`INSTALLER (64-bit)` dan install  
     - Centang `Add Python to PATH`
     ![Add Python to PATH](img/add-python-to-path.png){height=300 width=600}
@@ -115,8 +117,8 @@ Kamu bisa pilih 3 metode:
 
 5. (Opsional) Pakai `GPU CUDA`
     - Cek dulu apakah GPU kamu [compatible sama CUDA](https://developer.nvidia.com/cuda-gpus)
-    - Download [CUDA Toolkit 11.8.0](https://developer.nvidia.com/cuda-toolkit-archive) sesuai OS dan versimu
-    - Ketik `pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118` di `cmd` (tetap di `CUDA 11.8`)
+    - Download [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit-archive) sesuai OS dan versimu
+    - Ketik `pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126` di `cmd` (atau cari perintah versi terbaru di [sini](https://pytorch.org/get-started/locally/))
 
     ![Installing Torch](img/installing-torch.png){height=300 width=600}
 
@@ -214,17 +216,17 @@ Sekarang kamu bisa mining Manga di PC.
 
 ## Extra Info & Tips
 
-#### Info 1: Shortcut Program MangaOCR
+#### Info 1: Shortcut Program OCR
 
-??? info "Shortcut Program MangaOCR <small>(klik di sini)</small>"
+??? info "Shortcut Program OCR <small>(klik di sini)</small>"
     1. `Klik Kanan` di area kosong di `Desktop` kamu > `New` > `Shortcut`
 
         ![MangaOCR Shortcut](img/mangaocr-shortcut.png){height=300 width=600}
 
     2. Ketik lokasi item-nya seperti ini:
-        - Default: `C:\Windows\System32\cmd.exe /k manga_ocr`
-        - OCR hanya dari folder tertentu: `C:\Windows\System32\cmd.exe /k manga_ocr "\lokasi\ke\folder\screenshot\pilihan"`
-            - Contoh: `C:\Windows\System32\cmd.exe /k manga_ocr "F:\Pictures\OCR Picture"`
+        - Default: `C:\Windows\System32\cmd.exe /k owocr`
+        - OCR hanya dari folder tertentu: `C:\Windows\System32\cmd.exe /k owocr -e screenai -j -d -w clipboard -r "\lokasi\ke\folder\screenshot\pilihan"`
+            - Contoh: `C:\Windows\System32\cmd.exe /k owocr -e screenai -j -d -w clipboard -r "F:\Pictures\OCR Picture"`
             - Klik `Next` lalu `pilih nama` shortcut-nya, selesai.
 
 #### Info 2: Scan pakai Tombol Mouse

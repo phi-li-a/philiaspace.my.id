@@ -1,3 +1,4 @@
+<!-- upstream: setupShareX @ 2025-11-27 -->
 # Setup ShareX di Windows [Lazy Guide](https://lazyguidejp.github.io/jp-lazy-guide/setupShareX/)
 
 ---
@@ -75,7 +76,7 @@ Selesai setup ShareX!
 
     - `screenshot snip` dan `screenshot nsfw snip`: ambil screenshot bagian tertentu (mirip crop)
 
-    - `OCR (manga_ocr)` dipakai di [Manga OCR](setup-manga-pc-lazy-guide.md/#setup-mining-mangaocr) sedangkan `OCR` adalah OCR bawaan ShareX
+    - `OCR (manga_ocr)` dipakai di [Setup OCR (owocr)](setup-manga-pc-lazy-guide.md/#setup-ocr) sedangkan `OCR` adalah OCR bawaan ShareX
 
 #### Tip 1: Skip Rekam Audio saat Mining
 

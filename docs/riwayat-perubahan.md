@@ -20,7 +20,20 @@ hide:
 
 ### November
 
-**04-11-2026**
+**04-11-2026** · Sinkronisasi LazyGuide
+
+- Pembaruan
+       - [Setup Manga PC](setup-manga-pc-lazy-guide.md): MangaOCR diganti owocr dengan Screen AI (Google Lens lokal) sebagai engine bawaan, termasuk perintah shortcut di Info 1
+       - [Setup Manga PC](setup-manga-pc-lazy-guide.md): Python untuk OCR dan Mokuro naik ke 3.13.9; panduan CUDA tidak lagi terkunci di versi 11.8
+       - [Setup Anki PC](setup-anki-pc-lazy-guide.md): langkah FSRS disesuaikan dengan FSRS 6 (Optimize Current Preset tiap bulan, opsi FSRS Helper > Reschedule all cards); Desired Retention disamakan dengan screenshot (85%)
+       - Tautan OCR di [Setup ShareX](setup-ShareX-pc.md) diarahkan ke bagian baru
+- Penambahan
+       - Opsi Firefox di [Setup Yomitan Android](setup-yomitan-android-lazy-guide.md), [LN Android](setup-LN-android-lazy-guide.md), dan [Manga Android](setup-manga-android-lazy-guide.md)
+       - Info 4 di [Setup Anki PC](setup-anki-pc-lazy-guide.md): diagram troubleshooting interval FSRS
+- Perbaikan
+       - Tanggal entri April diperbaiki ke 2026
+
+**04-11-2026** · Beranda
 
 - Landing Page & Desain
        - Beranda dibangun ulang sebagai landing page penuh tanpa sidebar dan daftar isi: hero gelap dengan contoh alur sentence mining (subtitle → Yomitan → Anki), tiga kartu fase pembelajaran, daftar alat gratis, blok ajakan Discord, kartu teori dan donasi
@@ -70,7 +83,7 @@ hide:
 
 ### April
 
-**13-04-2025**
+**13-04-2026**
 
 - Umum
        - Pembaruan tautan Grinding Kana game

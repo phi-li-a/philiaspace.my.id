@@ -1,8 +1,9 @@
+<!-- upstream: setupYomitanOnAndroid @ 2026-07-12 -->
 # Setup Yomitan di Android [LazyGuide](https://lazyguidejp.github.io/jp-lazy-guide/setupYomitanOnAndroid/)
 
 ---
 
- Diunggah: 24 Agustus 2025 – `Yaaacha`
+ Diunggah: 24 Agustus 2025 · Diperbarui: 4 November 2026 – `Yaaacha`
 
 ---
 
@@ -14,12 +15,13 @@
 
 ## Download dan Install
 
-- Install [Edge Canary](https://play.google.com/store/apps/details?id=com.microsoft.emmx.canary)
+- Install [Firefox](https://play.google.com/store/apps/details?id=org.mozilla.firefox) atau [Edge Canary](https://play.google.com/store/apps/details?id=com.microsoft.emmx.canary)
 
 - Download dari [sini](https://drive.google.com/drive/folders/1DHJ18Lk2_tVYWJ1Adhe8XByuyFBGuTr_?usp=sharing):
     - `Font`
     - `yomitan dictionary`
     - `lazyGuide-yomitan-settings` (download dua-duanya)
+        - Firefox: `yomitan settings` [di sini](https://drive.google.com/drive/folders/1D_O7HgX4xMBOQcl2tLoeAQ7KUtPqyUnU?usp=sharing)
     - Tambahan kamus [JIDict](https://drive.google.com/file/d/1VPvizJLN3ShjzdNbTxpY4dN33UI9l0FR/view?usp=drivesdk) dan [JMDict Trilingual JP-EN-ID](https://github.com/phi-li-a/PhiliaArchive/blob/main/Yomitan/Trilingual/%5BBETA%20VERSION%5D%20JMDict%20JP-EN-ID%20V.0.1.zip)
 
 - Setelah download:
@@ -30,40 +32,56 @@
 
 ## Setting Awal
 
-1. Masuk `Menu` > `Settings` > `About Microsoft Edge` > `Privacy and Terms` > tap `Edge Canary build number` 7 kali  
-    - `Developer Options` akan aktif
+Pasang Yomitan sesuai browser yang kamu pilih:
 
-     ![Edge Canary Build Number](img/edge-canary-build-number.png){height=200 width=400}
+=== "Firefox"
 
-2. Kembali ke `Settings` > `Developer Options` > `Extension install by id` > paste ini:
+    1. Pasang [Yomitan dari Firefox Add-ons](https://addons.mozilla.org/en-US/android/addon/yomitan/)
 
-    ```bash
-    idelnfbbmikgfiejhgmddlbkfgiifnnn
-    ```
+    2. Buka `Settings` > `Extensions` > tap `Yomitan Popup Dictionary` > `Settings (ikon roda gigi)`
 
-3. Klik `Add` Yomitan Extension lalu tunggu sampai selesai download  
-    - `Welcome Page` akan muncul otomatis, atau buka `Settings` > `Extensions` > tap `Yomitan Popup Dictionary` > `Settings (ikon roda gigi)`
+    3. Di `Welcome Page`, nyalakan `Enable optional permissions`
 
-4. Di `Welcome Page`, nyalakan `Enable optional permissions`
+         ![Enable optional permissions](img/enable-optional-permissions.png){height=200 width=400}
 
-     ![Enable optional permissions](img/enable-optional-permissions.png){height=200 width=400}
+=== "Edge Canary"
 
-5. Selanjutnya, buka `Settings Page` atau `Settings` > `Extensions` > tap `Yomitan Popup Dictionary` > `Settings (ikon roda gigi)`
+    1. Masuk `Menu` > `Settings` > `About Microsoft Edge` > `Privacy and Terms` > tap `Edge Canary build number` 7 kali  
+        - `Developer Options` akan aktif
 
-6. Masuk ke `Dictionary` > `Configure installed and enabled dictionaries...` > `Import`
+         ![Edge Canary Build Number](img/edge-canary-build-number.png){height=200 width=400}
+
+    2. Kembali ke `Settings` > `Developer Options` > `Extension install by id` > paste ini:
+
+        ```bash
+        idelnfbbmikgfiejhgmddlbkfgiifnnn
+        ```
+
+    3. Klik `Add` Yomitan Extension lalu tunggu sampai selesai download  
+        - `Welcome Page` akan muncul otomatis, atau buka `Settings` > `Extensions` > tap `Yomitan Popup Dictionary` > `Settings (ikon roda gigi)`
+
+    4. Di `Welcome Page`, nyalakan `Enable optional permissions`
+
+         ![Enable optional permissions](img/enable-optional-permissions.png){height=200 width=400}
+
+Setelah itu, langkahnya sama untuk kedua browser:
+
+1. Buka `Settings Page` atau `Settings` > `Extensions` > tap `Yomitan Popup Dictionary` > `Settings (ikon roda gigi)`
+
+2. Masuk ke `Dictionary` > `Configure installed and enabled dictionaries...` > `Import`
      - Import semua kamus dari folder `yomitan dictionary` (bisa pilih semua sekaligus)
      - Nyalakan `JIDict` dan taruh di prioritas #1 (paling atas)
 
      ![Dictionary Import](img/yomitan-dictionary-import.png){height=250 width=500}
 
-7. Scroll ke bawah, di `Backup` > `Import Settings` > pilih `lazyGuide-yomitan-settings` (file dari [sini](setup-yomitan-android-lazy-guide.md/#download-dan-install))
+3. Scroll ke bawah, di `Backup` > `Import Settings` > pilih `lazyGuide-yomitan-settings` (file dari [sini](setup-yomitan-android-lazy-guide.md/#download-dan-install))
      - Pilih salah satu:
          - `lazyGuide-local-audio-yomitan-settings` (Instal [Yomitan Local Audio](setup-yomitan-android-lazy-guide.md/#info-1-android-yomitan-local-audio) kalau pake yang ini)
          - `lazyGuide-non-local-audio-yomitan-settings`
 
          ![Yomitan Import Settings](img/yomitan-import-settings.png){align=left height=300 width=600}
 
-8. Pilih profil `Android (Anime, LN & Manga)` sebagai `Active Profile`
+4. Pilih profil `Android (Anime, LN & Manga)` sebagai `Active Profile`
 
      ![Yomitan Profile](img/yomitan-profiles.jpg){align=left height=300 width=600}
 
@@ -108,7 +126,7 @@ Setup Yomitan selesai.
 
     6. Cek apakah semua sumber audio ada  
          - Kalau nggak jalan, pastikan AnkiConnect Android `Start Service` aktif  
-         - Matikan battery optimization untuk AnkiConnect Android, Ankidroid, dan Edge Canary
+         - Matikan battery optimization untuk AnkiConnect Android, Ankidroid, dan Firefox/Edge Canary
 
           ![Yomitan Local Audio Check](img/yomitan-local-audio-check.gif){height=250 width=500}
 
