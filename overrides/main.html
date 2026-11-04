@@ -61,11 +61,13 @@
 {% endif %}
 <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" {{ hidden }}>
     <div class="md-sidebar__scrollwrap">
-        <a href="/join"><img width="100%" src="/img/discord.png"></a>
-       <!-- <a href="/donate"><img width="100%" src="/img/donate.png"></a> -->
         <div class="md-sidebar__inner">
-            <br>
             {% include "partials/toc.html" %}
+            <div class="ps-toc-footer">
+                <a href="/join" class="ps-community-link" aria-label="Join Discord">
+                    <img width="100%" src="/img/discord.png" alt="Discord Philia Space" style="border-radius: 8px; margin-top: 1.5rem; display: block; border: 1px solid var(--md-default-fg-color--lightest);">
+                </a>
+            </div>
         </div>
     </div>
 </div>

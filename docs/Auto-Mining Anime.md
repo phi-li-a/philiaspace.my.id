@@ -14,7 +14,7 @@ Kompatibel dengan pengaturan Yomitan yang sudah ada. Tidak perlu framework lain.
 
 * Windows
 * Anki ([Panduan Pengaturan Cepat](setup-anki-pc-lazy-guide.md))
-* Yomitan (panduan [di sini](setup-yomitan.md))
+* Yomitan (panduan [di sini](setup-yomitan-pc.md))
 * Tipe note dengan field untuk "Expression", "Picture", "Sentence" & "SentenceAudio". Lapis kompatibel. Temukan [di sini](https://github.com/donkuri/lapis). ([Panduan Pengaturan Cepat](setup-yomitan-pc-lazy-guide.md))
 * Yomitan sudah diatur untuk pembuatan kartu. (persyaratan minimum: `Expression` & `Sentence`. Autocards akan mengurus sisanya. [Panduan Pengaturan Cepat](setup-yomitan-pc-lazy-guide.md))
 * File subtitle tersedia (misalnya, file .srt), temukan di [Jimaku.cc](https://jimaku.cc/).

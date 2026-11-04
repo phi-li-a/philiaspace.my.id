@@ -63,7 +63,7 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: c9c189
+      primary: light-blue
       accent: cyan 
       toggle:
         icon: material/brightness-4
@@ -76,13 +76,17 @@ theme:
     - navigation.instant.progress
     - navigation.sections
     - navigation.expand
+    - navigation.top
+    - navigation.tracking
+    - navigation.footer
+    - toc.follow
     - search.suggest
     - search.highlighting
     - search.share
   name: material
   custom_dir: overrides
   favicon: img/favicon.png
-  logo: img/moe.svg
+  logo: img/philia-space-logo.jpg
   icon:
     repo: fontawesome/brands/github
 repo_url: https://github.com/phi-li-a/philiaspace.my.id
@@ -107,6 +111,7 @@ markdown_extensions:
       alternate_style: true
   - toc:
       permalink: true
+      title: "On this page"
 extra_css:
   - stylesheets/extra.css
 extra_javascript:
