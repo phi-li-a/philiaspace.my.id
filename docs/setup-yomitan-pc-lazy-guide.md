@@ -123,8 +123,8 @@ Setup Yomitan di PC udah kelar!  Mau lanjut cek panduan Setup Mining Anime?
     3. Ekstrak `local-yomitan-audio-collection` lalu paste folder `user_files` ke:
         - Di `Add-ons window` > pilih `Local Audio Server for Yomitan` > `View Files`
         - Atau ke: 
-              - Windows: `C:\\Users\\NamaKamu\\AppData\\Roaming\\Anki2\\addons21\\1045800357`
-              - MacOS : `/Users/macbookair/Library/Application Support/Anki2/addons21/1045800357` 
+              - Windows: `C:\Users\NamaKamu\AppData\Roaming\Anki2\addons21\1045800357`
+              - MacOS: `~/Library/Application Support/Anki2/addons21/1045800357` (buka lewat `Finder` > `Go` > `Go to Folder...`, lalu paste alamat ini)
 
     4. Kalau pakai setting-ku:
         - Buka `Yomitan settings` > `Audio` > `Configure audio playback sources...` > `Add` > `Custom URL (JSON)`

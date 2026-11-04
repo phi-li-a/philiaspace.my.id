@@ -36,7 +36,12 @@
         Folder Windows = `C:\Users\**NamaUserKamu**\AppData\Roaming\Anki2`
         ![Anki Addons Win](img/addons-directory.png){height=70% width=70%} 
     === "MacOS"
-        Folder MacOS = `/Users/macbookair/Library/Application Support/Anki2`
+        Folder MacOS = `~/Library/Application Support/Anki2`
+
+        Folder `Library` disembunyikan secara default, jadi bukanya lewat `Finder` > `Go` > `Go to Folder...` (++cmd++++shift++ + G) > paste alamat folder di atas > tekan `Enter`
+
+        ![Finder Go to Folder](img/finder-go-to-folder.jpg){height=50% width=50%}
+
         ![Anki Addons Mac](img/addons-directory-mac.jpg){height=70% width=70%}
 
 3. Restart Anki kamu, lalu tekan ++ctrl++++shift++ + A (Win)/++cmd++++shift++ + A (MacOS) untuk membuka menu add-ons atau pilih `Tools` > `Add-ons` > `Check for add-ons update`
