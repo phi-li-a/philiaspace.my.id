@@ -21,7 +21,7 @@ Langkah-langkah persiapan sebelum menjalankan Manatan:
 	- Salin/simpan API Key untuk nanti dimasukkan ke kolom Jimaku API Key di aplikasi manatan
 3. Unduh Kamus. Panduan pemilihan kamus dapat diakses di bagian [Kamus](#kamus)
 	- Kamus JP-ID
-		- [JIdict](https://drive.google.com/file/d/17t0_0sGi23GOFvEkulEOyu8eYT5Q3nQN/view?usp=drivesdk)
+		- [JIDict](https://github.com/philiaspaceai/JIDict-yomitan#pemasangan)
 		- [JPdict](https://drive.google.com/file/d/11X1Wt5FRp7YnOXNHZIUmRapWZDxD5PPP/view)
 	- Kamus JP-EN dan monolingual JP
 		- [JMdict dan JMnedict](https://github.com/yomidevs/jmdict-yomitan?tab=readme-ov-file#jmdict-for-yomitan). Pilih yang JMdict_english.zip dan JMnedict.zip.

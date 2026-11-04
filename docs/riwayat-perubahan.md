@@ -31,6 +31,8 @@ hide:
        - Opsi Firefox di [Setup Yomitan Android](setup-yomitan-android-lazy-guide.md), [LN Android](setup-LN-android-lazy-guide.md), dan [Manga Android](setup-manga-android-lazy-guide.md)
        - Info 4 di [Setup Anki PC](setup-anki-pc-lazy-guide.md): diagram troubleshooting interval FSRS
 - Perbaikan
+       - Semua tautan JIDict (Google Drive, Discord) diarahkan ke repo resmi [JIDict-yomitan](https://github.com/philiaspaceai/JIDict-yomitan); tautan JMDict Trilingual JP-EN-ID (beta) dihapus
+       - `MainDefinition` JIDict di [Setup Yomitan PC](setup-yomitan-pc-lazy-guide.md) disesuaikan ke versi 1.0.3
        - Tanggal entri April diperbaiki ke 2026
 
 **04-11-2026** · Beranda

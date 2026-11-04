@@ -22,7 +22,7 @@
     - `yomitan dictionary`
     - `lazyGuide-yomitan-settings` (download dua-duanya)
         - Firefox: `yomitan settings` [di sini](https://drive.google.com/drive/folders/1D_O7HgX4xMBOQcl2tLoeAQ7KUtPqyUnU?usp=sharing)
-    - Tambahan kamus [JIDict](https://drive.google.com/file/d/1VPvizJLN3ShjzdNbTxpY4dN33UI9l0FR/view?usp=drivesdk) dan [JMDict Trilingual JP-EN-ID](https://github.com/phi-li-a/PhiliaArchive/blob/main/Yomitan/Trilingual/%5BBETA%20VERSION%5D%20JMDict%20JP-EN-ID%20V.0.1.zip)
+    - Tambahan kamus [JIDict](https://github.com/philiaspaceai/JIDict-yomitan#pemasangan) (Jepang-Indonesia)
 
 - Setelah download:
     - Extract ([?](https://www.webhostinghub.com/help/learn/website/managing-files/extract-file)) `Font.7z` dan `yomitan dictionary.7z` (Password: `lazyguide`)
