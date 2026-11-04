@@ -104,7 +104,7 @@ Pilih Anki Connect. Buka menu Config. Timpa teks yang ada di konfigurasi dengan 
         "http://localhost",
         "https://killergerbah.github.io",
         "https://reader.mokuro.app",
-        "https://reader.ttsu.app"
+        "https://app.yatsu.moe"
     ]
 }
 ```
@@ -112,7 +112,7 @@ Pilih Anki Connect. Buka menu Config. Timpa teks yang ada di konfigurasi dengan 
     Link 1 untuk **Yomitan**  
     Link 2 untuk **asbplayer** (anime dan video based material)  
     Link 3 untuk **Mokuro** (baca manga)  
-    Link 4 untuk **TTSU Reader** (baca novel, LN, dll)
+    Link 4 untuk **Yatsu Reader** (baca novel, LN, dll)
 
 #### Local Audio Server for Yomichan
 - Buka Anki. 

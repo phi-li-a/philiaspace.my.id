@@ -100,7 +100,7 @@ The websites below have the best collection but can be a pain to download from.
 - [Kakuyomu](https://kakuyomu.jp/) - Similar to syosetu.  
 - [Hameln](https://syosetu.org/) - Also similar to syosetsu.
 - [Aozora Bunko](https://www.aozora.gr.jp/) - read Japanese classics. Books go on here if the author has died more than 50 years ago.  
-- **[※ ッツ Ebook Reader](https://ttu-ebook.web.app/)** - Japanese book reader that supports EPUB and HTMLZ. Text is displayed in 縦書き (vertical text) by default. This is one of the best options for an authentic experience reading Japanese books.
+- **[※ Yatsu Reader](https://app.yatsu.moe/)** - Japanese book reader that supports EPUB and HTMLZ. Text is displayed in 縦書き (vertical text) by default. This is one of the best options for an authentic experience reading Japanese books.
 - [Japanese Media Recommendations List](https://docs.google.com/spreadsheets/d/1w42HEKEu2AzZg9K7PI0ma9ICmr2qYEKQ9IF4XxFSnQU/)
 
 Note: Gaining the Student rank or above in our Discord channel grants you access to more books than just these.  

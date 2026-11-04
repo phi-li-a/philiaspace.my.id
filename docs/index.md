@@ -88,7 +88,7 @@ hide:
 <div class="ps-tools">
   <span class="ps-tools-label">Alat yang kita pakai, semuanya gratis</span>
   <ul class="ps-chips">
-    <li>Anki</li><li>Yomitan</li><li>Lapis</li><li>asbplayer</li><li>Manatan</li><li>mokuro</li><li lang="ja">っつ reader</li><li>ShareX</li>
+    <li>Anki</li><li>Yomitan</li><li>Lapis</li><li>asbplayer</li><li>Manatan</li><li>mokuro</li><li>Yatsu Reader</li><li>ShareX</li>
   </ul>
 </div>
 

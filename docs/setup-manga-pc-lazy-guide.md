@@ -177,7 +177,7 @@ Kamu bisa pilih 3 metode:
                 "http://localhost",
                 "https://killergerbah.github.io",
                 "https://reader.mokuro.app",
-                "https://reader.ttsu.app",
+                "https://app.yatsu.moe",
                 "https://app.asbplayer.dev"
                 ]
         }

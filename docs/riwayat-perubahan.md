@@ -34,6 +34,7 @@ hide:
        - Semua tautan JIDict (Google Drive, Discord) diarahkan ke repo resmi [JIDict-yomitan](https://github.com/philiaspaceai/JIDict-yomitan); tautan JMDict Trilingual JP-EN-ID (beta) dihapus
        - `MainDefinition` JIDict di [Setup Yomitan PC](setup-yomitan-pc-lazy-guide.md) disesuaikan ke versi 1.0.3
        - Alamat folder MacOS yang memakai nama user `macbookair` diganti ke `~/Library/Application Support/Anki2` (Setup Anki PC, Panduan Ringkas, Local Audio di Setup Yomitan PC), ditambah cara membukanya lewat Finder > Go to Folder
+       - Pembaca EPUB TTSU Reader (`reader.ttsu.app`) diganti ke [Yatsu Reader](https://app.yatsu.moe/), termasuk namanya di Setup LN PC & Android, beranda, dan config AnkiConnect di Setup Manga PC serta Yomitan & Anki PC
        - Tanggal entri April diperbaiki ke 2026
 
 **04-11-2026** · Beranda

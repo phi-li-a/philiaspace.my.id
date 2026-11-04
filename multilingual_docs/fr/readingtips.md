@@ -52,14 +52,14 @@ Read the novel after you watch the anime, or even while watching the anime. And 
 Anyway, this is obviously a God tier reading strategy because, by watching the anime, you have given context to the text on the page, which translates into i+1 Krashen approved effective language learning gains, and the light novel will have multiple volumes, which is great for learners because getting used to one author's writing style is easier than reading a different author every time.  
 
 
-### Yomichan, Itazuraneko, EPUBs+ッツ Reader  
+### Yomichan, Itazuraneko, EPUBs+Yatsu Reader  
 
 The holy trinity of Japanese learning (for novel enjoyers).  
 
 - Set up Yomichan [here](/yomichan)  
 - Itazuraneko in [Resources](/resources)  
 - EPUBs... many ways you can get them. ([Itazuraneko ebook list](https://itazuraneko.neocities.org/library/shousetu/shousetulist), Kindle 1.19 for Windows+[UnpackKindleS](https://github.com/Aeroblast/UnpackKindleS/releases), [PeepoHappyBooks](https://nyaa.si/view/1350523))  
-- [ッツ Reader](https://reader.ttsu.app/manage)  
+- [Yatsu Reader](https://app.yatsu.moe/manage)  
 
 ### Manga
 

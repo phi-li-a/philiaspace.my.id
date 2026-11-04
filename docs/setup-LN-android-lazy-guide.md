@@ -33,11 +33,11 @@
 
      ![Yomitan Profile Android](img/yomitan-profile-android.png){height=250 width=500}
 
-3. Di `Firefox` atau `Edge Canary`, buka `https://reader.ttsu.app/` dan upload file epub `Light Novel` kamu
+3. Di `Firefox` atau `Edge Canary`, buka `https://app.yatsu.moe/` dan upload file epub `Light Novel` kamu
 
 4. Sekarang kamu bisa `mine` di `Android` dengan `tap` kata buat scan
 
-     ![TTU Android](img/ttu-android.png){height=150 width=300}
+     ![Yatsu Reader Android](img/ttu-android.png){height=150 width=300}
 
 Sekarang kamu bisa baca Light Novel di Android.
 
@@ -45,13 +45,13 @@ Sekarang kamu bisa baca Light Novel di Android.
 
 ## Info Tambahan dan Tips
 
-#### Info 1: TTU Settings Punyaku
+#### Info 1: Yatsu Reader Settings Punyaku
 
-??? info "TTU Settings Punyaku <small>(klik di sini)</small>"
+??? info "Yatsu Reader Settings Punyaku <small>(klik di sini)</small>"
 
-    Ini setting `Android` punyaku untuk `TTU`:
+    Ini setting `Android` punyaku untuk `Yatsu Reader`:
 
-    ![TTU Settings Android](img/ttu-settings-android.png){height=500 width=1000}
+    ![Yatsu Reader Settings Android](img/ttu-settings-android.png){height=500 width=1000}
 
 #### Info 2: Text Replacement Pattern
 
