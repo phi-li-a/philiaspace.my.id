@@ -22,6 +22,16 @@ hide:
 
 **04-11-2026**
 
+- Landing Page & Desain
+       - Beranda dibangun ulang sebagai landing page penuh tanpa sidebar dan daftar isi: hero gelap dengan contoh alur sentence mining (subtitle → Yomitan → Anki), tiga kartu fase pembelajaran, daftar alat gratis, blok ajakan Discord, kartu teori dan donasi
+       - Footer khusus beranda (lockup 愛間 Philia Space, tautan GitHub, Discord, TikTok, Proyek komunitas, Riwayat perubahan, Donasi) menggantikan footer bawaan tema
+       - Desain mengikuti brand guideline baru Philia Space: warna Langit `#00bbff`, netral Ink dan Malam, aksen Krim, radius 16 px, tombol pil
+- Tampilan & Antarmuka
+       - Font Plus Jakarta Sans dimuat dari `docs/fonts` dan dipakai untuk teks Latin di beranda serta tombol situs
+       - Entri "Beranda" dihapus dari navigasi samping; kembali ke beranda lewat logo di header
+- Perbaikan
+       - Teks di atas warna biru Langit diganti ke Ink (`#111827`): kontras putih di atas `#00bbff` hanya 2.2:1 dan tidak lolos WCAG
+       - Gaya kartu dan grid lama dipertahankan untuk halaman [Proyek Komunitas](proyek.md)
 - Penambahan
        - Halaman baru [Proyek Komunitas](proyek.md): JIDict sebagai proyek utama (deskripsi, cara pasang, tautan repo dan versi web) serta alat buatan komunitas lainnya (Philia Bunrei, Tes Frekuensi Kosakata, Jimaku Bunseki, Shizen, Philia Kensaku, JobApp Mailer)
        - Entri navigasi "Proyek Komunitas" dan tautan dari beranda

@@ -3,7 +3,6 @@ site_description: pi pi pi philia
 site_url: https://philiaspace.my.id
 site_author: ryusuke  
 nav:
-  - Beranda: 'index.md'
   - 'Panduan':
          - 'Panduan Bahasa Jepang': 'panduan.md'
          - 'Panduan Ringkas Bahasa Jepang': 'panduan-ringkas-JP.md'
