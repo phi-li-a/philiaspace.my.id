@@ -42,9 +42,11 @@ hide:
       <ul class="ps-card-links">
         <li><a href="setup/">Pengantar LazyGuide Mining</a></li>
         <li><a href="setup-anki-pc-lazy-guide/">Setup Anki PC</a></li>
+        <li><a href="setup-yomitan-pc-lazy-guide/">Setup Yomitan PC</a></li>
         <li><a href="setup-yomitan-pc/">Integrasi Yomitan + Anki (PC)</a></li>
-        <li><a href="Setup-Manatan/">Manatan: Reader & OCR Tool</a></li>
+        <li><a href="setup-ShareX-pc/">ShareX OCR Capture (Windows)</a></li>
         <li><a href="setup-yomitan-android-lazy-guide/">Yomitan di Android</a></li>
+        <li><a href="Setup-Manatan/">Manatan: Reader & OCR (Android)</a></li>
       </ul>
     </div>
   </div>
@@ -61,50 +63,9 @@ hide:
         <li><a href="setup-anime-pc-lazy-guide/">Mining Anime (macOS)</a></li>
         <li><a href="setup-LN-pc-lazy-guide/">Setup Light Novel & Buku (PC)</a></li>
         <li><a href="setup-manga-pc-lazy-guide/">Setup Manga Reader (PC)</a></li>
-        <li><a href="setup-anime-android-lazy-guide/">Mining Media di Android</a></li>
-      </ul>
-    </div>
-  </div>
-
-</div>
-
-## Setup Berdasarkan Perangkat
-
-<div class="ps-grid ps-grid-2">
-
-  <div class="ps-card">
-    <div>
-      <div class="ps-card-header">
-        <span class="ps-step-tag">DESKTOP</span>
-      </div>
-      <h3>PC & Laptop (Windows / macOS)</h3>
-      <p>Konfigurasi mining 1-klik dengan kamus popup Yomitan, ShareX OCR, dan pemutar media bersubtitle ganda.</p>
-      <ul class="ps-card-links">
-        <li><a href="setup-anki-pc-lazy-guide/"><span class="ps-badge">CORE</span> Setup Anki PC</a></li>
-        <li><a href="setup-yomitan-pc-lazy-guide/"><span class="ps-badge">CORE</span> Setup Yomitan PC</a></li>
-        <li><a href="setup-yomitan-pc/"><span class="ps-badge">SYNC</span> Hubungkan Yomitan & Anki</a></li>
-        <li><a href="Auto-Mining%20Anime/"><span class="ps-badge">MEDIA</span> Mining Anime (Windows)</a></li>
-        <li><a href="setup-anime-pc-lazy-guide/"><span class="ps-badge">MEDIA</span> Mining Anime (macOS)</a></li>
-        <li><a href="setup-LN-pc-lazy-guide/"><span class="ps-badge">MEDIA</span> Baca Light Novel di PC</a></li>
-        <li><a href="setup-manga-pc-lazy-guide/"><span class="ps-badge">MEDIA</span> Baca Manga di PC</a></li>
-        <li><a href="setup-ShareX-pc/"><span class="ps-badge">TOOL</span> ShareX OCR Capture</a></li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="ps-card">
-    <div>
-      <div class="ps-card-header">
-        <span class="ps-step-tag">MOBILE</span>
-      </div>
-      <h3>Ponsel & Tablet Android</h3>
-      <p>Setup belajar fleksibel dengan browser ekstensi, reader Manatan terintegrasi, dan sinkronisasi kartu AnkiDroid.</p>
-      <ul class="ps-card-links">
-        <li><a href="setup-yomitan-android-lazy-guide/"><span class="ps-badge">CORE</span> Setup Yomitan di Android</a></li>
-        <li><a href="Setup-Manatan/"><span class="ps-badge">READER</span> Manatan Reader All-in-One</a></li>
-        <li><a href="setup-anime-android-lazy-guide/"><span class="ps-badge">MEDIA</span> Mining Anime di Android</a></li>
-        <li><a href="setup-LN-android-lazy-guide/"><span class="ps-badge">MEDIA</span> Light Novel & Buku di Android</a></li>
-        <li><a href="setup-manga-android-lazy-guide/"><span class="ps-badge">MEDIA</span> Manga di Android</a></li>
+        <li><a href="setup-anime-android-lazy-guide/">Mining Anime di Android</a></li>
+        <li><a href="setup-LN-android-lazy-guide/">Light Novel & Buku di Android</a></li>
+        <li><a href="setup-manga-android-lazy-guide/">Manga di Android</a></li>
       </ul>
     </div>
   </div>
@@ -132,7 +93,9 @@ hide:
       <h3>Diskusi & Bantuan</h3>
       <p>Tempat diskusi sesama pembelajar, rekomendasi materi, dan bantuan kendala teknis.</p>
       <ul class="ps-card-links">
+        <li><a href="proyek/">Proyek & Alat Buatan Komunitas</a></li>
         <li><a href="join/">Gabung Komunitas Discord Philia</a></li>
+        <li><a href="https://www.tiktok.com/@philiaspace.id">TikTok @philiaspace.id</a></li>
         <li><a href="donate/">Dukung Pengelolaan Philia Space</a></li>
       </ul>
     </div>

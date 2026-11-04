@@ -18,6 +18,17 @@ hide:
 
 ---
 
+### November
+
+**04-11-2026**
+
+- Penambahan
+       - Halaman baru [Proyek Komunitas](proyek.md): JIDict sebagai proyek utama (deskripsi, cara pasang, tautan repo dan versi web) serta alat buatan komunitas lainnya (Philia Bunrei, Tes Frekuensi Kosakata, Jimaku Bunseki, Shizen, Philia Kensaku, JobApp Mailer)
+       - Entri navigasi "Proyek Komunitas" dan tautan dari beranda
+       - Tautan TikTok @philiaspace.id di beranda dan halaman proyek
+
+---
+
 ### Oktober
 
 **31-10-2026**
